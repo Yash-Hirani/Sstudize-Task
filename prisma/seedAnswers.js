@@ -1,69 +1,63 @@
-const fs = require("fs");
-const path = require("path");
-const { PrismaClient } = require("@prisma/client");
+const { PrismaClient } = require('@prisma/client');
 const prisma = new PrismaClient();
+const path = require('path');
+const fs = require('fs');
 
 async function seedAnswersFromJSON(data, difficulty) {
   const answers = data.answers;
 
   for (const a of answers) {
-    const index = parseInt(a.index); // ensure it's an integer
-    const subject = "MATH";
-    const diff = difficulty.toUpperCase();
+    const index = parseInt(a.Index); // ✅ Correct casing here
+    if (isNaN(index)) {
+      console.error(`❌ Invalid index: ${a.Index}`);
+      continue;
+    }
 
     try {
-      // Create Answer and associate it with the Question
       await prisma.answer.create({
         data: {
-          index,
           correctOption: a.correctOption,
           solutionData: a.SolutionData,
-          subject,
-          difficulty: diff,
           question: {
             connect: {
               index_subject_difficulty: {
                 index,
-                subject,
-                difficulty: diff,
+                subject: 'MATH', // Here we specify 'MATH' correctly for the connection
+                difficulty, // Use difficulty from the function argument
               },
             },
           },
         },
       });
 
-      console.log(`✅ Created answer for question ${index} [${diff}]`);
-    } catch (error) {
-      console.error(
-        `❌ Failed to create answer for question ${index} [${diff}]:`,
-        error.message
-      );
+      console.log(`✅ Created answer for question ${index} [${difficulty}]`);
+    } catch (err) {
+      console.error(`❌ Failed to create answer for question ${index} [${difficulty}]:`, err.message);
     }
   }
 }
 
 async function main() {
-  const inputFile = process.argv[2];
-  if (!inputFile) {
-    console.error("❌ Please provide the path to the answers file.");
+  const filePath = process.argv[2];
+  if (!filePath) {
+    console.error('❌ Please provide the path to the answers file.');
     process.exit(1);
   }
 
-  const fullPath = path.resolve(inputFile);
-  const imported = require(fullPath);
+  const absolutePath = path.resolve(filePath);
+  const fileContent = fs.readFileSync(absolutePath, 'utf-8');
 
-  try {
-    if (imported.easyAnswersJSON)
-      await seedAnswersFromJSON(imported.easyAnswersJSON, "EASY");
-    if (imported.mediumAnswersJSON)
-      await seedAnswersFromJSON(imported.mediumAnswersJSON, "MEDIUM");
-    if (imported.hardAnswersJSON)
-      await seedAnswersFromJSON(imported.hardAnswersJSON, "HARD");
-  } catch (err) {
-    console.error("❌ Error during answer seeding:", err);
-  } finally {
-    await prisma.$disconnect();
-  }
+  const { easyAnswersJSON, mediumAnswersJSON, hardAnswersJSON } = require(absolutePath);
+
+  if (easyAnswersJSON) await seedAnswersFromJSON(easyAnswersJSON, 'EASY');
+  if (mediumAnswersJSON) await seedAnswersFromJSON(mediumAnswersJSON, 'MEDIUM');
+  if (hardAnswersJSON) await seedAnswersFromJSON(hardAnswersJSON, 'HARD');
+
+  await prisma.$disconnect();
 }
 
-main();
+main().catch((e) => {
+  console.error('❌ Error during seeding:', e);
+  prisma.$disconnect();
+  process.exit(1);
+});

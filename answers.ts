@@ -2775,3 +2775,9 @@ const hardAnswersJSON={
     ]
 
 }
+
+module.exports = {
+    easyAnswersJSON,
+    mediumAnswersJSON,
+    hardAnswersJSON,
+  };
