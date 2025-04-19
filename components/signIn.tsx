@@ -1,12 +1,21 @@
-export default function SignIn() {
+"use client";
+
+import { signIn } from "next-auth/react";
+
+export default function SignIn({
+  buttonText,
+  redirect,
+}: {
+  buttonText: string;
+  redirect: string;
+}) {
   return (
-    <form
-      action={async () => {
-        "use server";
-        await signIn("google");
-      }}
+    <button
+      type="submit"
+      className="bg-amber-500 rounded-2xl p-5"
+      onClick={() => signIn("google", { callbackUrl: redirect })}
     >
-      <button type="submit">Signin with Google</button>
-    </form>
+      {buttonText}
+    </button>
   );
 }
