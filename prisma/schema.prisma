@@ -9,20 +9,21 @@ generator client {
 }
 
 model User {
-  id            String    @id @default(cuid())
+  id            String     @id @default(cuid())
   name          String?
-  email         String    @unique
+  email         String     @unique
   emailVerified DateTime?
   image         String?
-  phone         String
+  phone         String?
   role          Role?
   accounts      Account[]
   sessions      Session[]
-  // // Optional for WebAuthn support
-  // Authenticator Authenticator[]
+  testUsers     TestUser[]
 
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+  createdAt     DateTime        @default(now())
+  updatedAt     DateTime        @updatedAt
+  TestAnalytics TestAnalytics[]
+  QuestionTime  QuestionTime[]
 }
 
 enum Role {
@@ -69,18 +70,112 @@ model VerificationToken {
   @@id([identifier, token])
 }
 
-// Optional for WebAuthn support
-// model Authenticator {
-//   credentialID         String  @unique
-//   userId               String
-//   providerAccountId    String
-//   credentialPublicKey  String
-//   counter              Int
-//   credentialDeviceType String
-//   credentialBackedUp   Boolean
-//   transports           String?
+// Enums
 
-//   user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+enum Subject {
+  MATH
+  PHYSICS
+  CHEMISTRY
+}
 
-//   @@id([userId, credentialID])
-// }
+enum Difficulty {
+  EASY
+  MEDIUM
+  HARD
+}
+
+// Question
+model Question {
+  id         String     @id @default(cuid())
+  subject    Subject
+  difficulty Difficulty
+  index      Int
+  text       String
+  options    Option[]
+
+  // 1:1 relation with Answer
+  answer Answer? @relation("QuestionAnswer")
+
+  // Back relation for last active question
+  lastActiveIn TestAnalytics[] @relation("LastActiveQuestion")
+
+  // Tracking per test
+  attemptedBy TestAnalytics[] @relation("AttemptedQuestions")
+  skippedBy   TestAnalytics[] @relation("SkippedQuestions")
+  markedBy    TestAnalytics[] @relation("MarkedQuestions")
+  timeSpent   QuestionTime[]
+
+  @@unique([index, subject, difficulty])
+}
+
+model Option {
+  id         String     @id @default(cuid())
+  letter     String
+  text       String
+  subject    Subject
+  difficulty Difficulty
+  question   Question?  @relation(fields: [questionId], references: [id])
+  questionId String?
+}
+
+model Answer {
+  id            String     @id @default(cuid())
+  index         Int
+  correctOption String
+  solutionData  String
+  subject       Subject
+  difficulty    Difficulty
+
+  question Question @relation("QuestionAnswer", fields: [index, subject, difficulty], references: [index, subject, difficulty])
+
+  @@unique([index, subject, difficulty])
+}
+
+model Test {
+  id            String          @id @default(cuid())
+  startTime     DateTime
+  endTime       DateTime
+  date          DateTime
+  users         TestUser[]
+  analytics     TestAnalytics[]
+  questionTimes QuestionTime[]
+}
+
+model TestUser {
+  id     String @id @default(cuid())
+  user   User   @relation(fields: [userId], references: [id])
+  userId String
+  test   Test   @relation(fields: [testId], references: [id])
+  testId String
+}
+
+model TestAnalytics {
+  id     String @id @default(cuid())
+  test   Test   @relation(fields: [testId], references: [id])
+  testId String
+  user   User   @relation(fields: [userId], references: [id])
+  userId String
+
+  lastActiveQuestionId String?
+  lastActiveQuestion   Question? @relation("LastActiveQuestion", fields: [lastActiveQuestionId], references: [id])
+
+  timeSpent   Float
+  tabSwitches Int
+
+  attemptedQuestions Question[] @relation("AttemptedQuestions")
+  skippedQuestions   Question[] @relation("SkippedQuestions")
+  markedQuestions    Question[] @relation("MarkedQuestions")
+}
+
+model QuestionTime {
+  id         String   @id @default(cuid())
+  test       Test     @relation(fields: [testId], references: [id])
+  testId     String
+  question   Question @relation(fields: [questionId], references: [id])
+  questionId String
+  userId     String
+  user       User     @relation(fields: [userId], references: [id])
+  timeSpent  Float
+
+  @@unique([testId, questionId, userId])
+}
