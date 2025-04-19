@@ -442,37 +442,37 @@ const easyAnswersJSON={
         },
         {
             "Index": "89",
-            "correctOption": "A",
+            "correctOption": "a",
             "SolutionData": "S=\\vec{r_{1}}-\\vec{r_{1}}\\nW=\\vec{F}.\\vec{S}=(4\\hat{i}+\\hat{j}+3\\hat{k}).(11\\hat{i}+11\\hat{j}+15\\hat{k}).\\n=(4\\times11+1\\times11+3\\times15)=100~J."
         },
         {
             "Index": "90",
-            "correctOption": "B",
+            "correctOption": "b",
             "SolutionData": "(\\vec{A}+\\vec{B}) \\ \\text{ \\ is \\ perpendicular \\ to \\ } \\ (\\vec{A}-\\vec{B}); \\ \\text{ \\ Thus \\ } \\ (\\vec{A}+\\vec{B})\\cdot(\\vec{A}-\\vec{B})=0\\n\\text{or \\ } \\ A^{2}+\\vec{B}.\\vec{A}-\\vec{A}.\\vec{B}-B^{2}=0.\\n\\text{Because \\ of \\ commutative \\ property \\ of \\ dot \\ product \\ } \\ \\vec{A}.\\vec{B}=\\vec{B}.\\vec{A}.\\nA^{2}-B^{2}=0~\\text{or}~A=B\\n\\text{Thus \\ the \\ ratio \\ of \\ magnitudes \\ } \\ A/B=1"
         },
         {
             "Index": "91",
-            "correctOption": "A",
+            "correctOption": "a",
             "SolutionData": "Let \\ \\vec{A}.(\\vec{B}\\times\\vec{A})=\\vec{A}.\\vec{C}\\n\\text{Here \\ } \\ \\vec{C}=\\vec{B}\\times\\vec{A} \\ \\text{ \\ Which \\ is \\ perpendicular \\ to \\ both \\ vector \\ } \\ A \\ \\text{ \\ and \\ } \\ \\vec{B}: \\ \\vec{A}\\cdot\\vec{C}=0"
         },
         {
             "Index": "92",
-            "correctOption": "C",
+            "correctOption": "c",
             "SolutionData": "\\text{We \\ know \\ that \\ } \\ \\vec{A}\\times\\vec{B}=-\\vec{B}\\times\\vec{A} \\ \\text{ \\ because \\ the \\ angle \\ between \\ these \\ two \\ is \\ always \\ } \\ 90^{\\circ}.\\n\\text{But \\ if \\ the \\ angle \\ between \\ } \\ \\vec{A} \\ \\text{ \\ and \\ } \\ \\vec{B} \\ \\text{ \\ is \\ } \\ 0 \\ \\text{ \\ or \\ } \\ \\pi, \\ \\text{ \\ then \\ } \\ \\vec{A}\\times\\vec{B}=\\vec{B}\\times\\vec{A}=0."
         },
         {
             "Index": "93",
-            "correctOption": "B",
+            "correctOption": "b",
             "SolutionData": "\\vec{A}\\times\\vec{B}=|\\begin{matrix}\\hat{i}&\\hat{j}&\\hat{k}\\\\ \\ 3&1&2\\\\ \\ 2&-2&4\\end{matrix}|.\\n=(1\\times4-2\\times-2)\\hat{i}+(2\\times2-4\\times3)\\hat{j}+(3\\times-2-1\\times2)\\hat{k}\\n\\text{Magnitude \\ of \\ } \\ \\vec{A}\\times\\vec{B}=|\\vec{A}\\times\\vec{B}|=\\sqrt{{(8)^{2}+(-8)^{2}+(-8)^{2}}}=8\\sqrt{3}"
         },
         {
             "Index": "94",
-            "correctOption": "B",
+            "correctOption": "b",
             "SolutionData": "\\vec{\\tau}=\\vec{r}\\times\\vec{F}=|\\begin{matrix}\\hat{i}&\\hat{j}&\\hat{k}\\\\ \\ 3&2&3\\\\ \\ 2&-3&4\\end{matrix}|\\n=[(2\\times4)-(3\\times-3)]\\hat{i}+[(2\\times3)-(3\\times4)]\\hat{j}+[(3\\times-3)-(2\\times2)]\\hat{k}\\n=17\\hat{i}-6\\hat{j}-13\\hat{k}"
         },
         {
             "Index": "95",
-            "correctOption": "D",
+            "correctOption": "d",
             "SolutionData": "\\text{From \\ the \\ property \\ of \\ vector \\ product, \\ we \\ notice \\ that \\ } \\ \\vec{c}\\text{ \\ must \\ be \\ perpendicular \\ to \\ the \\ plane \\ formed \\ by \\ vector \\ } \\ \\vec{A} \\ \\text{ \\ and \\ } \\ \\vec{B}.\\n\\text{Thus \\ } \\ \\vec{c} \\ \\text{ \\ is \\ perpendicular \\ to \\ both \\ } \\ \\vec{A} \\ \\text{ \\ and \\ } \\ \\vec{B} \\ \\text{ \\ and \\ } \\ (\\vec{A}+\\vec{B}) \\ \\text{ \\ vector \\ also, \\ must \\ lie \\ in \\ the \\ plane \\ formed \\ by \\ vector \\ } \\ \\vec{A} \\ \\text{ \\ and \\ } \\ \\vec{B}.\\n\\text{Thus \\ } \\ \\vec{c}\\text{ \\ must \\ be \\ perpendicular \\ to \\ } \\ (\\vec{A}+\\vec{B})\\text{ \\ also \\ but \\ the \\ cross \\ product \\ } \\ \\vec{(A}\\times\\vec{B})\\text{ \\ gives \\ a \\ vector \\ } \\ \\vec{c}\\text{ \\ which \\ can \\ not \\ be \\ perpendicular \\ to \\ itself.}\\n\\text{Thus \\ the \\ last \\ statement \\ is \\ wrong.}"
         },
         {
@@ -642,47 +642,47 @@ const easyAnswersJSON={
         },
         {
             "Index": "129",
-            "correctOption": "A",
+            "correctOption": "a",
             "SolutionData": "AxB \\ \text{ \\ is \\ a \\ vector \\ perpendicular \\ to \\ the \\ plane \\ } \\ \\hat{A} \\ + \\ \\hat{B} \\ \\text{ \\ and \\ hence \\ perpendicular \\ to \\ } \\ y\\vec{A} \\ + \\ \\vec{B}."
         },
         {
             "Index": "130",
-            "correctOption": "A",
+            "correctOption": "a",
             "SolutionData": "\\vec{r} \\ = \\ \\vec{r} \\ \\times \\ \\vec{F} \\ = \\ (7\\hat{i} \\ + \\ 3\\hat{j} \\ + \\ \\hat{k})(-3\\hat{i} \\ + \\ \\hat{j} \\ + \\ 5\\hat{k}) \\ = \\ |\\begin{matrix}\\hat{i} \\ & \\ \\hat{j} \\ & \\ \\hat{k} \\ \\\\ \\ 7 \\ & \\ 3 \\ & \\ 1 \\ \\\\ \\ -3 \\ & \\ 1 \\ & \\ 5\\end{matrix}| \\ = \\ 14\\hat{i} \\ - \\ 38\\hat{j} \\ + \\ 16\\hat{k}."
         },
         {
             "Index": "131",
-            "correctOption": "D",
+            "correctOption": "d",
             "SolutionData": "(A+B) \\ \\times \\ (A-B) \\ = \\ A \\ \\times \\ A \\ - \\ A \\ \\times \\ B \\ + \\ B \\ \\times \\ A \\ - \\ B \\ \\times \\ B \\ = \\ 0 \\ - \\ \\overline{A} \\ \\times \\ \\overline{B} \\ + \\ \\overline{B} \\ \\times \\ \\overline{A} \\ - \\ 0 \\ = \\ \\overline{B} \\ \\times \\ \\overline{A} \\ + \\ \\overline{B} \\ \\times \\ \\overline{A} \\ = \\ 2(\\overline{B} \\ \\times \\ \\overline{A})."
         },
         {
             "Index": "132",
-            "correctOption": "D",
+            "correctOption": "d",
             "SolutionData": "For \\ perpendicular \\ vectors, \\ A.B \\ = \\ 0 \\ \\Rightarrow \\ (5\\hat{i} \\ + \\ 7\\hat{j} \\ - \\ 3\\hat{k}) \\ \\cdot \\ (2\\hat{i} \\ + \\ 2\\hat{j} \\ - \\ a\\hat{k}) \\ = \\ 0 \\ \\Rightarrow \\ 10 \\ + \\ 14 \\ + \\ 3a \\ = \\ 0 \\ \\Rightarrow \\ a \\ = \\ -8."
         },
         {
             "Index": "133",
-            "correctOption": "A",
+            "correctOption": "a",
             "SolutionData": "Mass \\ = \\ \\frac{Force}{Acceleration} \\ = \\ \\frac{|\\overline{F}|}{a} \\ = \\ \\frac{\\sqrt{36 \\ + \\ 64 \\ + \\ 100}}{1} \\ = \\ 10\\sqrt{2} \\ \\text{ \\ kg}."
         },
         {
             "Index": "134",
-            "correctOption": "A",
+            "correctOption": "a",
             "SolutionData": "Area \\ of \\ parallelogram \\ = \\ \\vec{A} \\ \\times \\ \\vec{B} \\ = \\ (\\hat{i} \\ + \\ 2\\hat{j} \\ + \\ 3\\hat{k}) \\ \\times \\ (3\\hat{i} \\ - \\ 2\\hat{j} \\ + \\ \\hat{k}) \\ = \\ |\\begin{matrix}\\hat{i} \\ & \\ \\hat{j} \\ & \\ \\hat{k} \\ \\\\ \\ 1 \\ & \\ 2 \\ & \\ 3 \\ \\\\ \\ 3 \\ & \\ -2 \\ & \\ 3\\end{matrix}|, \\ \\text{ \\ magnitude \\ } \\ = \\ \\sqrt{64 \\ + \\ 64 \\ + \\ 64} \\ = \\ 8\\sqrt{}."
         },
         {
             "Index": "135",
-            "correctOption": "B",
+            "correctOption": "b",
             "SolutionData": "Radius \\ vector \\ \\vec{r} \\ = \\ \\vec{r_{1}} \\ - \\ \\vec{r_{1}} \\ = \\ (2\\hat{i} \\ - \\ 3\\hat{j} \\ + \\ \\hat{k}) \\ - \\ (2\\hat{i} \\ + \\ \\hat{j} \\ + \\ \\hat{k}) \\ \\therefore \\ \\tilde{r} \\ = \\ -4\\tilde{j}. \\ \\text{ \\ Linear \\ momentum \\ } \\ \\vec{p} \\ = \\ 2\\hat{i} \\ + \\ 3\\hat{j} \\ - \\ \\hat{k}. \\ \\vec{L} \\ = \\ \\vec{r} \\ \\times \\ \\vec{p} \\ = \\ (-4\\hat{j}) \\ \\times \\ (2\\hat{i} \\ + \\ 3\\hat{j} \\ - \\ \\hat{k}) \\ = \\ -|\\begin{matrix}\\hat{i} \\ & \\ \\hat{j} \\ & \\ \\hat{k} \\ \\\\ \\ 0 \\ & \\ -4 \\ & \\ 0 \\ \\\\ \\ 2 \\ & \\ 3 \\ & \\ -1\\end{matrix}| \\ = \\ 4\\hat{i} \\ - \\ 8\\hat{k}. \\ \\vec{\\nu} \\ = \\ \\hat{i}\\theta \\ \\times \\ \\vec{r} \\ = \\ |\\begin{matrix}\\hat{i} \\ & \\ \\hat{j} \\ & \\ \\hat{k} \\ \\\\ \\ 3 \\ & \\ -4 \\ & \\ 1 \\ \\\\ \\ 5 \\ & \\ -6 \\ & \\ 6\\end{matrix}| \\ = \\ -18\\hat{i} \\ - \\ 13\\hat{j} \\ + \\ 2\\hat{k}."
         },
         {
             "Index": "136",
-            "correctOption": "D",
+            "correctOption": "d",
             "SolutionData": ""
         },
         {
             "Index": "137",
-            "correctOption": "A",
+            "correctOption": "a",
             "SolutionData": ""
         },
         {
@@ -927,47 +927,47 @@ const easyAnswersJSON={
         },
         {
             "Index": "187",
-            "correctOption": "B",
+            "correctOption": "b",
             "SolutionData": "|\\vec{A}|=\\sqrt{2^{2}+3^{2}+(-1)^{2}}=\\sqrt{4+9+1}=\\sqrt{14}\\nB=\\sqrt{-1}+3+4 \\ =\\sqrt{1+9+16}-\\sqrt{26}\\nA.B=2(-1)+3\\times \\ 3+(-1\\times \\ 4)=3\\n\\text{The \\ projection \\ of \\ A \\ on \\ B}\\n=-\\frac{\\vec{A}\\cdot\\vec{B}}{|\\vec{B}|}=\\frac{3}{\\sqrt{26}}"
         },
         {
             "Index": "188",
-            "correctOption": "C",
+            "correctOption": "c",
             "SolutionData": "\\hat{n}-\\frac{\\vec{A}\\times\\vec{B}}{|\\vec{A}\\times\\vec{B}|}-\\frac{8\\hat{i}-8\\hat{j}-8\\hat{k}}{8\\sqrt{3}}-\\frac{1}{\\sqrt{3}}(\\hat{i}-\\hat{j}-\\hat{k})\\n\\text{There \\ are \\ two \\ unit \\ vectors \\ perpendicular \\ to \\ both \\ } \\ \\vec{A} \\ \\text{ \\ and \\ } \\ \\vec{B} \\ \\text{ \\ they \\ are \\ }\\n\\hat{n}=\\pm\\frac{1}{\\sqrt{3}}(\\hat{i}-\\hat{j}-\\hat{k})"
         },
         {
             "Index": "189",
-            "correctOption": "A",
+            "correctOption": "a",
             "SolutionData": "W=\\overline{F}(\\tilde{r_{i}}-\\tilde{r_{i}})\\n=-(3\\hat{i}-2\\hat{j}+\\hat{k})(6\\hat{i}+8\\hat{j}+7\\hat{k})-18-16+7=9J"
         },
         {
             "Index": "190",
-            "correctOption": "D",
+            "correctOption": "d",
             "SolutionData": "AB \\ \\cos \\ A \\ B \\ \\sin \\ @ \\ \\tan \\ =1\\therefore \\ \\theta=45^{\\circ}\\therefore|\\overline{C}|=\\sqrt{A^{2}+B^{2}+2AB~\\cos~4S^{\\circ}}=\\sqrt{A^{2}+B^{2}+\\sqrt{2}AB}"
         },
         {
             "Index": "191",
-            "correctOption": "C",
+            "correctOption": "c",
             "SolutionData": "\\text{Vector \\ perpendicular \\ to \\ A \\ and \\ B. \\ }\\overline{A}\\times\\overline{B}=AB \\ \\sin \\ @\\n.. \\ \\text{ \\ Unit \\ vector \\ perpendicular \\ to \\ A \\ and \\ B \\ }\\n\\hat{n}=\\frac{\\overline{A}\\times\\overline{B}}{|\\overline{A}|\\times|\\overline{B}|\\sin~\\theta}"
         },
         {
             "Index": "192",
-            "correctOption": "C",
+            "correctOption": "c",
             "SolutionData": "P \\ \\text{ \\ and \\ } \\ Q \\ \\text{ \\ will \\ be \\ parallel \\ if \\ }\\n\\frac{2}{1}=\\frac{b}{1}=\\frac{2}{1}:b=2"
         },
         {
             "Index": "193",
-            "correctOption": "B",
+            "correctOption": "b",
             "SolutionData": "|\\vec{A}|=5,|\\vec{B}|=10\\Rightarrow\\frac{A}{B}=\\frac{1}{2}"
         },
         {
             "Index": "194",
-            "correctOption": "D",
+            "correctOption": "d",
             "SolutionData": "\\vec{A}=2\\hat{i}+\\hat{j}-\\hat{k},\\hat{B}=\\hat{i}+\\hat{j}+\\hat{k}\\n\\text{Area \\ of \\ the \\ triangle \\ }=\\frac{1}{2}|\\vec{A}\\times\\vec{B}|\\n\\text{Using \\ determinant: \\ }\\n=\\frac{1}{2}|2\\overline{i}-3\\overline{j}+\\overline{k}|=\\frac{1}{2}\\sqrt{4+9+1}\\n=\\frac{\\sqrt{14}}{2}\\text{ \\ sq.mit}"
         },
         {
             "Index": "195",
-            "correctOption": "A",
+            "correctOption": "a",
             "SolutionData": "\\text{The \\ relative \\ velocity \\ } \\ v_{oul}=60-(-30)=90~\\text{km/hr}\\n\\text{Distance \\ between \\ the \\ train \\ } \\ s_{rel}=90 \\ \\text{ \\ km}.\\n.. \\ \\text{ \\ Time \\ when \\ they \\ collide \\ }\\n=\\frac{s_{ncl.}}{v_{ncl.}}=\\frac{90}{90}=1~\\text{hr}"
         },
         {
@@ -992,7 +992,7 @@ const easyAnswersJSON={
         },
         {
             "Index": "200",
-            "correctOption": "C",
+            "correctOption": "c",
             "SolutionData": "T=2\\pi\\sqrt{\\frac{l}{g}} \\ T^{2}=4\\pi^{2}[\\frac{l}{v}] \\ \\mathfrak{g}=4\\pi^{2}[\\frac{l}{T^{2}}] \\ \\frac{\\Delta \\ g}{\\rho}=\\frac{\\Delta \\ l}{l}+\\frac{2\\Delta \\ T}{T} \\ =|\\frac{1mm}{1m}+\\frac{2(10\\times10^{-3})}{1.95}]\\times100 \\ = \\ 1.13%"
         },
         {
@@ -1002,12 +1002,12 @@ const easyAnswersJSON={
         },
         {
             "Index": "202",
-            "correctOption": "C",
+            "correctOption": "c",
             "SolutionData": "Least \\ \\text{ \\ } \\ +ve \\ \\text{sount} \\ = \\ \\frac{pitch}{no.of~div.} \\ = \\ \\frac{1\\text{mm}}{100} \\ = \\ 0.01\\text{m} \\ \nerror \\ = \\ 8 \\ \\times \\ L.C. \\ = \\ +0.08\\text{mm} \\ \nrmeasured~reading \\ = \\ 1\\text{mm} \\ + \\ 72 \\ \\times \\ L.C. \\ \n= \\ 1\\text{mm} \\ + \\ 0.72\\text{mm} \\ \n= \\ 1.72\\text{mm} \\ \nTrue~reading \\ = \\ 1.72 \\ - \\ 0.08 \\ \n= \\ 1.64\\text{mm} \\ \nRadius \\ = \\ \\frac{1.64}{2} \\ = \\ 0.82\\text{mm}"
         },
         {
             "Index": "203",
-            "correctOption": "D",
+            "correctOption": "d",
             "SolutionData": "For \\ \\text{ \\ stretched \\ or \\ compressed \\ wire} \\ \nR \\ \\propto \\ I^{2} \\ \n\\frac{R_{1}}{R_{2}} \\ = \\ \\frac{l_{1}^{2}}{l_{2}^{2}} \\ \n\\Rightarrow \\ \\frac{R}{R_{2}} \\ = \\ \\frac{R^{2}}{(1.251)^{2}} \\ \n\\Rightarrow \\ R_{2} \\ = \\ 1.5625R \\ \n\\% \\ \\text{ \\ increase \\ } \\ = \\ 56.235\\%"
         },
         {
@@ -1023,7 +1023,7 @@ const easyAnswersJSON={
     ]
 }
 
-const mediumAnswerJSON={
+const mediumAnswersJSON={
     "answers": [
         {
             "Index": "1",
@@ -1532,17 +1532,17 @@ const mediumAnswerJSON={
         },
         {
             "Index": "115",
-            "correctOption": "B",
+            "correctOption": "b",
             "SolutionData": "Let \\ P \\ & \\ Q \\ be \\ components \\ of \\ vector \\ R \\ from \\ the \\ diagram. \\ P \\ = \\ R \\ \\cos \\ \\theta, \\ Q \\ = \\ R \\ \\cos \\ \\theta \\ \nSo, \\ P \\ = \\ Q."
         },
         {
             "Index": "116",
-            "correctOption": "A",
+            "correctOption": "a",
             "SolutionData": "\\vec{A} \\ = \\ \\hat{i} \\ + \\ \\hat{j} \\ + \\ \\hat{k}, \\ \\overline{B} \\ = \\ 2\\hat{i} \\ + \\ \\hat{j} \\ \n\\overline{A} \\ \\cdot \\ \\overline{B} \\ = \\ (a)(b) \\ + \\ (a)(a) \\ + \\ (a)(0) \\ = \\ 2 \\ + \\ 1 \\ = \\ 3 \\ \n\\overline{A} \\ \\times \\ \\overline{B} \\ = \\ \\hat{i}(0 \\ - \\ 1) \\ - \\ \\hat{j}(0 \\ - \\ 2) \\ + \\ \\hat{k}(1 \\ - \\ 2) \\ \n\\overline{A} \\ \\times \\ \\overline{B} \\ = \\ -\\hat{i} \\ + \\ 2\\hat{j} \\ - \\ \\hat{k}."
         },
         {
             "Index": "117",
-            "correctOption": "D",
+            "correctOption": "d",
             "SolutionData": "|\\vec{A}| \\ = \\ 4, \\ |\\vec{B}| \\ = \\ 3, \\ \\theta \\ = \\ 60^{\\circ} \\ \n\\vec{A} \\ \\cdot \\ \\vec{B} \\ = \\ |\\vec{A}| \\ |\\vec{B}| \\ \\cos \\ 60^{\\circ} \\ = \\ 4 \\ \\times \\ 3 \\ \\times \\ \\frac{1}{2} \\ = \\ 6 \\ \n|\\overline{A} \\ \\times \\ \\overline{B}| \\ = \\ |\\overline{A}| \\ |\\vec{B}| \\ \\sin \\ \\theta \\ = \\ 4 \\ \\times \\ 3 \\ \\times \\ \\frac{\\sqrt{3}}{2} \\ = \\ 6\\sqrt{3}."
         },
         {
@@ -1607,22 +1607,22 @@ const mediumAnswerJSON={
         },
         {
             "Index": "130",
-            "correctOption": "A",
+            "correctOption": "a",
             "SolutionData": "(\\vec{P}+\\vec{Q}).(\\vec{Q}-\\vec{P})=0"
         },
         {
             "Index": "131",
-            "correctOption": "A",
+            "correctOption": "a",
             "SolutionData": "P^{2}+\\overline{P}.\\overline{Q}+Q^{2}-\\overline{Q}.\\overline{P}=0\\n\\vec{P}.\\vec{Q}=\\overline{Q}.\\overline{P}\\nP^{2}-Q^{2}=0\\nP=Q"
         },
         {
             "Index": "132",
-            "correctOption": "D",
+            "correctOption": "d",
             "SolutionData": "(d) \\ The \\ two \\ vectors \\ must \\ be \\ perpendicular \\ if \\ their \\ dot \\ product \\ must \\ be \\ zero.\\nLet \\ \\overline{A} \\ and \\ \\overline{B} \\ be \\ two \\ forces. \\ The \\ sum \\ of \\ the \\ two \\ forces \\ is \\ given \\ by:\\n\\overline{F}_{1}=\\overline{A}+\\overline{B}...(i)\\n\\nThe \\ difference \\ of \\ the \\ two \\ forces \\ is \\ given \\ by:\\n\\overline{F}_{2}=\\overline{A}-\\overline{B}...(ii)\\n\\nSince \\ the \\ sum \\ of \\ the \\ two \\ forces \\ is \\ perpendicular \\ to \\ their \\ difference, \\ we \\ have:\\n\\overline{F}_{1}.\\overline{F}_{2}=0\\n\\Rightarrow \\ (\\overline{A}+\\overline{B}).(\\overline{A}-\\overline{B})=0\\n\\Rightarrow \\ A^{2}-\\overline{A} \\ \\cdot \\ \\overline{B}+\\overline{B} \\ \\cdot \\ \\overline{A}-B^{2}=0\\n\\Rightarrow \\ A^{2}=B^{2}\\n\\Rightarrow \\ |\\overline{A}|=|\\overline{B}|\\nThus, \\ the \\ forces \\ are \\ equal \\ to \\ each \\ other \\ in \\ magnitude."
         },
         {
             "Index": "133",
-            "correctOption": "A",
+            "correctOption": "a",
             "SolutionData": "(AB~AB~sin)\\n\\overline{A}\\cdot\\overline{B}=AB~cos~\\theta\\nGiven,\\n|\\overline{A}\\times\\overline{B}|-\\sqrt{3}\\overline{A}.\\overline{B}=0\\nBut\\n|\\overline{A}\\times\\overline{B}|=|\\overline{A}||\\overline{B}|sin~\\theta\\n\\Rightarrow \\ AB~sin~\\theta\\n\\overline{A}.-|\\overline{A}||\\overline{B}|cos~\\theta=AB~sin~\\theta\\nMake \\ these \\ substitutions \\ in \\ Eq. \\ 1:\\n\\sin~\\theta=\\sqrt{3}AB~cos~\\theta\\n\\Rightarrow \\ AB~sin~\\theta=\\sqrt{3}\\n\\Rightarrow \\ \\theta=60^{\\circ}\\nThe \\ addition \\ of \\ vector \\ \\overline{A} \\ and \\ \\overline{B} \\ can \\ be \\ given \\ by \\ the \\ law \\ of \\ parallelogram:\\n|\\overline{A}+\\overline{B}|=\\sqrt{A^{2}+B^{2}+2AB~cos~60^{\\circ}}\\n=\\sqrt{A^{2}+B^{2}+2AB\\times\\frac{1}{2}}\\n=|A+B+AB\\rangle"
         },
         {
@@ -1647,17 +1647,17 @@ const mediumAnswerJSON={
         },
         {
             "Index": "138",
-            "correctOption": "A",
+            "correctOption": "a",
             "SolutionData": "d=\\sqrt{(x_{2}-x_{1})^{2}+(y_{2}-y_{1})^{2}}\\Rightarrow \\ 13=\\sqrt{[3-(-9)]^{2}+[3-a]^{2}}=13^{2}=12^{2}+(3-a)^{2}\\Rightarrow(3-a)^{2}=13^{2}-12^{2}=5^{2}\\Rightarrow(3-a)=\\pm5\\Rightarrow \\ a=2~cm~or~8~cm"
         },
         {
             "Index": "139",
-            "correctOption": "A",
+            "correctOption": "a",
             "SolutionData": "y=\\ln{x^{2}}+\\sin{x}\\frac{dy}{dx}=\\frac{d(\\ln{x^{2}})}{dx}+\\frac{d(\\sin{x})}{dx}=\\frac{1}{x^{2}}\\frac{d}{dx}(x^{2})+\\cos{x}=\\frac{1}{x^{2}}.2x+\\cos{x}=\\frac{2}{x}+\\cos{x}\\Rightarrow\\frac{d^{2}y}{dx^{2}}=\\frac{d(\\frac{2}{x})}{dx}+\\frac{d(\\cos{x})}{dx}=\\frac{-2}{x^{2}}-\\sin{x}"
         },
         {
             "Index": "140",
-            "correctOption": "B",
+            "correctOption": "b",
             "SolutionData": "\\frac{dy}{dx}=\\frac{d(x^{1/7})}{dx}+\\frac{d(\\tan{x})}{dx}=\\frac{x^{-\\frac{6}{7}}}{7}+\\sec^{2}{x}\\frac{d^{2}y}{dx^{2}}=\\frac{1}{7}\\frac{d(x^{-6/7})}{dx}+\\frac{d(\\sec^{2}{x})}{dx}=\\frac{-6}{49}x^{-1.5/7}+2=\\frac{-6}{49}x^{-13/7}+2"
         },
         {
@@ -1677,52 +1677,52 @@ const mediumAnswerJSON={
         },
         {
             "Index": "144",
-            "correctOption": "A",
+            "correctOption": "a",
             "SolutionData": "\\frac{dy}{dx}=\\frac{(1+cot~x)\\frac{d}{dx}(cot~x)-cot~x\\frac{d}{dx}(9+cot~x)}{(1+cot~x)^{2}}=\\frac{(1+cot~x)(-cos~ec^{2}x)-cot~x(-cos~ec^{2}x)}{(1+cot~x)^{2}}=\\frac{-cos~ec^{2}x}{(1+cot~x)^{2}}"
         },
         {
             "Index": "145",
-            "correctOption": "A",
+            "correctOption": "a",
             "SolutionData": "\\frac{dy}{dx}=\\frac{tan~x\\frac{d}{dx}(((nx+e^{x})-(((nx+e^{x})\\frac{d}{dx}tan~x}{(tan~x)^{2}}=\\frac{tan~x(\\frac{1}{x}+\\theta^{x})-(n~x+\\theta^{x}(sec^{2}x)}{(tan~x)^{2}}"
         },
         {
             "Index": "145",
-            "correctOption": "C",
+            "correctOption": "c",
             "SolutionData": "x^{3}+y^{3}=18xy\\frac{d(x^{3}+y^{3})}{dx}=\\frac{d(18xy)}{dx}\\frac{dx^{3}}{dx}+\\frac{dy^{3}}{dx}=18x.\\frac{dy}{dx}+y.\\frac{d(18x)}{dx}3x^{2}+3y^{2}.\\frac{dy}{dx}=18x.\\frac{dy}{dx}+18y3y^{2}\\frac{dy}{dx}-18x.\\frac{dy}{dx}=18y-3x^{2}\\frac{dy}{dx}(3y^{2}-18x)=18y-3x^{2}\\frac{dy}{dx}=\\frac{(18y-3x^{2})}{(3y^{2}-18x)}"
         },
         {
             "Index": "146",
-            "correctOption": "A",
+            "correctOption": "a",
             "SolutionData": "b: \\ x \\ + \\ y \\ = \\ 60\nx \\ = \\ 60 \\ - \\ y\nxy \\ = \\ (60 \\ - \\ y)y\nf(y) \\ = \\ (60 \\ - \\ y)y\nfor \\ maximum\nf^{\\prime}(y) \\ = \\ 60 \\ - \\ 2y \\ = \\ 0\nv \\ = \\ 30\nso \\ x \\ = \\ 30 \\ ~ \\ 8 \\ x \\ ~ \\ v \\ = \\ 30"
         },
         {
             "Index": "147",
-            "correctOption": "A",
+            "correctOption": "a",
             "SolutionData": "= \\ \\frac{\\int \\ (x^{-2} \\ + \\ x^{-3})}{dx}\n= \\ \\int \\ x^{-2}dx \\ + \\ \\int \\ x^{-3}dx\n= \\ \\frac{x^{-2 \\ + \\ 1}}{-2 \\ + \\ 1} \\ + \\ \\frac{x^{-3 \\ + \\ 1}}{-3 \\ + \\ 1} \\ + \\ c\n= \\ -x^{-1} \\ - \\ \\frac{1}{2} \\ x^{-2} \\ + \\ C"
         },
         {
             "Index": "148",
-            "correctOption": "A",
+            "correctOption": "a",
             "SolutionData": "\\int_{(\\circ)} \\ (1 \\ - \\ \\cot^{2} \\ x) \\ dx \\ = \\ \\int \\ 1 \\ - \\ (\\csc^{2} \\ x \\ - \\ 1) \\ dx\n= \\ \\int \\ (2 \\ - \\ \\csc^{2} \\ x) \\ dx\n= \\ \\int \\ 2 \\ ~ \\ dx \\ - \\ \\int \\ \\csc^{2} \\ x \\ ~ \\ dx\n= \\ 2x \\ + \\ \\cot \\ x \\ + \\ C"
         },
         {
             "Index": "149",
-            "correctOption": "A",
+            "correctOption": "a",
             "SolutionData": "(a) \\ \\int \\ \\cos \\ \\theta \\ (\\tan \\ \\theta \\ + \\ \\sec \\ \\theta) \\ d\\theta\n= \\ \\int \\ \\cos \\ \\theta \\ ~ \\ \\tan \\ \\theta \\ ~ \\ d\\theta \\ + \\ \\int \\ \\cos \\ \\theta \\ ~ \\ \\sec \\ \\theta \\ ~ \\ d\\theta\n= \\ \\int \\ \\cos \\ \\theta \\ \\frac{\\sin \\ \\theta}{\\cos \\ \\theta} \\ d\\theta \\ + \\ \\int \\ d\\theta\n= \\ -\\cos \\ \\theta \\ + \\ \\theta \\ + \\ C"
         },
         {
             "Index": "150",
-            "correctOption": "C",
+            "correctOption": "c",
             "SolutionData": "u=3-2s\\Rightarrow \\ du=-2~ds\\int\\sqrt{u}\\left(\\frac{-du}{2}\\right)=\\frac{-1}{2\\times\\frac{3}{2}}u^{\\frac{3}{2}}+C=\\frac{-1}{3}(3-2s)^{\\frac{3}{2}}+C"
         },
         {
             "Index": "151",
-            "correctOption": "C",
+            "correctOption": "c",
             "SolutionData": "By \\ Substituting\\ \\ 5~x+8=u,\\ \\ \\frac{d(5x+8)}{dx}=\\frac{du}{dx}\\ \\ 5=\\frac{du}{dx}\\ \\ 5~dx=\\left(\\frac{du}{dx}\\right)dx\\ \\ dx=\\frac{du}{5}\\ \\ \\text{then,}\\ \\ \\int\\frac{du}{5\\sqrt{u}}=\\frac{1}{5}\\int \\ u^{-\\frac{1}{2}}du=\\frac{1}{5}\\frac{u^{\\frac{1}{2}}}{\\frac{1}{2}}+C=\\frac{2}{5}\\sqrt{u}+C=\\frac{2}{5}\\sqrt{5x+8}+C"
         },
         {
             "Index": "152",
-            "correctOption": "C",
+            "correctOption": "c",
             "SolutionData": "\\overline{C}=\\sqrt{a^{2}+b^{2}}\\ \\ +2ab\\cos{e}\\ \\ |\\overline{a}^{1}|=|\\overline{b}|\\ \\ |\\overline{C}|=\\sqrt{a^{2}+b^{2}}\\ \\ +2ab\\cos{e}\\ \\ |\\overline{b}^{1}|=|\\hat{a}|\\ \\ |\\overline{c}^{\\dagger}|=|\\overline{c}|"
         },
         {
@@ -1757,12 +1757,12 @@ const mediumAnswerJSON={
         },
         {
             "Index": "159",
-            "correctOption": "A",
+            "correctOption": "a",
             "SolutionData": "(a) \\ Let \\ \\overline{P}, \\ \\overline{Q} \\ \\in \\ \\overline{Q} \\ \\text{ \\ are \\ two \\ vectors. \\ If \\ } \\ P \\ - \\ Q \\ = \\ 10 \\ \\text{ \\ units.} \\ \n\\sqrt{P^{2}+Q^{2}} \\ = \\ 50 \\ \\text{ \\ units.} \\ \nP^{2}+Q^{2} \\ = \\ 50^{2} \\ \n(b) \\ \\text{ \\ From \\ equation \\ (a): \\ } \\ (10 \\ + \\ Q)^{2} \\ + \\ Q^{2} \\ = \\ 50^{2} \\ \n2Q^{2} \\ + \\ 20Q \\ + \\ 100 \\ = \\ 2500 \\ \n2Q^{2} \\ + \\ 20Q \\ = \\ 2400 \\ \nQ^{2} \\ + \\ 10Q \\ - \\ 1200 \\ = \\ 0 \\ \n(Q \\ + \\ 40)(Q \\ - \\ 30) \\ = \\ 0 \\ \nQ \\ = \\ 30 \\ \n\\text{ \\ So, \\ from \\ equation \\ (a): \\ } \\ P \\ = \\ 10 \\ + \\ Q \\ \n= \\ 10 \\ + \\ 30 \\ = \\ 40 \\ \\text{ \\ units.}"
         },
         {
             "Index": "160",
-            "correctOption": "C",
+            "correctOption": "c",
             "SolutionData": "\\overline{OA} \\ = \\ r \\ \\hat{j} \\ \n\\overline{OC} \\ = \\ r \\ \\overline{i} \\ \n\\overline{OB} \\ = \\ r(\\cos \\ 45 \\ \\hat{i} \\ + \\ \\sin \\ 45 \\ \\hat{j}) \\ \n\\overline{OB} \\ = \\ \\frac{r}{\\sqrt{2}} \\ \\hat{i} \\ + \\ \\frac{r}{\\sqrt{2}} \\ \\hat{j} \\ \n\\overline{R} \\ = \\ \\overline{OA} \\ + \\ \\overline{OB} \\ + \\ \\overline{OC} \\ \n= \\ r \\ \\hat{j} \\ + \\ \\frac{r}{\\sqrt{2}} \\ \\hat{i} \\ + \\ \\frac{r}{\\sqrt{2}} \\ \\hat{j} \\ + \\ r \\ \\hat{i} \\ \n= \\ (r \\ + \\ \\frac{r}{\\sqrt{2}}) \\ \\hat{i}"
         },
         {
@@ -1989,12 +1989,12 @@ const hardAnswersJSON={
         },
         {
             "Index": "35",
-            "correctOption": "A",
+            "correctOption": "a",
             "SolutionData": "Resultant \\ velocity \\ of \\ swimmer \\ 1 \\ is \\ \\( \\ v_{PQ} \\ = \\ \\sqrt{2.5^{2} \\ - \\ 2^{2}} \\ = \\ \\sqrt{2.25} \\ \\)\\nLet \\ width \\ of \\ river \\ be \\ \\( \\ W \\ \\) \\ then \\ time \\ taken \\ \\( \\ t_{1} \\ = \\ \\frac{W}{1.5} \\ \\) \\ h. \\ Time \\ taken \\ by \\ swimmer \\ 2 \\ is \\ \\( \\ t_{2} \\ = \\ \\frac{W}{2.5} \\ \\)\\n.. \\ Distance\\n\\( \\ QQ^{\\prime} \\ = \\ velocity \\ \\times \\ time \\ = \\ 2 \\ \\times \\ \\frac{W}{2.5} \\ \\)\\nTime \\ taken \\ by \\ swimmer \\ 2 \\ to \\ move \\ to \\ distance \\ \\( \\ QQ' \\ \\) \\ is\\n\\( \\ t \\ = \\ t_{1} \\ - \\ t_{2} \\ \\)\\n\\( \\ = \\ \\frac{W}{1.5} \\ - \\ \\frac{W}{2.5} \\ = \\ \\frac{W}{1.5 \\ \\times \\ 2.5} \\ \\)\\nDesired \\ velocity\\n\\( \\ = \\ -\\frac{QQ}{t} \\ = \\ \\frac{2W}{2.5} \\ \\times \\ \\frac{W}{1.5 \\ \\times \\ 2.5} \\ \\)\\n\\( \\ = \\ 3 \\ \\text{ \\ km/h} \\ \\)"
         },
         {
             "Index": "36",
-            "correctOption": "A",
+            "correctOption": "a",
             "SolutionData": "\\( \\ \\vec{S} \\ = \\ \\vec{S}_{1} \\ + \\ \\vec{S}_{2} \\ + \\ \\vec{S} \\ \\)\\n\\( \\ 7(40) \\ \\)\\n\\( \\ 5\\overline{i} \\ = \\ 2\\overline{i} \\ + \\ [(4 \\ \\cos \\ 45^{\\circ})\\overline{i} \\ - \\ (4 \\ \\sin \\ 45^{\\circ})\\overline{j}] \\ + \\ \\overline{S}_{3} \\ \\)\\n\\( \\ i.e., \\ \\vec{S}_{2} \\ = \\ (3\\overline{i} \\ - \\ 2 \\ \\sqrt{})\\overline{i} \\ + \\ 2\\sqrt{} \\ \\hat{j} \\ \\)\\n\\( \\ = \\ 0.172\\hat{i} \\ + \\ 2.828\\hat{j} \\ \\)\\n\\( \\ i.e., \\ S_{8} \\ = \\ \\sqrt{0.172^{2} \\ + \\ 2.828^{2}} \\ \\)\\n\\( \\ = \\ 2.8 \\ \\text{ \\ km} \\ \\)\\nand \\ \\( \\ \\tan \\ \\theta \\ = \\ \\frac{0.172}{2.828} \\ = \\ 0.0608 \\ \\)\\nor \\ \\( \\ \\theta \\ = \\ \\tan^{-1} \\ 0.0608 \\ \\)\\nor \\ \\( \\ \\theta \\ = \\ 3^{\\circ} \\ 26^{\\prime} \\ \\)"
         },
         {

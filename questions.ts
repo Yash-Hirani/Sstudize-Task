@@ -12436,3 +12436,9 @@ const easyQuestionJSON =
           }
         ]
       }
+
+      module.exports = {
+        easyQuestionJSON,
+        mediumQuestionJSON,
+        hardQuestionJSON,
+      };
