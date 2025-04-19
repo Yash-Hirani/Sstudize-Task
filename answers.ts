@@ -1,6 +1,4 @@
 const easyAnswersJSON={
-
-
     "answers": [
         {
             "Index": "1",

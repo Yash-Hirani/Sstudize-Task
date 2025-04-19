@@ -1,0 +1,4198 @@
+{
+  "questions": [
+    {
+      "Index": 1,
+      "question": "Rain \\ is \\ falling \\ vertically \\ with \\ 3 \\ m/s \\ and \\ a \\ man \\ is \\ moving \\ due \\ North \\ with \\ 4 \\ m/s. \\ In \\ which \\ direction \\ should \\ he \\ hold \\ the \\ umbrella \\ to \\ protect \\ himself \\ from \\ rains?",
+      "options": [
+        {
+          "letter": "a",
+          "text": "37^{\\circ} \\ \\text{ \\ North \\ of \\ vertical}"
+        },
+        {
+          "letter": "b",
+          "text": "37^{\\circ} \\ \\text{ \\ South \\ of \\ vertical}"
+        },
+        {
+          "letter": "c",
+          "text": "53^{\\circ} \\ \\text{ \\ North \\ of \\ vertical}"
+        },
+        {
+          "letter": "d",
+          "text": "53^{\\circ} \\ \\text{ \\ South \\ of \\ vertical}"
+        }
+      ]
+    },
+    {
+      "Index": 2,
+      "question": "A \\ man \\ is \\ moving \\ on \\ his \\ bike \\ with \\ 54 \\ km/h. \\ He \\ takes \\ a \\ U-turn \\ in \\ 10 \\ s \\ and \\ continues \\ to \\ move \\ with \\ the \\ same \\ velocity. \\ Find \\ the \\ average \\ acceleration \\ during \\ this \\ time.",
+      "options": [
+        {
+          "letter": "a",
+          "text": "13.0 \\ m/s^{2}"
+        },
+        {
+          "letter": "b",
+          "text": "1.5 \\ m/s^{2}"
+        },
+        {
+          "letter": "c",
+          "text": "0"
+        },
+        {
+          "letter": "d",
+          "text": "-1.5 \\ m/s^{2}"
+        }
+      ]
+    },
+    {
+      "Index": 3,
+      "question": "A \\ man \\ starts \\ from \\ O, \\ moves \\ 500 \\ m, \\ turns \\ by \\ 60^{\\circ} \\ and \\ moves \\ 500 \\ m \\ again, \\ turns \\ by \\ 60^{\\circ} \\ and \\ moves \\ 500 \\ m, \\ and \\ so \\ on. \\ Find \\ the \\ displacement \\ after \\ (i) \\ 5^{\\text{th}} \\ turn, \\ (ii) \\ 3^{\\text{rd}} \\ turn.",
+      "options": [
+        {
+          "letter": "a",
+          "text": "500 \\ m, \\ 1000 \\ m"
+        },
+        {
+          "letter": "b",
+          "text": "500 \\ m, \\ 500 \\ \\sqrt{3} \\ m"
+        },
+        {
+          "letter": "c",
+          "text": "1000 \\ m, \\ 500 \\ \\sqrt{3} \\ m"
+        },
+        {
+          "letter": "d",
+          "text": "None \\ of \\ these"
+        }
+      ]
+    },
+    {
+      "Index": 4,
+      "question": "If \\ \\tilde{B} \\ = \\ \\lambda \\ \\overline{A} \\ then \\ \\overline{B}/\\overline{A} \\ =",
+      "options": [
+        {
+          "letter": "a",
+          "text": "2"
+        },
+        {
+          "letter": "b",
+          "text": "1/h"
+        },
+        {
+          "letter": "c",
+          "text": "\\lambda/2"
+        },
+        {
+          "letter": "d",
+          "text": "Indeterminate"
+        }
+      ]
+    },
+    {
+      "Index": 5,
+      "question": "The \\ acceleration \\ of \\ a \\ particle \\ as \\ seen \\ from \\ two \\ frames \\ S_{1} \\ and \\ S_{2} \\ has \\ equal \\ magnitude \\ 5 \\ m/s^{2}.",
+      "options": [
+        {
+          "letter": "a",
+          "text": "The \\ frames \\ must \\ be \\ at \\ rest \\ with \\ respect \\ to \\ each \\ other."
+        },
+        {
+          "letter": "b",
+          "text": "The \\ frames \\ may \\ be \\ moving \\ with \\ respect \\ to \\ each \\ other \\ but \\ neither \\ should \\ be \\ accelerated \\ with \\ respect \\ to \\ the \\ other."
+        },
+        {
+          "letter": "c",
+          "text": "The \\ acceleration \\ of \\ S_{2} \\ with \\ respect \\ to \\ S_{1} \\ be \\ 0 \\ or \\ 10 \\ m/s^{2}."
+        },
+        {
+          "letter": "d",
+          "text": "The \\ acceleration \\ of \\ S_{2} \\ with \\ respect \\ to \\ S_{1} \\ lies \\ between \\ 0 \\ and \\ 10 \\ m/s^{2}."
+        }
+      ]
+    },
+    {
+      "Index": 6,
+      "question": "A \\ man \\ running \\ on \\ a \\ horizontal \\ road \\ at \\ 8 \\ m/s \\ finds \\ rain \\ falling \\ vertically. \\ If \\ he \\ increases \\ his \\ speed \\ to \\ 12 \\ m/s, \\ he \\ finds \\ that \\ drops \\ make \\ a \\ 30° \\ angle \\ with \\ the \\ vertical. \\ Find \\ the \\ velocity \\ of \\ rain \\ with \\ respect \\ to \\ the \\ road.",
+      "options": [
+        {
+          "letter": "a",
+          "text": "4 \\ \\sqrt{7} \\ m/s"
+        },
+        {
+          "letter": "b",
+          "text": "8 \\ \\sqrt{2} \\ m/s"
+        },
+        {
+          "letter": "c",
+          "text": "7 \\ \\sqrt{3} \\ m/s"
+        },
+        {
+          "letter": "d",
+          "text": "8 \\ m/s"
+        }
+      ]
+    },
+    {
+      "Index": 7,
+      "question": "In \\ the \\ figure \\ shown, \\ find \\ the \\ velocity \\ of \\ block \\ m \\ if \\ both \\ the \\ rope \\ ends \\ are \\ pulled \\ with \\ a \\ velocity \\ v.",
+      "options": [
+        {
+          "letter": "a",
+          "text": "2v \\ \\cos \\ \\theta"
+        },
+        {
+          "letter": "b",
+          "text": "v/\\cos \\ \\theta"
+        },
+        {
+          "letter": "c",
+          "text": "v/2 \\ \\cos \\ \\theta"
+        },
+        {
+          "letter": "d",
+          "text": "2v/\\cos \\ \\theta"
+        }
+      ]
+    },
+    {
+      "Index": 8,
+      "question": "Which \\ of \\ the \\ following \\ cannot \\ be \\ in \\ equilibrium?",
+      "options": [
+        {
+          "letter": "a",
+          "text": "10 \\ N, \\ 10 \\ N, \\ 5 \\ N"
+        },
+        {
+          "letter": "b",
+          "text": "5 \\ N, \\ 7 \\ N, \\ 9 \\ N"
+        },
+        {
+          "letter": "c",
+          "text": "8 \\ N, \\ 4 \\ N, \\ 13 \\ N"
+        },
+        {
+          "letter": "d",
+          "text": "9 \\ N, \\ 6 \\ N, \\ 5 \\ N"
+        }
+      ]
+    },
+    {
+      "Index": 9,
+      "question": "\\vec{A}=3\\hat{i}+4\\hat{j}+2\\hat{k},\\vec{B}=6\\hat{i}-\\hat{j}+3\\hat{k}. \\ Find \\ a \\ vector \\ parallel \\ to \\ \\overline{A} \\ whose \\ magnitude \\ is \\ equal \\ to \\ that \\ of \\ \\vec{B}.",
+      "options": [
+        {
+          "letter": "a",
+          "text": "\\sqrt{\\frac{46}{29}}(6\\overline{i}-\\overline{j}+3\\overline{k})"
+        },
+        {
+          "letter": "b",
+          "text": "\\sqrt{\\frac{46}{29}}(3\\overline{i}+4\\overline{j}+2\\overline{k})"
+        },
+        {
+          "letter": "c",
+          "text": "\\sqrt{\\frac{29}{46}}(3\\hat{i}+4\\hat{j}+2\\hat{k})"
+        },
+        {
+          "letter": "d",
+          "text": "(d) \\ None"
+        }
+      ]
+    },
+    {
+      "Index": 10,
+      "question": "a,b,c \\ are \\ three \\ coplanar \\ vectors. \\ Find \\ the \\ vector \\ sum, \\ \\vec{a}=4\\hat{i}-\\hat{j},\\hat{b}=-3\\hat{i}+2\\hat{j},\\hat{c}=-3\\hat{j}",
+      "options": [
+        {
+          "letter": "a",
+          "text": "(a) \\ /5,297^{\\circ}"
+        },
+        {
+          "letter": "b",
+          "text": "(b) \\ \\sqrt{5},63^{\\circ}"
+        },
+        {
+          "letter": "c",
+          "text": "(c) \\ \\sqrt{3},297^{\\circ}"
+        },
+        {
+          "letter": "d",
+          "text": "(d) \\ \\sqrt{3},63^{\\circ}"
+        }
+      ]
+    },
+    {
+      "Index": 11,
+      "question": "A \\ block \\ of \\ mass \\ m \\ is \\ connected \\ to \\ three \\ springs, \\ each \\ of \\ spring \\ constant \\ k \\ as \\ shown \\ in \\ fig. \\ The \\ block \\ is \\ pulled \\ by \\ x \\ in \\ the \\ direction \\ of \\ C. \\ Find \\ resultant \\ spring \\ constant.",
+      "options": [
+        {
+          "letter": "a",
+          "text": "(a) \\ k"
+        },
+        {
+          "letter": "b",
+          "text": "(b) \\ 2k"
+        },
+        {
+          "letter": "c",
+          "text": "(c) \\ 3k"
+        },
+        {
+          "letter": "d",
+          "text": "(d) \\ \\frac{3k}{2}"
+        }
+      ]
+    },
+    {
+      "Index": 12,
+      "question": "A \\ particle \\ moves \\ in \\ the \\ x-y \\ plane \\ under \\ the \\ action \\ of \\ a \\ force \\ \\vec{F}^{\\prime} \\ such \\ that \\ the \\ value \\ of \\ its \\ linear \\ momentum \\ p \\ at \\ any \\ instant \\ is \\ p=2(\\cos(t)) \\ \\hat{i}+\\sin(t)\\hat{j}. \\ The \\ angle \\ between \\ F \\ and \\ p \\ is.",
+      "options": [
+        {
+          "letter": "a",
+          "text": "(a) \\ 60^{\\circ}"
+        },
+        {
+          "letter": "b",
+          "text": "(b) \\ 45^{\\circ}"
+        },
+        {
+          "letter": "c",
+          "text": "(c) \\ 30^{\\circ}"
+        },
+        {
+          "letter": "d",
+          "text": "(d) \\ 90^{\\circ}"
+        }
+      ]
+    },
+    {
+      "Index": 13,
+      "question": "Consider \\ a \\ collection \\ of \\ large \\ number \\ of \\ particles, \\ each \\ moving \\ with \\ a \\ speed \\ v. \\ The \\ direction \\ of \\ velocity \\ is \\ randomly \\ distributed \\ in \\ the \\ collection. \\ The \\ magnitude \\ of \\ the \\ relative \\ velocity \\ between \\ a \\ pair \\ of \\ particles \\ averaged \\ over \\ all \\ the \\ pairs \\ in \\ the \\ collection.",
+      "options": [
+        {
+          "letter": "a",
+          "text": "(a) \\ v"
+        },
+        {
+          "letter": "b",
+          "text": "(b) \\ \\frac{2v}{\\pi}"
+        },
+        {
+          "letter": "c",
+          "text": "(c) \\ \\frac{\\pi \\ v}{4}"
+        },
+        {
+          "letter": "d",
+          "text": "(d) \\ \\frac{4v}{\\pi}"
+        }
+      ]
+    },
+    {
+      "Index": 14,
+      "question": "A \\ steamer \\ is \\ moving \\ due \\ east \\ with \\ 36 \\ km/h. \\ To \\ a \\ man \\ in \\ the \\ steamer \\ the \\ wind \\ appears \\ to \\ blow \\ at \\ 18 \\ km/h \\ due \\ north. \\ Find \\ the \\ velocity \\ of \\ the \\ wind.",
+      "options": [
+        {
+          "letter": "a",
+          "text": "(a) \\ 5\\sqrt{3} \\ \\text{ \\ m/s \\ at \\ } \\ 30^{\\circ} \\ \\text{ \\ North \\ of \\ east}"
+        },
+        {
+          "letter": "b",
+          "text": "(b) \\ 5 \\ \\text{ \\ m/s \\ at \\ } \\ 60^{\\circ} \\ \\text{ \\ North \\ of \\ east}"
+        },
+        {
+          "letter": "c",
+          "text": "(c) \\ 5\\sqrt{3} \\ \\text{ \\ m/s \\ at \\ } \\ 60^{\\circ} \\ \\text{ \\ North \\ of \\ east}"
+        },
+        {
+          "letter": "d",
+          "text": "(d) \\ 5 \\ \\text{ \\ m/s \\ at \\ } \\ 30^{\\circ} \\ \\text{ \\ North \\ of \\ east}"
+        }
+      ]
+    },
+    {
+      "Index": 15,
+      "question": "The \\ position \\ vector \\ of \\ a \\ particle \\ is \\ \\vec{r}=a\\left[\\cos(\\omega \\ t)\\hat{i}+\\sin(\\omega \\ t)\\hat{j}\\right]. \\ The \\ velocity \\ of \\ the \\ particle \\ is.",
+      "options": [
+        {
+          "letter": "a",
+          "text": "(a) \\ Parallel \\ to \\ position \\ vector"
+        },
+        {
+          "letter": "b",
+          "text": "(b) \\ Directed \\ towards \\ origin"
+        },
+        {
+          "letter": "c",
+          "text": "(c) \\ Directed \\ away \\ from \\ origin"
+        },
+        {
+          "letter": "d",
+          "text": "(d) \\ Perpendicular \\ to \\ position \\ vector"
+        }
+      ]
+    },
+    {
+      "Index": 16,
+      "question": "A \\ force \\ 6\\hat{i}+3\\hat{j}+\\hat{k} \\ Newton \\ displaces \\ a \\ particle \\ from \\ A(0,3,2) \\ to \\ B(5,1,6). \\ Find \\ the \\ work \\ done.",
+      "options": [
+        {
+          "letter": "a",
+          "text": "10 \\ J"
+        },
+        {
+          "letter": "b",
+          "text": "22 \\ J"
+        },
+        {
+          "letter": "c",
+          "text": "32 \\ j"
+        },
+        {
+          "letter": "d",
+          "text": "41 \\ J"
+        }
+      ]
+    },
+    {
+      "Index": 17,
+      "question": "Wind \\ in \\ blowing \\ NE \\ with \\ 18 \\ \\sqrt{2} \\ km \\ h^{-1}. \\ and \\ steamer \\ is \\ heading \\ due \\ west \\ with \\ 18 \\ km \\ h^{-1}. \\ In \\ which \\ direction \\ is \\ the \\ flag \\ on \\ the \\ mast \\ fluttering?",
+      "options": [
+        {
+          "letter": "a",
+          "text": "North \\ West"
+        },
+        {
+          "letter": "b",
+          "text": "North"
+        },
+        {
+          "letter": "c",
+          "text": "South \\ West"
+        },
+        {
+          "letter": "d",
+          "text": "South"
+        }
+      ]
+    },
+    {
+      "Index": 18,
+      "question": "The \\ resultant \\ of \\ two \\ forces \\ equal \\ in \\ magnitude \\ is \\ equal \\ to \\ either \\ of \\ two \\ vectors \\ in \\ magnitude. \\ Find \\ the \\ angle \\ between \\ the \\ forces.",
+      "options": [
+        {
+          "letter": "a",
+          "text": "60^{\\circ}"
+        },
+        {
+          "letter": "b",
+          "text": "45^{\\circ}"
+        },
+        {
+          "letter": "c",
+          "text": "90^{\\circ}"
+        },
+        {
+          "letter": "d",
+          "text": "120^{\\circ}"
+        }
+      ]
+    },
+    {
+      "Index": 19,
+      "question": "A \\ man \\ goes \\ 100 \\ m \\ North \\ then \\ 100 \\ m \\ East \\ and \\ then \\ 20 \\ m \\ North \\ and \\ then \\ 100\\sqrt{2} \\ m \\ South \\ West. \\ Find \\ the \\ displacement.",
+      "options": [
+        {
+          "letter": "a",
+          "text": "20 \\ m \\ West"
+        },
+        {
+          "letter": "b",
+          "text": "20 \\ m \\ East"
+        },
+        {
+          "letter": "c",
+          "text": "20 \\ m \\ North"
+        },
+        {
+          "letter": "d",
+          "text": "20 \\ m \\ South"
+        }
+      ]
+    },
+    {
+      "Index": 20,
+      "question": "A \\ river \\ flows \\ 3 \\ km \\ h^{-1} \\ and \\ a \\ man \\ is \\ capable \\ of \\ swimming \\ 2 \\ km \\ h^{-1}. \\ He \\ wishes \\ to \\ cross \\ it \\ in \\ minimum \\ time. \\ In \\ which \\ direction \\ will \\ he \\ swim?",
+      "options": [
+        {
+          "letter": "a",
+          "text": "sin^{-1}(2/3)"
+        },
+        {
+          "letter": "b",
+          "text": "cos^{-1}(2/3)"
+        },
+        {
+          "letter": "c",
+          "text": "tan^{-1}(2/3)"
+        },
+        {
+          "letter": "d",
+          "text": "cot^{3}(2/3)"
+        }
+      ]
+    },
+    {
+      "Index": 21,
+      "question": "A \\ pilot \\ is \\ to \\ flag \\ an \\ aircraft \\ with \\ velocity \\ v \\ due \\ east. \\ Wind \\ is \\ blowing \\ due \\ south \\ with \\ a \\ velocity \\ u. \\ Find \\ the \\ time \\ for \\ a \\ round \\ journey \\ A \\ to \\ B \\ and \\ back \\ (A \\ and \\ B \\ are \\ 1 \\ distance \\ away).",
+      "options": [
+        {
+          "letter": "a",
+          "text": "1/\\sqrt{v^{2}-u^{2}}"
+        },
+        {
+          "letter": "b",
+          "text": "2l/\\sqrt{v^{2}-u^{2}}"
+        },
+        {
+          "letter": "c",
+          "text": "2l/v"
+        },
+        {
+          "letter": "d",
+          "text": "2l/\\sqrt{v^{2}+u^{2}}"
+        }
+      ]
+    },
+    {
+      "Index": 22,
+      "question": "When \\ a \\ mass \\ m \\ is \\ rotated \\ in \\ a \\ plane \\ about \\ a \\ fixed \\ point, \\ its \\ angular \\ momentum \\ is \\ directed \\ along:",
+      "options": [
+        {
+          "letter": "a",
+          "text": "The \\ radius"
+        },
+        {
+          "letter": "b",
+          "text": "Tangent \\ to \\ the \\ orbit"
+        },
+        {
+          "letter": "c",
+          "text": "The \\ axis \\ of \\ rotation"
+        },
+        {
+          "letter": "d",
+          "text": "45^{\\circ} \\ to \\ the \\ axis \\ of \\ rotation"
+        }
+      ]
+    },
+    {
+      "Index": 23,
+      "question": "A \\ pendulum \\ hangs \\ from \\ the \\ ceiling \\ of \\ a \\ jeep \\ moving \\ with \\ a \\ speed \\ v \\ along \\ a \\ circle \\ of \\ radius \\ R. \\ Find \\ the \\ angle \\ with \\ the \\ vertical \\ made \\ by \\ the \\ pendulum.",
+      "options": [
+        {
+          "letter": "a",
+          "text": "0."
+        },
+        {
+          "letter": "b",
+          "text": "tan^{-1}(v^{2}/Rg)"
+        },
+        {
+          "letter": "c",
+          "text": "tan^{-1}(Rg/v^{2})"
+        },
+        {
+          "letter": "d",
+          "text": "None \\ of \\ these"
+        }
+      ]
+    },
+    {
+      "Index": 24,
+      "question": "If \\ |\\overline{A}+\\hat{B}|=|\\overline{A}-\\hat{B}|| \\ then \\ angle \\ between \\ the \\ vectors \\ A \\ and \\ B \\ is",
+      "options": [
+        {
+          "letter": "a",
+          "text": "0"
+        },
+        {
+          "letter": "b",
+          "text": "\\pi/3"
+        },
+        {
+          "letter": "c",
+          "text": "\\pi/2"
+        },
+        {
+          "letter": "d",
+          "text": "\\pi/4"
+        }
+      ]
+    },
+    {
+      "Index": 25,
+      "question": "Two \\ identical \\ pendulums \\ are \\ tied \\ from \\ the \\ same \\ rigid \\ support. \\ One \\ is \\ tied \\ horizontally. \\ The \\ other \\ is \\ released \\ when \\ they \\ are \\ making \\ the \\ same \\ angle \\ → \\ with \\ the \\ vertical.",
+      "options": [
+        {
+          "letter": "a",
+          "text": "tan^{2}\\theta"
+        },
+        {
+          "letter": "b",
+          "text": "cot^{2}\\theta"
+        },
+        {
+          "letter": "c",
+          "text": "1"
+        },
+        {
+          "letter": "d",
+          "text": "sec^{2}\\theta"
+        }
+      ]
+    },
+    {
+      "Index": 26,
+      "question": "Sixteen \\ beads \\ in \\ a \\ string \\ are \\ placed \\ on \\ a \\ smooth \\ incline \\ as \\ shown \\ in \\ equilibrium. \\ The \\ number \\ of \\ beads \\ lying \\ along \\ the \\ incline \\ are \\ \\theta=sin^{3}\\frac{1}{2}",
+      "options": [
+        {
+          "letter": "a",
+          "text": "4"
+        },
+        {
+          "letter": "b",
+          "text": "8"
+        },
+        {
+          "letter": "c",
+          "text": "12"
+        },
+        {
+          "letter": "d",
+          "text": "None \\ of \\ these"
+        }
+      ]
+    },
+    {
+      "Index": 27,
+      "question": "Three \\ particles \\ A, \\ B \\ and \\ C \\ are \\ situated \\ at \\ the \\ vertices \\ of \\ an \\ equilateral \\ triangle \\ of \\ side \\ L. \\ Each \\ of \\ the \\ particles \\ starts \\ moving \\ with \\ a \\ constant \\ velocity \\ v \\ such \\ that \\ A \\ is \\ always \\ directed \\ towards \\ B, \\ B \\ towards \\ C \\ and \\ C \\ towards \\ A. \\ Find \\ the \\ time \\ when \\ they \\ meet.",
+      "options": [
+        {
+          "letter": "a",
+          "text": "l/\\sqrt{3}v"
+        },
+        {
+          "letter": "b",
+          "text": "2l/v"
+        },
+        {
+          "letter": "c",
+          "text": "2u/3v"
+        },
+        {
+          "letter": "d",
+          "text": "None"
+        }
+      ]
+    },
+    {
+      "Index": 28,
+      "question": "Two \\ particles \\ are \\ thrown \\ horizontally \\ in \\ opposite \\ directions \\ from \\ the \\ same \\ point \\ from \\ a \\ height \\ h \\ with \\ velocities \\ 4 \\ ms \\ and \\ 3ms. \\ Find \\ the \\ separation \\ between \\ them \\ when \\ their \\ velocities \\ are \\ perpendicular.",
+      "options": [
+        {
+          "letter": "a",
+          "text": "0.15 \\ s"
+        },
+        {
+          "letter": "b",
+          "text": "0.25 \\ s"
+        },
+        {
+          "letter": "c",
+          "text": "0.35 \\ s"
+        },
+        {
+          "letter": "d",
+          "text": "None \\ of \\ these"
+        }
+      ]
+    },
+    {
+      "Index": 29,
+      "question": "A \\ ball \\ is \\ thrown \\ with \\ a \\ velocity \\ 6\\hat{j} \\ with \\ an \\ acceleration \\ 6\\hat{i}+2\\hat{j}. \\ The \\ velocity \\ of \\ the \\ ball \\ after \\ 5 \\ seconds \\ is",
+      "options": [
+        {
+          "letter": "a",
+          "text": "30\\hat{i}+10\\hat{j}"
+        },
+        {
+          "letter": "b",
+          "text": "30\\overline{i}+16\\overline{j}"
+        },
+        {
+          "letter": "c",
+          "text": "10\\hat{i}+24\\hat{j}"
+        },
+        {
+          "letter": "d",
+          "text": "None \\ of \\ these"
+        }
+      ]
+    },
+    {
+      "Index": 30,
+      "question": "A \\ point \\ moves \\ according \\ to \\ the \\ law \\ x=at, \\ y=at(1-\\alpha \\ t) \\ where \\ a \\ and \\ c \\ are \\ positive \\ constants \\ and \\ t \\ is \\ time. \\ Find \\ the \\ moment \\ at \\ which \\ angle \\ between \\ velocity \\ vector \\ and \\ acceleration \\ vector \\ is \\ \\pi/4.",
+      "options": [
+        {
+          "letter": "a",
+          "text": "1/a"
+        },
+        {
+          "letter": "b",
+          "text": "a"
+        },
+        {
+          "letter": "c",
+          "text": "1/a^{2}"
+        },
+        {
+          "letter": "d",
+          "text": "None \\ of \\ these"
+        }
+      ]
+    },
+    {
+      "Index": 31,
+      "question": "A \\ large \\ number \\ of \\ particles \\ are \\ moving \\ with \\ the \\ same \\ magnitude \\ of \\ velocity \\ v \\ but \\ having \\ random \\ directions. \\ The \\ average \\ relative \\ velocity \\ between \\ any \\ two \\ particles \\ averaged \\ over \\ all \\ the \\ pairs \\ is",
+      "options": [
+        {
+          "letter": "a",
+          "text": "\\pi/4~v"
+        },
+        {
+          "letter": "b",
+          "text": "\\pi/2~v"
+        },
+        {
+          "letter": "c",
+          "text": "3/\\pi~v"
+        },
+        {
+          "letter": "d",
+          "text": "4/\\pi~v"
+        }
+      ]
+    },
+    {
+      "Index": 32,
+      "question": "A \\ boy \\ swims \\ in \\ a \\ straight \\ line \\ to \\ reach \\ the \\ other \\ side \\ of \\ a \\ river. \\ His \\ velocity \\ is \\ 5 \\ ms^{-1} \\ and \\ the \\ angle \\ of \\ swim \\ with \\ shore \\ is \\ 30°. \\ Flow \\ of \\ river \\ opposes \\ his \\ movement \\ at \\ 2 \\ ms^{-1}. \\ If \\ width \\ of \\ river \\ is \\ 200 \\ m, \\ where \\ does \\ he \\ reach \\ the \\ other \\ bank?",
+      "options": [
+        {
+          "letter": "a",
+          "text": "106 \\ m \\ from \\ O' \\ downstream"
+        },
+        {
+          "letter": "b",
+          "text": "186 \\ m \\ from \\ O' \\ downstream"
+        },
+        {
+          "letter": "c",
+          "text": "186 \\ m \\ from \\ O' \\ upstream"
+        },
+        {
+          "letter": "d",
+          "text": "106 \\ m \\ from \\ O' \\ upstream"
+        }
+      ]
+    },
+    {
+      "Index": 33,
+      "question": "Two \\ cars \\ are \\ moving \\ with \\ same \\ velocity \\ of \\ 30 \\ kmh^{-1} \\ maintaining \\ a \\ distance \\ of \\ 5 \\ km \\ between \\ them. \\ Speed \\ of \\ third \\ car \\ moving \\ in \\ the \\ opposite \\ direction \\ and \\ meeting \\ the \\ two \\ cars \\ at \\ an \\ interval \\ of \\ 240s \\ is",
+      "options": [
+        {
+          "letter": "a",
+          "text": "45 \\ kmh^{-1}"
+        },
+        {
+          "letter": "b",
+          "text": "30 \\ kmh^{-1}"
+        },
+        {
+          "letter": "c",
+          "text": "55 \\ kmh^{-1}"
+        },
+        {
+          "letter": "d",
+          "text": "35 \\ kmh^{-1}"
+        }
+      ]
+    },
+    {
+      "Index": 34,
+      "question": "Given \\ \\vec{F}=(4\\hat{i}-10\\hat{j})\\epsilon \\ and \\ \\vec{r}=(5\\hat{i}-3\\hat{j}), \\ compute \\ torque.",
+      "options": [
+        {
+          "letter": "a",
+          "text": "-62\\hat{j} \\ unit"
+        },
+        {
+          "letter": "b",
+          "text": "62 \\ k \\ unit"
+        },
+        {
+          "letter": "c",
+          "text": "48\\overline{i} \\ unit"
+        },
+        {
+          "letter": "d",
+          "text": "-48\\overline{k} \\ unit"
+        }
+      ]
+    },
+    {
+      "Index": 35,
+      "question": "Two \\ swimmers \\ start \\ from \\ point \\ P \\ on \\ one \\ bank \\ of \\ the \\ river \\ to \\ reach \\ Q \\ on \\ the \\ opposite \\ bank. \\ Velocity \\ of \\ each \\ swimmer \\ in \\ still \\ waters \\ is \\ 2.5 \\ kmh. \\ One \\ of \\ the \\ swimmers \\ crosses \\ the \\ river \\ along \\ the \\ straight \\ route \\ PQ \\ and \\ the \\ other \\ swims \\ right \\ angles \\ to \\ the \\ stream \\ and \\ then \\ walks \\ the \\ distance \\ which \\ he \\ has \\ been \\ carried \\ away \\ by \\ the \\ river \\ to \\ get \\ to \\ point \\ Q. \\ Stream \\ velocity \\ is \\ 2 \\ kmh. \\ If \\ both \\ the \\ swimmers \\ reach \\ point \\ Q \\ simultaneously, \\ the \\ velocity \\ of \\ walking \\ of \\ second \\ swimmer \\ is",
+      "options": [
+        {
+          "letter": "a",
+          "text": "3 \\ kmh^{-1}"
+        },
+        {
+          "letter": "b",
+          "text": "4 \\ kmh^{-1}"
+        },
+        {
+          "letter": "c",
+          "text": "2 \\ kmh^{-1}"
+        },
+        {
+          "letter": "d",
+          "text": "3.5 \\ kmh^{-1}"
+        }
+      ]
+    },
+    {
+      "Index": 36,
+      "question": "A \\ boat \\ sails \\ 2 \\ km \\ east, \\ then \\ 4 \\ km \\ northeast \\ and \\ then \\ in \\ an \\ unknown \\ direction. \\ Final \\ position \\ of \\ the \\ boat \\ is \\ 5 \\ km \\ east \\ from \\ starting \\ point. \\ Unknown \\ displacement \\ is",
+      "options": [
+        {
+          "letter": "a",
+          "text": "2.8 \\ km, \\ 3^{\\circ}26^{\\prime} \\ with \\ north \\ towards \\ east"
+        },
+        {
+          "letter": "b",
+          "text": "3 \\ km \\ 2^{\\circ}26^{\\prime}+ \\ with \\ east"
+        },
+        {
+          "letter": "c",
+          "text": "3.5 \\ km, \\ 2^{\\circ}30' \\ with \\ south \\ towards \\ west"
+        },
+        {
+          "letter": "d",
+          "text": "1.81 \\ cm, \\ 2^{\\circ}36' \\ with \\ north \\ towards \\ east"
+        }
+      ]
+    },
+    {
+      "Index": 37,
+      "question": "A \\ parallelogram \\ has \\ diagonals \\ expressed \\ as \\ \\overline{A}=5i-4\\hat{j}+3\\hat{k} \\ and \\ \\hat{B}=3\\hat{i}+2\\hat{j}-\\hat{k}. \\ Area \\ of \\ parallelogram \\ is",
+      "options": [
+        {
+          "letter": "a",
+          "text": "\\sqrt{117} \\ \\text{ \\ units}"
+        },
+        {
+          "letter": "b",
+          "text": "\\sqrt{171} \\ \\text{ \\ units}"
+        },
+        {
+          "letter": "c",
+          "text": "\\sqrt{711} \\ \\text{ \\ units}"
+        },
+        {
+          "letter": "d",
+          "text": "\\sqrt{107} \\ \\text{ \\ units}"
+        }
+      ]
+    },
+    {
+      "Index": 38,
+      "question": "Two \\ particles \\ are \\ projected \\ simultaneously \\ in \\ a \\ vertical \\ plane \\ from \\ the \\ same \\ point. \\ These \\ particles \\ have \\ different \\ velocities \\ at \\ different \\ angles \\ with \\ the \\ horizontal. \\ The \\ path \\ seen \\ by \\ each \\ other \\ is",
+      "options": [
+        {
+          "letter": "a",
+          "text": "Parabola"
+        },
+        {
+          "letter": "b",
+          "text": "Hyperbola"
+        },
+        {
+          "letter": "c",
+          "text": "Elliptical"
+        },
+        {
+          "letter": "d",
+          "text": "Straight \\ line"
+        }
+      ]
+    },
+    {
+      "Index": 39,
+      "question": "Rain \\ appears \\ to \\ fall \\ vertically \\ or \\ a \\ man \\ walking \\ at \\ 3 \\ \\text{ \\ km/h} \\ but \\ if \\ he \\ doubles \\ his \\ speed \\ to \\ the \\ rain \\ appears \\ to \\ fall \\ at \\ 45^{\\circ}. \\ The \\ real \\ velocity \\ of \\ rain \\ is",
+      "options": [
+        {
+          "letter": "a",
+          "text": "3\\sqrt{2} \\ \\text{ \\ km/h}, \\ 45^{\\circ}"
+        },
+        {
+          "letter": "b",
+          "text": "2\\sqrt{} \\ \\text{ \\ km/h}, \\ 4 \\ 45^{\\circ}"
+        },
+        {
+          "letter": "c",
+          "text": "3\\sqrt{2} \\ \\text{ \\ km/h}, \\ 30^{\\circ}"
+        },
+        {
+          "letter": "d",
+          "text": "2\\sqrt{} \\ \\text{ \\ km/h}, \\ 60^{\\circ}"
+        }
+      ]
+    },
+    {
+      "Index": 40,
+      "question": "A \\ helicopter \\ is \\ to \\ reach \\ a \\ point \\ 200,000 \\ m \\ east \\ of \\ his \\ existing \\ place. \\ Its \\ velocity \\ relative \\ to \\ wind \\ blowing \\ at \\ 30 \\ \\text{ \\ km/h} \\ from \\ north \\ west \\ taking \\ scheduled \\ arrival \\ time \\ duration \\ as \\ 40 \\ minute \\ is",
+      "options": [
+        {
+          "letter": "a",
+          "text": "21\\hat{i}+279\\hat{j}"
+        },
+        {
+          "letter": "b",
+          "text": "279\\hat{i}+21\\hat{j}"
+        },
+        {
+          "letter": "c",
+          "text": "729\\overline{i}+12\\overline{i}"
+        },
+        {
+          "letter": "d",
+          "text": "12\\tilde{i}+729\\tilde{j}"
+        }
+      ]
+    },
+    {
+      "Index": 41,
+      "question": "Two \\ bodies \\ move \\ uniformly \\ towards \\ each \\ other. \\ They \\ become \\ 4 \\ m \\ nearer \\ in \\ every \\ 1 \\ second, \\ and \\ get \\ 4 \\ m \\ closer \\ every \\ 10 \\ seconds. \\ If \\ they \\ move \\ in \\ the \\ same \\ direction \\ with \\ their \\ previous \\ speeds, \\ the \\ speeds \\ of \\ the \\ bodies \\ are",
+      "options": [
+        {
+          "letter": "a",
+          "text": "1.8 \\ \\text{ \\ m/s}, \\ 1.8 \\ \\text{ \\ m/s}"
+        },
+        {
+          "letter": "b",
+          "text": "2.2 \\ \\text{ \\ m/s}, \\ 2.0 \\ \\text{ \\ m/s}"
+        },
+        {
+          "letter": "c",
+          "text": "2.2 \\ \\text{ \\ m/s}, \\ 1.8 \\ \\text{ \\ m/s}"
+        },
+        {
+          "letter": "d",
+          "text": "1.5 \\ \\text{ \\ m/s}, \\ 2.5 \\ \\text{ \\ m/s}"
+        }
+      ]
+    },
+    {
+      "Index": 42,
+      "question": "A \\ man \\ holds \\ an \\ umbrella \\ at \\ 30^{\\circ} \\ vertically \\ to \\ keep \\ himself \\ dry. \\ He, \\ then, \\ runs \\ at \\ a \\ speed \\ of \\ 10 \\ ms \\ and \\ finds \\ the \\ raindrops \\ to \\ be \\ hitting \\ vertically. \\ Speed \\ of \\ the \\ raindrops \\ w.r.t. \\ earth \\ and \\ w.r.t. \\ man \\ are",
+      "options": [
+        {
+          "letter": "a",
+          "text": "20~ms^{-1}. \\ 10~ms^{-1}"
+        },
+        {
+          "letter": "b",
+          "text": "10~ms^{-1}. \\ 20\\sqrt{3}~ms^{-1}"
+        },
+        {
+          "letter": "c",
+          "text": "10\\sqrt{3}~ms^{-1}, \\ 20~ms^{-1}"
+        },
+        {
+          "letter": "d",
+          "text": "20~ms^{-1}. \\ 10\\sqrt{3}~ms^{-1}"
+        }
+      ]
+    },
+    {
+      "Index": 43,
+      "question": "A \\ particle \\ moves \\ from \\ one \\ end \\ of \\ a \\ strip \\ to \\ the \\ other \\ end \\ in \\ time \\ t \\ with \\ uniform \\ velocity. \\ The \\ particle \\ then \\ flies \\ off \\ vertically \\ making \\ the \\ strip \\ move \\ on \\ the \\ smooth \\ horizontal \\ table. \\ Further \\ distance \\ traveled \\ by \\ the \\ strip \\ in \\ time \\ T \\ is \\ equal \\ to \\ the \\ length \\ of \\ the \\ strip \\ L. \\ Then",
+      "options": [
+        {
+          "letter": "a",
+          "text": "T \\ > \\ t"
+        },
+        {
+          "letter": "b",
+          "text": "T \\ = \\ t"
+        },
+        {
+          "letter": "c",
+          "text": "T \\ < \\ t"
+        },
+        {
+          "letter": "d",
+          "text": "Data \\ is \\ insufficient."
+        }
+      ]
+    },
+    {
+      "Index": 44,
+      "question": "An \\ open \\ umbrella \\ is \\ held \\ upright \\ and \\ rotated \\ about \\ the \\ handle \\ at \\ a \\ uniform \\ rate \\ of \\ 21 \\ revolution \\ in \\ 44 \\ s. \\ If \\ the \\ rim \\ of \\ the \\ umbrella \\ is \\ a \\ circle \\ of \\ 100 \\ cm \\ diameter \\ and \\ the \\ height \\ of \\ the \\ rim \\ above \\ ground \\ is \\ 150 \\ cm \\ then \\ the \\ drops \\ of \\ water \\ spinning \\ off \\ the \\ rim \\ will \\ hit \\ the \\ ground \\ at",
+      "options": [
+        {
+          "letter": "a",
+          "text": "200 \\ cm"
+        },
+        {
+          "letter": "b",
+          "text": "52 \\ cm"
+        },
+        {
+          "letter": "c",
+          "text": "172 \\ cm"
+        },
+        {
+          "letter": "d",
+          "text": "97 \\ cm"
+        }
+      ]
+    },
+    {
+      "Index": 45,
+      "question": "Two \\ motorcycles \\ M_{1} \\ and \\ M_{2} \\ are \\ heading \\ towards \\ each \\ other \\ with \\ a \\ speed \\ of \\ 30 \\ kmh \\ each. \\ A \\ bird \\ flies \\ off \\ M \\ at \\ 60 \\ kmh^{-1} \\ when \\ distance \\ between \\ the \\ motorcycles \\ is \\ 60 \\ km. \\ It \\ heads \\ towards \\ M, \\ and \\ then \\ back \\ to \\ M, \\ and \\ so \\ on. \\ The \\ total \\ distance \\ the \\ bird \\ moves \\ till \\ the \\ motorcycles \\ meet \\ is",
+      "options": [
+        {
+          "letter": "a",
+          "text": "60 \\ km"
+        },
+        {
+          "letter": "b",
+          "text": "40 \\ km"
+        },
+        {
+          "letter": "c",
+          "text": "50 \\ km"
+        },
+        {
+          "letter": "d",
+          "text": "30 \\ km"
+        }
+      ]
+    },
+    {
+      "Index": 46,
+      "question": "Two \\ towns \\ T_{1} \\ and \\ T_{2} \\ are \\ connected \\ by \\ regular \\ bus \\ service. \\ A \\ scooterist \\ moving \\ from \\ T_{1} \\ to \\ T_{2} \\ at \\ a \\ speed \\ of \\ 20 \\ km/h \\ notices \\ that \\ a \\ bus \\ goes \\ past \\ him \\ every \\ 21 \\ minutes \\ in \\ the \\ direction \\ of \\ his \\ motion \\ and \\ every \\ 7 \\ minutes \\ in \\ the \\ opposite \\ direction. \\ If \\ a \\ bus \\ leaves \\ in \\ either \\ direction \\ every \\ 1 \\ minute, \\ what \\ is \\ the \\ period \\ 't'?",
+      "options": [
+        {
+          "letter": "a",
+          "text": "1.5 \\ minute"
+        },
+        {
+          "letter": "b",
+          "text": "9.5 \\ minute"
+        },
+        {
+          "letter": "c",
+          "text": "6 \\ minute"
+        },
+        {
+          "letter": "d",
+          "text": "10.5 \\ minute"
+        }
+      ]
+    },
+    {
+      "Index": 47,
+      "question": "A \\ hunter \\ is \\ at \\ (4, \\ -1, \\ 5) \\ units. \\ He \\ observes \\ two \\ preys \\ at \\ P_{1}(-1, \\ 2, \\ 0) \\ units \\ and \\ P_{2}(1, \\ 1, \\ 4) \\ units, \\ respectively. \\ At \\ zero \\ instant \\ he \\ starts \\ moving \\ in \\ the \\ plane \\ of \\ their \\ positions \\ with \\ a \\ uniform \\ speed \\ of \\ 5 \\ units/s \\ in \\ a \\ direction \\ perpendicular \\ to \\ line \\ P_{1}P_{2} \\ till \\ he \\ sees \\ P_{1} \\ and \\ P_{2} \\ collinear \\ at \\ time \\ T. \\ What \\ is \\ the \\ time \\ T?",
+      "options": [
+        {
+          "letter": "a",
+          "text": "0.53 \\ s"
+        },
+        {
+          "letter": "b",
+          "text": "0.73 \\ s"
+        },
+        {
+          "letter": "c",
+          "text": "0.35 \\ s"
+        },
+        {
+          "letter": "d",
+          "text": "0.92 \\ s"
+        }
+      ]
+    },
+    {
+      "Index": 48,
+      "question": "An \\ aeroplane \\ flies \\ from \\ P \\ to \\ Q \\ with \\ speed \\ v \\ and \\ then \\ from \\ Q \\ to \\ P \\ with \\ the \\ same \\ speed. \\ If \\ wind \\ blows \\ normal \\ to \\ the \\ straight \\ line \\ PQ \\ with \\ the \\ speed \\ V, \\ what \\ is \\ the \\ total \\ time \\ for \\ the \\ to \\ and \\ fro \\ motion?",
+      "options": [
+        {
+          "letter": "a",
+          "text": "\\frac{2L}{(v^{2}-V^{2})^{1/2}}"
+        },
+        {
+          "letter": "b",
+          "text": "\\frac{2L}{V-v}"
+        },
+        {
+          "letter": "c",
+          "text": "\\frac{2L}{(v^{2}-V^{2})^{1/2}}"
+        },
+        {
+          "letter": "d",
+          "text": "\\frac{2L}{(v^{2}-V^{2})}"
+        }
+      ]
+    },
+    {
+      "Index": 49,
+      "question": "If \\ \\vec{a} \\ and \\ \\vec{b} \\ are \\ the \\ intersection \\ face \\ diagonals \\ of \\ a \\ cube \\ of \\ side \\ x \\ in \\ the \\ plane \\ XOY \\ and \\ YOZ, \\ respectively, \\ with \\ respect \\ to \\ the \\ reference \\ frame \\ at \\ the \\ point \\ of \\ intersection \\ of \\ the \\ vectors \\ and \\ sides \\ of \\ the \\ cube \\ as \\ the \\ axes, \\ what \\ are \\ the \\ components \\ of \\ the \\ vector \\ \\vec{r}=\\vec{a}\\times\\vec{b}?",
+      "options": [
+        {
+          "letter": "a",
+          "text": "x,-x,x"
+        },
+        {
+          "letter": "b",
+          "text": "-x^{2},-x^{2},x^{2}"
+        },
+        {
+          "letter": "c",
+          "text": "x^{2},-x^{2},x^{2}"
+        },
+        {
+          "letter": "d",
+          "text": "x,x^{2},-x"
+        }
+      ]
+    },
+    {
+      "Index": 50,
+      "question": "Two \\ particles \\ are \\ originally \\ placed \\ at \\ P \\ and \\ Q \\ distant \\ d \\ apart. \\ At \\ zero \\ instant, \\ they \\ start \\ moving \\ such \\ that \\ velocity \\ of \\ P \\ is \\ aimed \\ towards \\ Q \\ and \\ velocity \\ \\overline{u} \\ of \\ Q \\ is \\ perpendicular \\ to \\ \\vec{v}. \\ The \\ two \\ projectiles \\ meet \\ at \\ time \\ T \\ =",
+      "options": [
+        {
+          "letter": "a",
+          "text": "(a) \\ \\frac{(v^{2}-u^{2})d^{2}}{v^{3}d}"
+        },
+        {
+          "letter": "b",
+          "text": "(b) \\ \\frac{v(v-u)}{d}"
+        },
+        {
+          "letter": "c",
+          "text": "(c) \\ \\frac{(v+u)d}{v^{2}}"
+        },
+        {
+          "letter": "d",
+          "text": "(d) \\ \\frac{vd}{(v^{2}-u^{2})}"
+        }
+      ]
+    },
+    {
+      "Index": 51,
+      "question": "A \\ particle \\ is \\ moving \\ in \\ a \\ circle \\ of \\ radius \\ R \\ in \\ such \\ a \\ way \\ that \\ at \\ any \\ instant \\ the \\ a_{t}, \\ and \\ a_{c} \\ are \\ equal. \\ If \\ the \\ speed \\ at \\ t=0 \\ is \\ v_{0}, \\ the \\ time \\ taken \\ to \\ complete \\ the \\ first \\ revolution \\ is",
+      "options": [
+        {
+          "letter": "a",
+          "text": "(a) \\ \\frac{R}{v_{0}}e^{-2\\pi}"
+        },
+        {
+          "letter": "b",
+          "text": "(b) \\ veR"
+        },
+        {
+          "letter": "c",
+          "text": "(c) \\ \\frac{R}{v_{0}}"
+        },
+        {
+          "letter": "d",
+          "text": "(d) \\ \\frac{R}{v_{0}}(1-e^{-2\\pi})"
+        }
+      ]
+    },
+    {
+      "Index": 52,
+      "question": "A \\ boat \\ which \\ has \\ a \\ speed \\ of \\ 5 \\ km/h \\ in \\ still \\ waters \\ crosses \\ a \\ river \\ of \\ width \\ 1 \\ km \\ along \\ the \\ shortest \\ possible \\ path \\ in \\ 15 \\ minutes. \\ The \\ speed \\ of \\ the \\ river \\ in \\ km/h \\ is",
+      "options": [
+        {
+          "letter": "a",
+          "text": "(a) \\ 1"
+        },
+        {
+          "letter": "b",
+          "text": "(b) \\ 3"
+        },
+        {
+          "letter": "c",
+          "text": "(c) \\ 4"
+        },
+        {
+          "letter": "d",
+          "text": "(d) \\ \\sqrt{41}"
+        }
+      ]
+    },
+    {
+      "Index": 53,
+      "question": "A \\ particle \\ is \\ moving \\ in \\ a \\ plane \\ with \\ velocity \\ given \\ by \\ \\vec{v}=\\vec{i}u_{0}+\\tilde{j} \\ \\text{accost} \\ if \\ the \\ particle \\ is \\ at \\ origin \\ at \\ t=0. \\ Distance \\ from \\ origin \\ at \\ time \\ \\frac{3\\pi}{2\\omega} \\ is",
+      "options": [
+        {
+          "letter": "a",
+          "text": "(a) \\ \\sqrt{a^{2}+(\\frac{3\\pi \\ u_{0}}{2c \\ s})^{2}}"
+        },
+        {
+          "letter": "b",
+          "text": "(b) \\ \\sqrt{a^{2}+(\\frac{2\\pi \\ u_{0}}{\\epsilon \\ a})^{2}}"
+        },
+        {
+          "letter": "c",
+          "text": "(c) \\ \\left(\\frac{\\pi \\ u_{0}}{\\omega}\\right)^{2}+a^{2}"
+        },
+        {
+          "letter": "d",
+          "text": "(d) \\ \\sqrt{a^{2}+(\\frac{2\\pi \\ u_{0}}{3c \\ o})^{2}}"
+        }
+      ]
+    },
+    {
+      "Index": 54,
+      "question": "Mass \\ A \\ is \\ released \\ from \\ the \\ top \\ of \\ a \\ frictionless \\ inclined \\ plane \\ 18 \\ m \\ long \\ and \\ reaches \\ the \\ bottom \\ 3 \\ s \\ later. \\ At \\ the \\ instant \\ when \\ A \\ is \\ released \\ a \\ second \\ mass \\ B \\ is \\ projected \\ upwards \\ along \\ the \\ plate \\ from \\ the \\ bottom \\ with \\ a \\ certain \\ initial \\ velocity. \\ Mass \\ B \\ travels \\ a \\ distance \\ up \\ the \\ plane, \\ stops \\ and \\ returns \\ to \\ the \\ bottom \\ so \\ that \\ it \\ arrives \\ simultaneously \\ with \\ A. \\ The \\ two \\ masses \\ do \\ not \\ collide. \\ Initially, \\ the \\ velocity \\ of \\ A \\ is",
+      "options": [
+        {
+          "letter": "a",
+          "text": "(a) \\ 4 \\ \\text{ \\ ms}^{-1}"
+        },
+        {
+          "letter": "b",
+          "text": "(b) \\ 5 \\ \\text{ \\ ms}^{-1}"
+        },
+        {
+          "letter": "c",
+          "text": "(c) \\ 6 \\ \\text{ \\ ms}^{-1}"
+        },
+        {
+          "letter": "d",
+          "text": "(d) \\ 7 \\ \\text{ \\ ms}^{-1}"
+        }
+      ]
+    },
+    {
+      "Index": 55,
+      "question": "A \\ particle \\ is \\ moving \\ eastward \\ with \\ a \\ velocity \\ of \\ 5~ms^{-1}. \\ If \\ in \\ 10 \\ s \\ the \\ velocity \\ changes \\ by \\ 5 \\ ms \\ northwards, \\ what \\ is \\ the \\ average \\ acceleration \\ in \\ this \\ time?",
+      "options": [
+        {
+          "letter": "a",
+          "text": "\\frac{1}{\\sqrt{2}} \\ ms^{-1} \\ NW"
+        },
+        {
+          "letter": "b",
+          "text": "\\frac{1}{2} \\ ms^{-1} \\ EN"
+        },
+        {
+          "letter": "c",
+          "text": "\\sqrt{2} \\ ms^{-1} \\ NW"
+        },
+        {
+          "letter": "d",
+          "text": "2\\sqrt{2} \\ ms^{-1} \\ NW"
+        }
+      ]
+    },
+    {
+      "Index": 56,
+      "question": "The \\ driver \\ of \\ a \\ truck \\ traveling \\ with \\ a \\ velocity \\ v \\ suddenly \\ notices \\ a \\ brick \\ wall \\ in \\ front \\ of \\ him \\ at \\ a \\ distance \\ d. \\ To \\ avoid \\ crashing \\ into \\ the \\ wall",
+      "options": [
+        {
+          "letter": "a",
+          "text": "He \\ should \\ apply \\ brakes"
+        },
+        {
+          "letter": "b",
+          "text": "He \\ should \\ take \\ a \\ circular \\ turn \\ without \\ applying \\ brakes"
+        },
+        {
+          "letter": "c",
+          "text": "Both(a) \\ and \\ (b) \\ alternately"
+        },
+        {
+          "letter": "d",
+          "text": "Data \\ is \\ insufficient."
+        }
+      ]
+    },
+    {
+      "Index": 57,
+      "question": "Two \\ cars \\ are \\ moving. \\ A \\ along \\ east \\ with \\ 10~ms^{-1}. \\ At \\ any \\ instant \\ it \\ is \\ 1500 \\ m \\ away \\ from \\ the \\ crossing. \\ B \\ at \\ the \\ same \\ instant \\ is \\ 1800 \\ m \\ away \\ from \\ the \\ crossing \\ and \\ is \\ moving \\ towards \\ the \\ crossing \\ with \\ 15ms. \\ When \\ do \\ they \\ come \\ closest?",
+      "options": [
+        {
+          "letter": "a",
+          "text": "109.3 \\ s"
+        },
+        {
+          "letter": "b",
+          "text": "129.2 \\ s"
+        },
+        {
+          "letter": "c",
+          "text": "119.3 \\ s"
+        },
+        {
+          "letter": "d",
+          "text": "99.3 \\ s"
+        }
+      ]
+    },
+    {
+      "Index": 58,
+      "question": "Given \\ that \\ P \\ is \\ a \\ point \\ on \\ a \\ wheel \\ rolling \\ on \\ a \\ horizontal \\ ground. \\ The \\ radius \\ of \\ the \\ wheel \\ is \\ R. \\ Initially \\ if \\ the \\ point \\ P \\ is \\ in \\ contact \\ with \\ the \\ ground \\ the \\ wheel \\ rolls \\ through \\ half \\ the \\ revolution. \\ What \\ is \\ the \\ displacement \\ of \\ point \\ P?",
+      "options": [
+        {
+          "letter": "a",
+          "text": "R\\sqrt{\\pi^{2}+1}"
+        },
+        {
+          "letter": "b",
+          "text": "R\\sqrt{\\pi^{2}+4}"
+        },
+        {
+          "letter": "c",
+          "text": "R"
+        },
+        {
+          "letter": "d",
+          "text": "2\\pi \\ R"
+        }
+      ]
+    },
+    {
+      "Index": 59,
+      "question": "Force \\ acting \\ on \\ a \\ particle \\ is \\ (2\\hat{i}+3\\hat{j}) \\ N. \\ Work \\ done \\ by \\ this \\ force \\ is \\ zero, \\ when \\ a \\ particle \\ is \\ moved \\ on \\ the \\ line \\ 3y+kx=5. \\ Here \\ value \\ of \\ k \\ is-",
+      "options": [
+        {
+          "letter": "a",
+          "text": "2"
+        },
+        {
+          "letter": "b",
+          "text": "4"
+        },
+        {
+          "letter": "c",
+          "text": "6"
+        },
+        {
+          "letter": "d",
+          "text": "8"
+        }
+      ]
+    },
+    {
+      "Index": 60,
+      "question": "Boat \\ travels \\ upstream \\ in \\ a \\ river \\ and \\ at \\ t=0 \\ a \\ wooden \\ cork \\ is \\ thrown \\ over \\ the \\ side \\ with \\ zero \\ initial \\ velocity. \\ After \\ 7.5 \\ minutes \\ the \\ boat \\ turns \\ and \\ starts \\ moving \\ downstream \\ catches \\ the \\ cork \\ when \\ it \\ has \\ drifted \\ 1 \\ km \\ downstream. \\ Then \\ the \\ velocity \\ of \\ water \\ current \\ is \\ -",
+      "options": [
+        {
+          "letter": "a",
+          "text": "2 \\ Km/hr"
+        },
+        {
+          "letter": "b",
+          "text": "4 \\ Km/hr"
+        },
+        {
+          "letter": "c",
+          "text": "6 \\ Km/hr"
+        },
+        {
+          "letter": "d",
+          "text": "8 \\ Km/hr"
+        }
+      ]
+    },
+    {
+      "Index": 61,
+      "question": "Two \\ vectors \\ a \\ and \\ b \\ lie \\ in \\ one \\ plane. \\ Vector \\ \\vec{c} \\ lies \\ in \\ different \\ plane, \\ then \\ \\vec{a+b}+c",
+      "options": [
+        {
+          "letter": "a",
+          "text": "May \\ be \\ zero"
+        },
+        {
+          "letter": "b",
+          "text": "Must \\ be \\ zero"
+        },
+        {
+          "letter": "c",
+          "text": "Must \\ not \\ be \\ zero"
+        },
+        {
+          "letter": "d",
+          "text": "All \\ of \\ above \\ are \\ possible"
+        }
+      ]
+    },
+    {
+      "Index": 62,
+      "question": "A \\ man \\ crosses \\ the \\ river \\ perpendicular \\ to \\ river \\ flow \\ in \\ time \\ t \\ seconds \\ and \\ travels \\ an \\ equal \\ distance \\ down \\ the \\ stream \\ in \\ T \\ seconds. \\ The \\ ratio \\ of \\ man's \\ speed \\ in \\ still \\ water \\ to \\ the \\ speed \\ of \\ river \\ water \\ will \\ be:",
+      "options": [
+        {
+          "letter": "a",
+          "text": "\\frac{t^{2}-T^{2}}{t^{2}+T^{2}}"
+        },
+        {
+          "letter": "b",
+          "text": "\\frac{T^{2}-t^{2}}{T^{2}+t^{2}}"
+        },
+        {
+          "letter": "c",
+          "text": "\\frac{t^{2}+T^{2}}{t^{2}-T^{2}}"
+        },
+        {
+          "letter": "d",
+          "text": "\\frac{T^{2}+t^{2}}{T^{2}-t^{2}}"
+        }
+      ]
+    },
+    {
+      "Index": 63,
+      "question": "If \\ \\vec{a}_{1} \\ and \\ \\vec{a}_{2} \\ are \\ two \\ non \\ collinear \\ unit \\ vectors \\ and \\ if \\ |\\vec{a}_{1}+\\vec{a}_{2}|=\\sqrt{3}, \\ then \\ the \\ value \\ of \\ |\\vec{a}_{1}-\\vec{a}_{2}|(\\vec{2a}_{1}+\\vec{a}) \\ is-",
+      "options": [
+        {
+          "letter": "a",
+          "text": "2"
+        },
+        {
+          "letter": "b",
+          "text": "\\frac{3}{2}"
+        },
+        {
+          "letter": "c",
+          "text": "\\frac{1}{2}"
+        },
+        {
+          "letter": "d",
+          "text": "1"
+        }
+      ]
+    },
+    {
+      "Index": 64,
+      "question": "If \\ \\vec{a} \\ and \\ \\vec{b} \\ are \\ two \\ unit \\ vectors \\ and \\ \\vec{R}=\\vec{a}+\\vec{b} \\ and \\ also \\ if \\ |\\vec{R}|=R \\ then-",
+      "options": [
+        {
+          "letter": "a",
+          "text": "R<0"
+        },
+        {
+          "letter": "b",
+          "text": "R>2"
+        },
+        {
+          "letter": "c",
+          "text": "0\\le \\ R\\le \\ 2"
+        },
+        {
+          "letter": "d",
+          "text": "R \\ must \\ be \\ 2"
+        }
+      ]
+    },
+    {
+      "Index": 65,
+      "question": "Two \\ forces \\ \\vec{F_{1}} \\ and \\ \\vec{F}_{2} \\ are \\ acting \\ on \\ a \\ particle. \\ Magnitude \\ of \\ resultant \\ of \\ these \\ force \\ is \\ |\\vec{F}_{1}| \\ Then: \\ (i) \\ |\\vec{F}_{2}| \\ may \\ be \\ zero. \\ (ii) \\ |\\vec{F}_{2}| \\ may \\ not \\ be \\ zero. \\ Select \\ correct \\ one-",
+      "options": [
+        {
+          "letter": "a",
+          "text": "Only \\ (i) \\ is \\ correct"
+        },
+        {
+          "letter": "b",
+          "text": "Only \\ (ii) \\ is \\ correct"
+        },
+        {
+          "letter": "c",
+          "text": "Both \\ (i) \\ and \\ (ii) \\ will \\ be \\ correct"
+        },
+        {
+          "letter": "d",
+          "text": "Neither \\ (i) \\ nor \\ (ii) \\ will \\ be \\ correct"
+        }
+      ]
+    },
+    {
+      "Index": 66,
+      "question": "A \\ conveyor \\ belt \\ of \\ width \\ 10 \\ is \\ moving \\ along \\ x-axis \\ with \\ speed \\ 4 \\ m/s \\ as \\ shown \\ in \\ the \\ figure. \\ Two \\ points \\ A \\ and \\ B \\ are \\ situated \\ on \\ the \\ conveyor \\ belt. \\ A \\ person \\ wants \\ to \\ move \\ from \\ A \\ to \\ B \\ in \\ least \\ time. \\ His \\ speed \\ with \\ respect \\ to \\ belt \\ is \\ 2 \\ m/s. \\ The \\ time \\ taken \\ by \\ the \\ person \\ is-",
+      "options": [
+        {
+          "letter": "a",
+          "text": "2.5 \\ s"
+        },
+        {
+          "letter": "b",
+          "text": "5 \\ s"
+        },
+        {
+          "letter": "c",
+          "text": "4 \\ s"
+        },
+        {
+          "letter": "d",
+          "text": "3 \\ s"
+        }
+      ]
+    },
+    {
+      "Index": 67,
+      "question": "A \\ billiards-ball \\ is \\ at \\ point \\ A \\ on \\ a \\ billiards-table \\ whose \\ dimensions \\ are \\ given \\ in \\ fig. \\ At \\ what \\ angle \\ should \\ the \\ ball \\ be \\ struck \\ so \\ that \\ it \\ should \\ rebound \\ from \\ two \\ cushions \\ and \\ go \\ into \\ pocket \\ B? \\ Assume \\ that \\ in \\ striking \\ the \\ cushion, \\ the \\ ball's \\ direction \\ of \\ motion \\ changes \\ according \\ to \\ the \\ law \\ of \\ reflection \\ of \\ light \\ from \\ a \\ mirror, \\ i.e., \\ the \\ angle \\ of \\ reflection \\ equals \\ the \\ angle \\ of \\ incidence.",
+      "options": [
+        {
+          "letter": "a",
+          "text": "\\frac{a-2c}{h}"
+        },
+        {
+          "letter": "b",
+          "text": "\\frac{2a-c}{b}"
+        },
+        {
+          "letter": "c",
+          "text": "\\frac{2a-c}{2h}"
+        },
+        {
+          "letter": "d",
+          "text": "\\frac{a}{b}-\\frac{a}{2c}"
+        }
+      ]
+    },
+    {
+      "Index": 68,
+      "question": "A \\ man \\ is \\ moving \\ with \\ constant \\ velocity \\ v_{2}=20m/s \\ in \\ horizontal \\ plane. \\ At \\ what \\ angle \\ to \\ the \\ horizontal \\ should \\ the \\ man \\ hold \\ his \\ umbrella \\ so \\ that \\ he \\ can \\ protect \\ himself \\ from \\ rain \\ falling \\ vertically \\ with \\ velocity \\ 60m/sec.",
+      "options": [
+        {
+          "letter": "a",
+          "text": "sin^{-1}3"
+        },
+        {
+          "letter": "b",
+          "text": "tan^{-1}3"
+        },
+        {
+          "letter": "c",
+          "text": "cos^{-1}3"
+        },
+        {
+          "letter": "d",
+          "text": "tan^{-1}\\frac{1}{\\sqrt{3}}"
+        }
+      ]
+    },
+    {
+      "Index": 69,
+      "question": "For \\ the \\ vectors \\ \\vec{a} \\ and \\ \\vec{b} \\ shown \\ in \\ figure, \\ \\vec{a}=\\sqrt{3}i+j \\ and \\ |\\vec{b}|=10 \\ units \\ while \\ \\theta=23^{\\circ}, \\ then \\ the \\ value \\ of \\ R=\\vec{a}+\\vec{b} \\ nearly-",
+      "options": [
+        {
+          "letter": "a",
+          "text": "12"
+        },
+        {
+          "letter": "b",
+          "text": "13"
+        },
+        {
+          "letter": "c",
+          "text": "14"
+        },
+        {
+          "letter": "d",
+          "text": "15"
+        }
+      ]
+    },
+    {
+      "Index": 70,
+      "question": "The \\ sum, \\ difference \\ and \\ cross \\ product \\ of \\ two \\ vectors \\ A \\ and \\ B \\ are \\ mutually \\ perpendicular \\ if:",
+      "options": [
+        {
+          "letter": "a",
+          "text": "A \\ and \\ B \\ are \\ perpendicular \\ to \\ each \\ other \\ and \\ |\\vec{A}|=|\\vec{B}|"
+        },
+        {
+          "letter": "b",
+          "text": "A \\ and \\ B \\ are \\ perpendicular \\ to \\ each \\ other"
+        },
+        {
+          "letter": "c",
+          "text": "|\\vec{A}| \\ and \\ |\\vec{B}| \\ are \\ perpendicular \\ but \\ their \\ magnitudes \\ are \\ arbitrary"
+        },
+        {
+          "letter": "d",
+          "text": "|\\vec{A}|=|\\vec{B}| \\ and \\ their \\ directions \\ are \\ arbitrary"
+        }
+      ]
+    },
+    {
+      "Index": 71,
+      "question": "A \\ particle \\ moves \\ in \\ x-y \\ plane. \\ The \\ position \\ vector \\ of \\ particle \\ at \\ any \\ time \\ t \\ is \\ =\\vec{r}\\{(2t)\\hat{i}+(2t^{2})\\hat{j} \\ m. \\ The \\ rate \\ of \\ change \\ of \\ \\theta \\ at \\ time \\ t=2 \\ s \\ (where \\ \\theta \\ is \\ the \\ angle \\ which \\ its \\ velocity \\ vector \\ makes \\ with \\ positive \\ x-axis) \\ is:",
+      "options": [
+        {
+          "letter": "a",
+          "text": "\\frac{2}{17} \\ rad/s"
+        },
+        {
+          "letter": "b",
+          "text": "\\frac{1}{14} \\ rad/s"
+        },
+        {
+          "letter": "c",
+          "text": "\\frac{4}{7} \\ rad/s"
+        },
+        {
+          "letter": "d",
+          "text": "\\frac{6}{5} \\ rad/s"
+        }
+      ]
+    },
+    {
+      "Index": 72,
+      "question": "A \\ 2 \\ m \\ wide \\ truck \\ is \\ moving \\ with \\ a \\ uniform \\ speed \\ v, \\ - \\ 8 \\ m/s \\ along \\ a \\ straight \\ horizontal \\ road. \\ A \\ pedestrian \\ starts \\ to \\ cross \\ the \\ road \\ with \\ a \\ uniform \\ speed \\ v \\ when \\ the \\ truck \\ is \\ 4 \\ m \\ away \\ from \\ him. \\ The \\ minimum \\ value \\ of \\ v \\ so \\ that \\ he \\ can \\ cross \\ the \\ road \\ safely \\ is \\ -",
+      "options": [
+        {
+          "letter": "a",
+          "text": "2.62 \\ m/s"
+        },
+        {
+          "letter": "b",
+          "text": "4.6 \\ m/s"
+        },
+        {
+          "letter": "c",
+          "text": "3.57 \\ m/s"
+        },
+        {
+          "letter": "d",
+          "text": "1.414 \\ m/s"
+        }
+      ]
+    },
+    {
+      "Index": 73,
+      "question": "A \\ smooth \\ square \\ platform \\ ABCD \\ is \\ moving \\ towards \\ right \\ with \\ a \\ uniform \\ speed \\ v. \\ At \\ what \\ angle \\ must \\ a \\ particle \\ be \\ projected \\ from \\ A \\ with \\ speed \\ u \\ so \\ that \\ it \\ strikes \\ the \\ point \\ B?",
+      "options": [
+        {
+          "letter": "a",
+          "text": "sin^{-1}(\\frac{u}{v})"
+        },
+        {
+          "letter": "b",
+          "text": "cos^{-1}(\\frac{v}{u})"
+        },
+        {
+          "letter": "c",
+          "text": "cos^{-1}(\\frac{u}{v})"
+        },
+        {
+          "letter": "d",
+          "text": "sin^{-1}(\\frac{v}{u})"
+        }
+      ]
+    },
+    {
+      "Index": 74,
+      "question": "The \\ vectors \\ from \\ origin \\ to \\ the \\ points \\ A \\ and \\ B \\ are \\ \\vec{A}=3\\vec{i}-6\\hat{j}+2\\vec{k} \\ and \\ \\vec{B}=2\\vec{i}+\\vec{j}-2\\dot{k} \\ respectively. \\ The \\ area \\ of \\ the \\ triangle \\ OAB \\ will \\ be \\ -",
+      "options": [
+        {
+          "letter": "a",
+          "text": "\\frac{5}{2}\\sqrt{17} \\ sq. \\ unit"
+        },
+        {
+          "letter": "b",
+          "text": "\\frac{2}{5}\\sqrt{17} \\ sq. \\ unit"
+        },
+        {
+          "letter": "c",
+          "text": "\\frac{3}{5}\\sqrt{17} \\ sq. \\ unit"
+        },
+        {
+          "letter": "d",
+          "text": "\\frac{5}{3}\\sqrt{17} \\ sq. \\ unit"
+        }
+      ]
+    },
+    {
+      "Index": 75,
+      "question": "A \\ body \\ from \\ 75. \\ The \\ force \\ (3\\hat{i}-\\hat{j}+\\hat{k}) \\ N \\ displaces \\ (1, \\ 2, \\ 0) \\ to \\ (3, \\ 4, \\ 5). \\ Coordinates \\ are \\ in \\ metre. \\ The \\ work \\ done \\ is \\ -",
+      "options": [
+        {
+          "letter": "a",
+          "text": "9J"
+        },
+        {
+          "letter": "b",
+          "text": "18 \\ J"
+        },
+        {
+          "letter": "c",
+          "text": "11 \\ J"
+        },
+        {
+          "letter": "d",
+          "text": "29 \\ J"
+        }
+      ]
+    },
+    {
+      "Index": 76,
+      "question": "12 \\ forces, \\ each \\ equal \\ to \\ P, \\ act \\ on \\ a \\ body. \\ If \\ each \\ force \\ makes \\ an \\ angle \\ of \\ 30° \\ with \\ the \\ next \\ one, \\ the \\ resultant \\ of \\ all \\ the \\ forces \\ is \\ -",
+      "options": [
+        {
+          "letter": "a",
+          "text": "Zero"
+        },
+        {
+          "letter": "b",
+          "text": "3P"
+        },
+        {
+          "letter": "c",
+          "text": "6 \\ P"
+        },
+        {
+          "letter": "d",
+          "text": "12 \\ P"
+        }
+      ]
+    },
+    {
+      "Index": 77,
+      "question": "The \\ resultant \\ of \\ two \\ vectors \\ \\vec{P} \\ and \\ \\vec{Q} \\ is \\ \\vec{R}. \\ If \\ the \\ magnitude \\ of \\ \\vec{Q} \\ is \\ doubled, \\ the \\ new \\ resultant \\ becomes \\ perpendicular \\ to \\ \\vec{P}. \\ Then \\ the \\ magnitude \\ of \\ \\vec{R} \\ is.",
+      "options": [
+        {
+          "letter": "a",
+          "text": "\\frac{P+Q}{P-Q}"
+        },
+        {
+          "letter": "b",
+          "text": "\\frac{P^{2}-Q}{2PQ}"
+        },
+        {
+          "letter": "c",
+          "text": "Q"
+        },
+        {
+          "letter": "d",
+          "text": "M"
+        }
+      ]
+    },
+    {
+      "Index": 78,
+      "question": "Given: \\ \\vec{P}=\\vec{A}-\\vec{B} \\ and \\ \\vec{P}=\\vec{A}+\\vec{B}. \\ The \\ angle \\ between \\ \\vec{A} \\ and \\ \\vec{B} \\ is",
+      "options": [
+        {
+          "letter": "a",
+          "text": "0°"
+        },
+        {
+          "letter": "b",
+          "text": "90°"
+        },
+        {
+          "letter": "c",
+          "text": "180°"
+        },
+        {
+          "letter": "d",
+          "text": "270°"
+        }
+      ]
+    },
+    {
+      "Index": 79,
+      "question": "If \\ \\vec{A}=\\hat{i}+2\\hat{j}+2\\hat{k} \\ and \\ \\vec{B}=3\\hat{i}+6\\hat{j}+2\\hat{k}, \\ then \\ the \\ vector \\ in \\ the \\ direction \\ of \\ \\vec{A} \\ and \\ having \\ the \\ same \\ magnitude \\ as \\ |\\vec{B}| \\ is-",
+      "options": [
+        {
+          "letter": "a",
+          "text": "\\frac{7}{3}\\hat{i}+2\\hat{j}+2\\hat{k}"
+        },
+        {
+          "letter": "b",
+          "text": "7(\\hat{i}+2\\hat{j}+2\\hat{k})"
+        },
+        {
+          "letter": "c",
+          "text": "\\frac{3}{7}(\\hat{i}+2\\hat{j}+2\\hat{k})"
+        },
+        {
+          "letter": "d",
+          "text": "\\frac{7}{9}(\\hat{i}+2\\hat{j}+2\\hat{k})"
+        }
+      ]
+    },
+    {
+      "Index": 80,
+      "question": "Two \\ forces \\ of \\ magnitudes \\ F \\ and \\ \\sqrt{3}F \\ act \\ at \\ right \\ angles \\ to \\ each \\ other. \\ Their \\ resultant \\ makes \\ an \\ angle \\ \\beta \\ with \\ F. \\ The \\ value \\ of \\ \\beta \\ is-",
+      "options": [
+        {
+          "letter": "a",
+          "text": "30°"
+        },
+        {
+          "letter": "b",
+          "text": "45°"
+        },
+        {
+          "letter": "c",
+          "text": "60°"
+        },
+        {
+          "letter": "d",
+          "text": "135°"
+        }
+      ]
+    },
+    {
+      "Index": 81,
+      "question": "A \\ truck \\ travelling \\ due \\ north \\ at \\ 20 \\ m \\ s^{-1} \\ turns \\ west \\ and \\ travels \\ with \\ the \\ same \\ speed. \\ What \\ are \\ the \\ changes \\ in \\ velocity?",
+      "options": [
+        {
+          "letter": "a",
+          "text": "20\\sqrt{2} \\ m \\ s^{-1}; \\ south-west"
+        },
+        {
+          "letter": "b",
+          "text": "40 \\ m \\ s \\ south-west"
+        },
+        {
+          "letter": "c",
+          "text": "20\\sqrt{2} \\ m \\ s^{-1} \\ north-west"
+        },
+        {
+          "letter": "d",
+          "text": "40 \\ m \\ s \\ north-west"
+        }
+      ]
+    },
+    {
+      "Index": 82,
+      "question": "Let \\ \\vec{A}=\\frac{1}{\\sqrt{2}}\\cos \\ ~\\theta\\hat{i}+\\frac{1}{\\sqrt{2}}\\sin \\ ~\\theta\\hat{j} \\ be \\ any \\ vector. \\ What \\ will \\ be \\ the \\ unit \\ vector \\ in \\ the \\ direction \\ of \\ \\hat{n}\\vec{A}.",
+      "options": [
+        {
+          "letter": "a",
+          "text": "\\cos\\theta\\hat{i}+\\sin \\ ~\\theta\\hat{j}"
+        },
+        {
+          "letter": "b",
+          "text": "-\\cos \\ ~\\theta\\hat{i}-\\sin \\ ~\\theta\\hat{j}"
+        },
+        {
+          "letter": "c",
+          "text": "\\frac{1}{\\sqrt{2}}(\\cos \\ ~\\theta\\hat{i}+\\sin \\ ~\\theta\\hat{j})"
+        },
+        {
+          "letter": "d",
+          "text": "\\frac{1}{\\sqrt{2}}(\\cos \\ ~\\theta\\hat{i}-\\sin \\ ~\\theta\\hat{j})"
+        }
+      ]
+    },
+    {
+      "Index": 83,
+      "question": "The \\ area \\ of \\ the \\ triangle \\ whose \\ vertices \\ are \\ A(1,-1,2), \\ B(2,1,-1) \\ and \\ C(3,-1,2); \\ is \\ -",
+      "options": [
+        {
+          "letter": "a",
+          "text": "26"
+        },
+        {
+          "letter": "b",
+          "text": "7\\sqrt{13}"
+        },
+        {
+          "letter": "c",
+          "text": "\\sqrt{13}"
+        },
+        {
+          "letter": "d",
+          "text": "8"
+        }
+      ]
+    },
+    {
+      "Index": 84,
+      "question": "An \\ engine \\ exerts \\ a \\ force \\ \\vec{F}=(20\\hat{i}-3\\hat{j}+5\\hat{k})N \\ and \\ moves \\ with \\ velocity \\ \\vec{v}=(6\\hat{i}+20\\hat{j}-3\\hat{k}) \\ m/s. \\ The \\ power \\ of \\ the \\ engine \\ (in \\ watt) \\ is \\ -",
+      "options": [
+        {
+          "letter": "a",
+          "text": "45"
+        },
+        {
+          "letter": "b",
+          "text": "75"
+        },
+        {
+          "letter": "c",
+          "text": "20"
+        },
+        {
+          "letter": "d",
+          "text": "10"
+        }
+      ]
+    },
+    {
+      "Index": 85,
+      "question": "The \\ maximum \\ and \\ the \\ minimum \\ magnitudes \\ of \\ the \\ resultant \\ of \\ two \\ given \\ vectors \\ are \\ 17 \\ unit \\ and \\ 7 \\ unit \\ respectively. \\ If \\ these \\ two \\ vectors \\ are \\ at \\ right \\ angles \\ to \\ each \\ other, \\ the \\ magnitude \\ of \\ their \\ resultant \\ is \\ -",
+      "options": [
+        {
+          "letter": "a",
+          "text": "14"
+        },
+        {
+          "letter": "b",
+          "text": "16"
+        },
+        {
+          "letter": "c",
+          "text": "18"
+        },
+        {
+          "letter": "d",
+          "text": "13"
+        }
+      ]
+    },
+    {
+      "Index": 86,
+      "question": "A \\ vector \\ of \\ magnitude \\ a \\ is \\ rotated \\ through \\ an \\ angle \\ \\theta. \\ What \\ is \\ the \\ magnitude \\ of \\ the \\ change \\ in \\ the \\ vector?",
+      "options": [
+        {
+          "letter": "a",
+          "text": "2a\\sin\\frac{\\theta}{2}"
+        },
+        {
+          "letter": "b",
+          "text": "2a\\cos\\frac{\\theta}{2}"
+        },
+        {
+          "letter": "c",
+          "text": "2a\\sin\\theta"
+        },
+        {
+          "letter": "d",
+          "text": "2a\\cos\\theta"
+        }
+      ]
+    },
+    {
+      "Index": 87,
+      "question": "Resultant \\ of \\ two \\ vectors \\ \\vec{F}_{1} \\ and \\ \\vec{F}_{2} \\ is \\ of \\ magnitude \\ P. \\ If \\ \\vec{F}_{2} \\ is \\ reversed, \\ then \\ resultant \\ is \\ of \\ magnitude \\ Q. \\ What \\ is \\ the \\ value \\ of \\ P^{2}+Q^{2}?",
+      "options": [
+        {
+          "letter": "a",
+          "text": "F_{1}^{2}+F_{2}^{2}"
+        },
+        {
+          "letter": "b",
+          "text": "F_{1}^{2}-F_{2}^{2}"
+        },
+        {
+          "letter": "c",
+          "text": "2(F_{1}^{2}-F_{2}^{2})"
+        },
+        {
+          "letter": "d",
+          "text": "2(F_{1}^{2}+F_{2}^{2})"
+        }
+      ]
+    },
+    {
+      "Index": 88,
+      "question": "An \\ athlete \\ completes \\ one \\ round \\ of \\ a \\ circular \\ track \\ of \\ radius \\ R \\ in \\ 40 \\ seconds. \\ What \\ will \\ be \\ his \\ displacement \\ at \\ the \\ end \\ of \\ 2 \\ minutes \\ 20 \\ seconds?",
+      "options": [
+        {
+          "letter": "a",
+          "text": "Zero"
+        },
+        {
+          "letter": "b",
+          "text": "2R"
+        },
+        {
+          "letter": "c",
+          "text": "2\\pi \\ R"
+        },
+        {
+          "letter": "d",
+          "text": "7R"
+        }
+      ]
+    },
+    {
+      "Index": 89,
+      "question": "A \\ body \\ covered \\ a \\ distance \\ of \\ 5 \\ m \\ along \\ a \\ semicircular \\ path. \\ The \\ ratio \\ of \\ distance \\ to \\ displacement \\ is \\ -",
+      "options": [
+        {
+          "letter": "a",
+          "text": "11:7"
+        },
+        {
+          "letter": "b",
+          "text": "12:5"
+        },
+        {
+          "letter": "c",
+          "text": "8:3"
+        },
+        {
+          "letter": "d",
+          "text": "7:5"
+        }
+      ]
+    },
+    {
+      "Index": 90,
+      "question": "If \\ \\vec{r}=bt^{2}\\hat{i}+ct^{3}\\hat{j}. \\ where \\ b \\ and \\ c \\ are \\ positive \\ constants, \\ the \\ time \\ at \\ which \\ velocity \\ vector \\ makes \\ an \\ angle \\ \\theta=60° \\ with \\ positive \\ y-axis \\ is \\ -",
+      "options": [
+        {
+          "letter": "a",
+          "text": "\\frac{c}{b}"
+        },
+        {
+          "letter": "b",
+          "text": "\\frac{2b}{3\\sqrt{3}c}"
+        },
+        {
+          "letter": "c",
+          "text": "\\frac{2c}{\\sqrt{3}h}"
+        },
+        {
+          "letter": "d",
+          "text": "\\frac{2b}{\\sqrt{3}c}"
+        }
+      ]
+    },
+    {
+      "Index": 91,
+      "question": "Two \\ vectors \\ \\vec{A} \\ and \\ \\vec{B} \\ are \\ given \\ in \\ the \\ figure: \\ Then \\ \\vec{A}-\\vec{B} \\ is \\ given \\ by-",
+      "options": [
+        {
+          "letter": "a",
+          "text": "(a)"
+        },
+        {
+          "letter": "b",
+          "text": "(c)"
+        },
+        {
+          "letter": "c",
+          "text": "(d)"
+        },
+        {
+          "letter": "d",
+          "text": "None \\ of \\ these."
+        }
+      ]
+    },
+    {
+      "Index": 92,
+      "question": "Resultant \\ of \\ two \\ vectors \\ \\vec{A} \\ and \\ \\vec{B} \\ is \\ \\vec{R}. \\ Now \\ magnitude \\ of \\ vector \\ is \\ doubled \\ keeping \\ direction \\ same, \\ then \\ magnitude \\ of \\ the \\ resultant \\ becomes \\ |\\vec{B}|. \\ Angle \\ between \\ vector \\ \\vec{A} \\ and \\ \\vec{B} \\ is \\ 120^{\\circ}. \\ Then \\ magnitude \\ of \\ \\vec{A} \\ is \\ equal \\ to \\ -",
+      "options": [
+        {
+          "letter": "a",
+          "text": "(a)|\\vec{B}|"
+        },
+        {
+          "letter": "b",
+          "text": "(b)2|\\vec{B}|"
+        },
+        {
+          "letter": "c",
+          "text": "(c)\\frac{|\\vec{B}|}{2}"
+        },
+        {
+          "letter": "d",
+          "text": "(d)4|\\vec{B}|"
+        }
+      ]
+    },
+    {
+      "Index": 93,
+      "question": "In \\ the \\ above \\ question \\ if \\ width \\ of \\ the \\ river \\ is \\ 500 \\ m, \\ then \\ length \\ of \\ shortest \\ path \\ is \\ -",
+      "options": [
+        {
+          "letter": "a",
+          "text": "(a)500 \\ m"
+        },
+        {
+          "letter": "b",
+          "text": "(b)1000 \\ m"
+        },
+        {
+          "letter": "c",
+          "text": "(c)1500 \\ m"
+        },
+        {
+          "letter": "d",
+          "text": "(d)1250 \\ m"
+        }
+      ]
+    },
+    {
+      "Index": 94,
+      "question": "Vector \\ \\vec{R} \\ is \\ the \\ resultant \\ of \\ the \\ vectors \\ \\vec{A} \\ and \\ \\vec{B}. \\ Ratio \\ of \\ minimum \\ value \\ of \\ |\\vec{R}| \\ and \\ maximum \\ value \\ of \\ |\\vec{R}| \\ is \\ \\frac{1}{4} \\ \\frac{|\\vec{A}|}{|\\vec{B}|} \\ maybe-",
+      "options": [
+        {
+          "letter": "a",
+          "text": "(a)\\frac{4}{1}"
+        },
+        {
+          "letter": "b",
+          "text": "(b)\\frac{2}{1}"
+        },
+        {
+          "letter": "c",
+          "text": "(c)\\frac{3}{5}"
+        },
+        {
+          "letter": "d",
+          "text": "(d)\\frac{1}{4}"
+        }
+      ]
+    },
+    {
+      "Index": 95,
+      "question": "There \\ are \\ two \\ vectors \\ \\vec{A}=\\hat{i}+\\hat{j}+\\hat{k} \\ and \\ \\vec{B}=\\hat{i}-\\hat{j}+\\hat{k}, \\ then \\ component \\ of \\ \\vec{A} \\ along \\ \\vec{B}-",
+      "options": [
+        {
+          "letter": "a",
+          "text": "(a)\\frac{1}{\\sqrt{3}}(\\hat{i}-\\hat{j}+\\hat{k})"
+        },
+        {
+          "letter": "b",
+          "text": "(b)\\frac{1}{\\sqrt{3}}(\\hat{i}+\\hat{j}+\\hat{k})"
+        },
+        {
+          "letter": "c",
+          "text": "(c)\\sqrt{3}(\\hat{i}+\\hat{j}+\\hat{k})"
+        },
+        {
+          "letter": "d",
+          "text": "(d)(\\hat{i}-\\hat{j}+\\hat{k})"
+        }
+      ]
+    },
+    {
+      "Index": 96,
+      "question": "A \\ physical \\ quantity \\ which \\ has \\ a \\ direction-",
+      "options": [
+        {
+          "letter": "a",
+          "text": "(a) \\ Must \\ be \\ a \\ vector"
+        },
+        {
+          "letter": "b",
+          "text": "(b) \\ May \\ be \\ a \\ vector"
+        },
+        {
+          "letter": "c",
+          "text": "(c) \\ Must \\ be \\ a \\ scalar"
+        },
+        {
+          "letter": "d",
+          "text": "(d) \\ None \\ of \\ the \\ above"
+        }
+      ]
+    },
+    {
+      "Index": 97,
+      "question": "The \\ angle \\ between \\ two \\ vectors \\ (2\\hat{i}+3\\hat{j}+\\hat{k}) \\ and \\ (-3\\hat{i}+6\\hat{k}) \\ is-",
+      "options": [
+        {
+          "letter": "a",
+          "text": "0^{\\circ}"
+        },
+        {
+          "letter": "b",
+          "text": "45^{0}"
+        },
+        {
+          "letter": "c",
+          "text": "60^{\\circ}"
+        },
+        {
+          "letter": "d",
+          "text": "90^{\\circ}"
+        }
+      ]
+    },
+    {
+      "Index": 98,
+      "question": "If \\ vector \\ \\vec{p}, \\ \\vec{o} \\ and \\ \\vec{R} \\ have \\ magnitudes \\ 5, \\ 12 \\ and \\ 13 \\ units \\ and \\ \\vec{P}+\\vec{O}=\\vec{R} \\ the \\ angle \\ between \\ \\vec{O} \\ and \\ \\vec{R} \\ is.",
+      "options": [
+        {
+          "letter": "a",
+          "text": "\\cos^{-1}(5/12)"
+        },
+        {
+          "letter": "b",
+          "text": "\\cos^{-1}(5/13)"
+        },
+        {
+          "letter": "c",
+          "text": "\\cos^{-1}(12/13)"
+        },
+        {
+          "letter": "d",
+          "text": "\\cos^{-1}(2/13)"
+        }
+      ]
+    },
+    {
+      "Index": 99,
+      "question": "If \\ a \\ vector \\ (2\\hat{i}+3\\hat{j}+8\\hat{k}) \\ is \\ perpendicular \\ to \\ the \\ vector \\ -4\\hat{i}+4\\hat{j}+a\\hat{k}, \\ then \\ the \\ value \\ of \\ a \\ is-",
+      "options": [
+        {
+          "letter": "a",
+          "text": "-1"
+        },
+        {
+          "letter": "b",
+          "text": "\\frac{1}{2}"
+        },
+        {
+          "letter": "c",
+          "text": "\\frac{-1}{2}"
+        },
+        {
+          "letter": "d",
+          "text": "1"
+        }
+      ]
+    },
+    {
+      "Index": 100,
+      "question": "The \\ unit \\ vector \\ parallel \\ to \\ the \\ resultant \\ of \\ the \\ vectors \\ \\vec{A}=4\\hat{i}+3\\hat{j}+6\\hat{k} \\ and \\ \\vec{B}=-\\hat{i}+3\\vec{j}-8\\hat{k} \\ is-",
+      "options": [
+        {
+          "letter": "a",
+          "text": "\\frac{1}{7}(3\\hat{i}+6\\hat{j}-2\\hat{k})"
+        },
+        {
+          "letter": "b",
+          "text": "\\frac{1}{7}(3\\tilde{i}+6\\hat{j}+2\\tilde{k})"
+        },
+        {
+          "letter": "c",
+          "text": "\\frac{1}{49}(3\\tilde{i}+6\\tilde{j}+2\\tilde{k})"
+        },
+        {
+          "letter": "d",
+          "text": "\\frac{1}{49}(3\\hat{i}+6\\hat{j}-2\\hat{k})"
+        }
+      ]
+    },
+    {
+      "Index": 101,
+      "question": "Following \\ sets \\ of \\ three \\ forces \\ act \\ on \\ a \\ body. \\ Whose \\ resultant \\ can \\ not \\ be \\ zero?",
+      "options": [
+        {
+          "letter": "a",
+          "text": "10, \\ 10, \\ 10"
+        },
+        {
+          "letter": "b",
+          "text": "10,10,20"
+        },
+        {
+          "letter": "c",
+          "text": "10,20,20"
+        },
+        {
+          "letter": "d",
+          "text": "10, \\ 20, \\ 40"
+        }
+      ]
+    },
+    {
+      "Index": 102,
+      "question": "The \\ component \\ of \\ \\frac{3\\hat{i}+4\\hat{j}}{\\hat{i}+\\hat{j}} \\ along \\ \\hat{i}+\\hat{j} \\ is-",
+      "options": [
+        {
+          "letter": "a",
+          "text": "\\frac{\\hat{i}+\\hat{j}}{2}"
+        },
+        {
+          "letter": "b",
+          "text": "\\frac{3}{2}(\\hat{i}+\\hat{j})"
+        },
+        {
+          "letter": "c",
+          "text": "\\frac{5}{2}(\\hat{i}+\\hat{j})"
+        },
+        {
+          "letter": "d",
+          "text": "\\frac{7}{2}(\\hat{i}+\\hat{j})"
+        }
+      ]
+    },
+    {
+      "Index": 103,
+      "question": "A \\ vector \\ of \\ length \\ is \\ turned \\ through \\ the \\ angle \\ about \\ its \\ tail. \\ The \\ change \\ in \\ the \\ position \\ vector \\ of \\ its \\ head \\ is-",
+      "options": [
+        {
+          "letter": "a",
+          "text": "l\\cos(\\theta/2)"
+        },
+        {
+          "letter": "b",
+          "text": "2/\\sin(\\theta/2)"
+        },
+        {
+          "letter": "c",
+          "text": "2\\cos(\\theta/2)"
+        },
+        {
+          "letter": "d",
+          "text": "\\sin(\\theta/2)"
+        }
+      ]
+    },
+    {
+      "Index": 104,
+      "question": "Figure \\ shows \\ three \\ vectors \\ a, \\ b \\ and \\ c, \\ where \\ R \\ is \\ the \\ mid \\ point \\ of \\ PQ. \\ Then \\ which \\ of \\ the \\ following \\ relation \\ is \\ correct?",
+      "options": [
+        {
+          "letter": "a",
+          "text": "\\vec{a}+\\vec{b}=2\\vec{c}"
+        },
+        {
+          "letter": "b",
+          "text": "a+\\vec{b}=c"
+        },
+        {
+          "letter": "c",
+          "text": "\\vec{a}-\\vec{b}=2\\vec{c}"
+        },
+        {
+          "letter": "d",
+          "text": "a-b=c"
+        }
+      ]
+    },
+    {
+      "Index": 105,
+      "question": "Find \\ out \\ the \\ unit \\ vector \\ perpendicular \\ to \\ both \\ vectors \\ i-j+k \\ and \\ \\hat{i}+\\hat{j}+\\hat{k}.",
+      "options": [
+        {
+          "letter": "a",
+          "text": "\\tilde{i}+\\tilde{j}"
+        },
+        {
+          "letter": "b",
+          "text": "\\frac{-\\hat{i}+\\hat{k}}{\\sqrt{2}}"
+        },
+        {
+          "letter": "c",
+          "text": "\\hat{j}+\\hat{k}"
+        },
+        {
+          "letter": "d",
+          "text": "\\frac{i+j}{\\sqrt{2}}"
+        }
+      ]
+    },
+    {
+      "Index": 106,
+      "question": "For \\ two \\ vectors \\ a \\ and \\ \\vec{b}, \\ if \\ \\vec{R}=a+b \\ and \\ \\vec{S}=\\vec{a}-\\vec{b}, \\ If \\ 2|\\vec{R}|=|\\vec{S}| \\ when \\ \\vec{R} \\ is \\ perpendicular \\ to \\ \\vec{a}, \\ then-",
+      "options": [
+        {
+          "letter": "a",
+          "text": "\\frac{a}{b}=\\sqrt{\\frac{3}{7}}"
+        },
+        {
+          "letter": "b",
+          "text": "\\frac{a}{b}=\\sqrt{\\frac{7}{3}}"
+        },
+        {
+          "letter": "c",
+          "text": "\\frac{a}{b}=\\sqrt{\\frac{1}{5}}"
+        },
+        {
+          "letter": "d",
+          "text": "sin\\frac{a}{b}=\\sqrt{\\frac{5}{1}}"
+        }
+      ]
+    },
+    {
+      "Index": 107,
+      "question": "Two \\ forces \\ are \\ such \\ that \\ the \\ sum \\ of \\ their \\ magnitudes \\ is \\ 18 \\ N \\ and \\ the \\ magnitude \\ of \\ their \\ resultant \\ is \\ 12 \\ N. \\ If \\ the \\ resultant \\ is \\ perpendicular \\ to \\ the \\ smaller \\ forces, \\ then \\ the \\ magnitudes \\ of \\ the \\ forces \\ are-",
+      "options": [
+        {
+          "letter": "a",
+          "text": "12 \\ N, \\ 6 \\ N"
+        },
+        {
+          "letter": "b",
+          "text": "13 \\ N, \\ 5 \\ N"
+        },
+        {
+          "letter": "c",
+          "text": "10 \\ N, \\ 8 \\ N"
+        },
+        {
+          "letter": "d",
+          "text": "16 \\ N, \\ 2 \\ N"
+        }
+      ]
+    },
+    {
+      "Index": 108,
+      "question": "Three \\ forces \\ start \\ acting \\ simultaneously \\ on \\ a \\ particle \\ moving \\ with \\ velocity \\ v. \\ These \\ forces \\ are \\ represented \\ in \\ magnitude \\ and \\ direction \\ by \\ the \\ three \\ sides \\ of \\ a \\ triangle \\ ABC \\ (as \\ shown). \\ The \\ particle \\ will \\ now \\ move \\ with \\ velocity-",
+      "options": [
+        {
+          "letter": "a",
+          "text": "v, \\ remaining \\ unchanged"
+        },
+        {
+          "letter": "b",
+          "text": "Less \\ than \\ v"
+        },
+        {
+          "letter": "c",
+          "text": "Greater \\ than \\ v"
+        },
+        {
+          "letter": "d",
+          "text": "|v| \\ in \\ the \\ direction \\ of \\ the \\ largest \\ force \\ BC."
+        }
+      ]
+    },
+    {
+      "Index": 109,
+      "question": "A \\ particle \\ is \\ moving \\ eastwards \\ with \\ a \\ velocity \\ of \\ 5~ms^{-1}. \\ In \\ 10 \\ seconds \\ the \\ velocity \\ changes \\ to \\ 5~ms \\ northwards. \\ The \\ average \\ acceleration \\ in \\ this \\ time \\ is",
+      "options": [
+        {
+          "letter": "a",
+          "text": "\\frac{1}{\\sqrt{2}}~ms^{-2}\\text{ \\ towards \\ north-west}"
+        },
+        {
+          "letter": "b",
+          "text": "Zero"
+        },
+        {
+          "letter": "c",
+          "text": "\\frac{1}{2}~ms^{-2}\\text{ \\ towards \\ north}"
+        },
+        {
+          "letter": "d",
+          "text": "\\frac{1}{\\sqrt{2}}~ms^{-2}\\text{ \\ towards \\ north-east}"
+        }
+      ]
+    },
+    {
+      "Index": 110,
+      "question": "What \\ is \\ the \\ numerical \\ value \\ of \\ the \\ vector \\ 3\\hat{i}+4\\hat{j}+5\\hat{k}?",
+      "options": [
+        {
+          "letter": "a",
+          "text": "3\\sqrt{2}"
+        },
+        {
+          "letter": "b",
+          "text": "5\\sqrt{2}"
+        },
+        {
+          "letter": "c",
+          "text": "7\\sqrt{2}"
+        },
+        {
+          "letter": "d",
+          "text": "9\\sqrt{2}"
+        }
+      ]
+    },
+    {
+      "Index": 111,
+      "question": "Two \\ forces, \\ each \\ equal \\ to \\ P, \\ act \\ at \\ right \\ angles. \\ Their \\ effect \\ may \\ be \\ neutralized \\ by \\ a \\ third \\ force \\ acting \\ along \\ their \\ bisector \\ in \\ the \\ opposite \\ direction \\ with \\ a \\ magnitude \\ of",
+      "options": [
+        {
+          "letter": "a",
+          "text": "P"
+        },
+        {
+          "letter": "b",
+          "text": "\\frac{P}{2}"
+        },
+        {
+          "letter": "c",
+          "text": "\\frac{P}{\\sqrt{2}}"
+        },
+        {
+          "letter": "d",
+          "text": "\\sqrt{2}P"
+        }
+      ]
+    },
+    {
+      "Index": 112,
+      "question": "Given: \\ \\vec{R}=\\overline{A}+\\hat{B} \\ and \\ R=A=B. \\ The \\ angle \\ between \\ \\vec{A} \\ and \\ \\hat{B} \\ is-",
+      "options": [
+        {
+          "letter": "a",
+          "text": "60^{\\circ}"
+        },
+        {
+          "letter": "b",
+          "text": "90^{\\circ}"
+        },
+        {
+          "letter": "c",
+          "text": "120^{\\circ}"
+        },
+        {
+          "letter": "d",
+          "text": "180^{\\circ}"
+        }
+      ]
+    },
+    {
+      "Index": 113,
+      "question": "A \\ vector \\ \\tilde{P}_{1} \\ is \\ along \\ the \\ positive \\ x-axis. \\ If \\ its \\ vector \\ product \\ with \\ another \\ vector \\ \\vec{P}_{2} \\ is \\ zero, \\ then \\ \\tilde{P}_{2} \\ could \\ be-",
+      "options": [
+        {
+          "letter": "a",
+          "text": "4\\hat{j}"
+        },
+        {
+          "letter": "b",
+          "text": "-4\\hat{i}"
+        },
+        {
+          "letter": "c",
+          "text": "(\\hat{j}+\\hat{k})"
+        },
+        {
+          "letter": "d",
+          "text": "-(\\hat{i}+\\hat{j})"
+        }
+      ]
+    },
+    {
+      "Index": 114,
+      "question": "Given: \\ \\vec{C}=\\vec{A}+\\vec{B}. \\ Also, \\ the \\ magnitudes \\ of \\ \\vec{A},\\vec{B} \\ and \\ \\vec{C} \\ are \\ 12, \\ 5 \\ and \\ 13 \\ units \\ respectively. \\ The \\ angle \\ between \\ \\vec{A} \\ and \\ \\vec{B} \\ is-",
+      "options": [
+        {
+          "letter": "a",
+          "text": "0^{\\circ}"
+        },
+        {
+          "letter": "b",
+          "text": "\\frac{\\pi}{4}"
+        },
+        {
+          "letter": "c",
+          "text": "\\frac{\\pi}{2}"
+        },
+        {
+          "letter": "d",
+          "text": "180^{\\circ}"
+        }
+      ]
+    },
+    {
+      "Index": 115,
+      "question": "If \\ \\overline{A} \\ is \\ parallel \\ to \\ \\vec{B}, \\ then",
+      "options": [
+        {
+          "letter": "a",
+          "text": "\\overline{A}.(\\vec{A}+\\vec{B})=A^{2}+AB"
+        },
+        {
+          "letter": "b",
+          "text": "\\overline{A}\\times(\\overline{A}+\\overline{B})=AB"
+        },
+        {
+          "letter": "c",
+          "text": "\\overline{A}.\\overline{B}=0"
+        },
+        {
+          "letter": "d",
+          "text": "\\overline{A}\\times(\\overline{A}\\times\\overline{B})=9"
+        }
+      ]
+    },
+    {
+      "Index": 116,
+      "question": "Given \\ \\vec{A}=2\\hat{i}+3\\hat{j}. \\ The \\ angle \\ between \\ \\vec{A} \\ and \\ the \\ y-axis \\ is-",
+      "options": [
+        {
+          "letter": "a",
+          "text": "sin^{-1}\\frac{2}{3}"
+        },
+        {
+          "letter": "b",
+          "text": "cos^{-1}\\frac{2}{3}"
+        },
+        {
+          "letter": "c",
+          "text": "tan^{-1}\\frac{2}{3}"
+        },
+        {
+          "letter": "d",
+          "text": "tan^{-1}\\frac{3}{2}"
+        }
+      ]
+    },
+    {
+      "Index": 117,
+      "question": "A \\ force \\ vector \\ applied \\ on \\ a \\ mass \\ is \\ represented \\ as \\ \\(\\vec{F}=6\\hat{i}-8\\hat{j}+10\\hat{k}\\) \\ N \\ and \\ accelerates \\ the \\ mass \\ at \\ 1 \\ m \\ (s^{-2}). \\ The \\ mass \\ of \\ the \\ body \\ is-",
+      "options": [
+        {
+          "letter": "a",
+          "text": "10 \\ kg"
+        },
+        {
+          "letter": "b",
+          "text": "20 \\ kg"
+        },
+        {
+          "letter": "c",
+          "text": "2\\sqrt{10} \\ kg"
+        },
+        {
+          "letter": "d",
+          "text": "10\\sqrt{2} \\ kg"
+        }
+      ]
+    },
+    {
+      "Index": 118,
+      "question": "A \\ force \\ of \\ \\(4\\hat{i}+5\\hat{j}\\) \\ Newton \\ displaces \\ a \\ body \\ through \\ \\(3\\hat{i}+6\\hat{k}\\) \\ metre. \\ The \\ work \\ done \\ is-",
+      "options": [
+        {
+          "letter": "a",
+          "text": "12 \\ J"
+        },
+        {
+          "letter": "b",
+          "text": "30 \\ J"
+        },
+        {
+          "letter": "c",
+          "text": "42 \\ J"
+        },
+        {
+          "letter": "d",
+          "text": "0 \\ J"
+        }
+      ]
+    },
+    {
+      "Index": 119,
+      "question": "Two \\ forces, \\ each \\ numerically \\ equal \\ to \\ 5 \\ N, \\ are \\ acting \\ as \\ shown \\ in \\ the \\ Fig. \\ Then \\ the \\ resultant \\ is-",
+      "options": [
+        {
+          "letter": "a",
+          "text": "2.5 \\ N"
+        },
+        {
+          "letter": "b",
+          "text": "5 \\ N"
+        },
+        {
+          "letter": "c",
+          "text": "5\\sqrt{3} \\ N"
+        },
+        {
+          "letter": "d",
+          "text": "10 \\ N"
+        }
+      ]
+    },
+    {
+      "Index": 120,
+      "question": "The \\ adjacent \\ sides \\ of \\ a \\ parallelogram \\ are \\ represented \\ by \\ co-initial \\ vectors \\ \\(2\\hat{i}+3\\hat{j}\\) \\ and \\ \\(\\hat{i}+4\\hat{j}\\). \\ The \\ area \\ of \\ the \\ parallelogram \\ is-",
+      "options": [
+        {
+          "letter": "a",
+          "text": "5 \\ units \\ along \\ z-axis"
+        },
+        {
+          "letter": "b",
+          "text": "5 \\ units \\ in \\ x-y \\ plane"
+        },
+        {
+          "letter": "c",
+          "text": "3 \\ units \\ in \\ x-z \\ plane"
+        },
+        {
+          "letter": "d",
+          "text": "3 \\ units \\ in \\ y-z \\ plane"
+        }
+      ]
+    },
+    {
+      "Index": 121,
+      "question": "A \\ vector \\ \\(\\overline{A}\\) \\ of \\ magnitude \\ \\(5\\sqrt{3}\\) \\ units, \\ another \\ vector \\ \\(\\overline{B}\\) \\ of \\ magnitude \\ 10 \\ units \\ are \\ inclined \\ to \\ each \\ other \\ at \\ an \\ angle \\ of \\ \\(30^{\\circ}\\). \\ The \\ magnitude \\ of \\ the \\ vector \\ product \\ of \\ the \\ two \\ vectors \\ is \\ -",
+      "options": [
+        {
+          "letter": "a",
+          "text": "1 \\ unit"
+        },
+        {
+          "letter": "b",
+          "text": "5\\sqrt{3} \\ units"
+        },
+        {
+          "letter": "c",
+          "text": "75 \\ units"
+        },
+        {
+          "letter": "d",
+          "text": "25\\sqrt{3} \\ units"
+        }
+      ]
+    },
+    {
+      "Index": 122,
+      "question": "The \\ maximum \\ and \\ minimum \\ resultants \\ of \\ two \\ forces \\ are \\ in \\ the \\ ratio \\ 7: \\ 3. \\ The \\ ratio \\ of \\ the \\ forces \\ is-",
+      "options": [
+        {
+          "letter": "a",
+          "text": "4:1"
+        },
+        {
+          "letter": "b",
+          "text": "5:2"
+        },
+        {
+          "letter": "c",
+          "text": "\\sqrt{7}:\\sqrt{3}"
+        },
+        {
+          "letter": "d",
+          "text": "49:9"
+        }
+      ]
+    },
+    {
+      "Index": 123,
+      "question": "The \\ vector \\ which \\ must \\ be \\ added \\ to \\ the \\ sum \\ of \\ the \\ two \\ vectors \\ \\(s\\hat{i}+2\\hat{j}-\\hat{k}\\) \\ and \\ \\(\\hat{i}-2\\hat{j}+2\\hat{k}\\) \\ to \\ get \\ a \\ resultant \\ of \\ unit \\ vector \\ along \\ z-axis \\ is-",
+      "options": [
+        {
+          "letter": "a",
+          "text": "2\\hat{i}+\\hat{j}"
+        },
+        {
+          "letter": "b",
+          "text": "-2\\hat{i}"
+        },
+        {
+          "letter": "c",
+          "text": "\\hat{i}+\\hat{j}+\\hat{k}"
+        },
+        {
+          "letter": "d",
+          "text": "\\hat{i}-\\hat{j}-\\hat{k}"
+        }
+      ]
+    },
+    {
+      "Index": 124,
+      "question": "For \\ the \\ vectors \\ \\vec{a}=\\sqrt{3}i+i \\ and \\ |\\vec{b}|=10 \\ units \\ while \\ \\theta=23^{\\circ} \\ then \\ the \\ value \\ of \\ R=\\sqrt{a^{2}}+b^{2}+2ab~cos~\\theta \\ is \\ nearly-",
+      "options": [
+        {
+          "letter": "a",
+          "text": "12"
+        },
+        {
+          "letter": "b",
+          "text": "13"
+        },
+        {
+          "letter": "c",
+          "text": "14"
+        },
+        {
+          "letter": "d",
+          "text": "15"
+        }
+      ]
+    },
+    {
+      "Index": 125,
+      "question": "Two \\ vectors \\ \\overline{A} \\ and \\ B \\ are \\ such \\ that \\ \\vec{A}+\\vec{B}=\\vec{C} \\ and \\ A^{2}+B^{2}=C^{2}. \\ Which \\ of \\ the \\ following \\ is \\ correct?",
+      "options": [
+        {
+          "letter": "a",
+          "text": "A \\ is \\ parallel \\ to \\ B"
+        },
+        {
+          "letter": "b",
+          "text": "A \\ is \\ anti-parallel \\ to \\ B"
+        },
+        {
+          "letter": "c",
+          "text": "A \\ is \\ perpendicular \\ to \\ B"
+        },
+        {
+          "letter": "d",
+          "text": "A \\ and \\ B \\ are \\ equal \\ in \\ magnitude"
+        }
+      ]
+    },
+    {
+      "Index": 126,
+      "question": "Given: \\ \\vec{A}=2\\hat{j}+3\\hat{i} \\ and \\ \\vec{B}=S\\hat{i}-6\\hat{j}. \\ The \\ magnitude \\ of \\ \\vec{A}+\\vec{B} \\ is",
+      "options": [
+        {
+          "letter": "a",
+          "text": "4 \\ units"
+        },
+        {
+          "letter": "b",
+          "text": "10 \\ units"
+        },
+        {
+          "letter": "c",
+          "text": "\\sqrt{58} \\ units"
+        },
+        {
+          "letter": "d",
+          "text": "\\sqrt{61} \\ units"
+        }
+      ]
+    },
+    {
+      "Index": 127,
+      "question": "Given: \\ \\vec{R}=\\vec{A}+\\vec{B} \\ and \\ R=A=B. \\ The \\ angle \\ between \\ \\overline{A} \\ and \\ \\vec{B} \\ is",
+      "options": [
+        {
+          "letter": "a",
+          "text": "60^{\\circ}"
+        },
+        {
+          "letter": "b",
+          "text": "90^{\\circ}"
+        },
+        {
+          "letter": "c",
+          "text": "120^{\\circ}"
+        },
+        {
+          "letter": "d",
+          "text": "180^{\\circ}"
+        }
+      ]
+    },
+    {
+      "Index": 128,
+      "question": "If \\ the \\ angle \\ between \\ \\overline{A} \\ and \\ \\vec{B} \\ is \\ 270^{\\circ}, \\ then \\ \\tilde{A}.\\tilde{B} \\ is-",
+      "options": [
+        {
+          "letter": "a",
+          "text": "0"
+        },
+        {
+          "letter": "b",
+          "text": "1"
+        },
+        {
+          "letter": "c",
+          "text": "-1"
+        },
+        {
+          "letter": "d",
+          "text": "\\frac{1}{3}"
+        }
+      ]
+    },
+    {
+      "Index": 129,
+      "question": "Given \\ \\vec{C}=\\vec{A}+\\vec{B}. \\ Also, \\ the \\ magnitudes \\ of \\ \\vec{A},\\vec{B} \\ and \\ \\vec{C} \\ are \\ 12, \\ 5 \\ and \\ 13 \\ units \\ respectively. \\ The \\ angle \\ between \\ \\tilde{A} \\ and \\ \\tilde{B} \\ is-",
+      "options": [
+        {
+          "letter": "a",
+          "text": "0^{\\circ}"
+        },
+        {
+          "letter": "b",
+          "text": "\\frac{\\pi}{4}"
+        },
+        {
+          "letter": "c",
+          "text": "\\frac{\\pi}{2}"
+        },
+        {
+          "letter": "d",
+          "text": "\\pi"
+        }
+      ]
+    },
+    {
+      "Index": 130,
+      "question": "Given: \\ \\vec{A}=2\\hat{i}+3\\hat{j}. \\ The \\ angle \\ between \\ \\overline{A} \\ and \\ the \\ y-axis \\ is-",
+      "options": [
+        {
+          "letter": "a",
+          "text": "sin^{-1}\\frac{2}{3}"
+        },
+        {
+          "letter": "b",
+          "text": "cos^{-1}\\frac{2}{3}"
+        },
+        {
+          "letter": "c",
+          "text": "tan^{-1}\\frac{2}{3}"
+        },
+        {
+          "letter": "d",
+          "text": "tan^{-1}\\frac{3}{2}"
+        }
+      ]
+    },
+    {
+      "Index": 131,
+      "question": "Two \\ forces, \\ each \\ numerically \\ equal \\ to \\ 5 \\ N, \\ are \\ acting \\ as \\ shown \\ in \\ the \\ figure. \\ Then \\ the \\ resultant \\ is- \\ 5 \\ N \\ 60° \\ 5 \\ N",
+      "options": [
+        {
+          "letter": "a",
+          "text": "2.5 \\ N"
+        },
+        {
+          "letter": "b",
+          "text": "5 \\ N"
+        },
+        {
+          "letter": "c",
+          "text": "5\\sqrt{3} \\ N"
+        },
+        {
+          "letter": "d",
+          "text": "10 \\ N"
+        }
+      ]
+    },
+    {
+      "Index": 132,
+      "question": "The \\ vector \\ \\hat{s}+2\\hat{j}-l\\hat{k} \\ is \\ perpendicular \\ to \\ the \\ vector \\ 3\\hat{i}+\\hat{j}+2\\hat{k} \\ for \\ l \\ =",
+      "options": [
+        {
+          "letter": "a",
+          "text": "1"
+        },
+        {
+          "letter": "b",
+          "text": "4.7"
+        },
+        {
+          "letter": "c",
+          "text": "6.3"
+        },
+        {
+          "letter": "d",
+          "text": "8.5"
+        }
+      ]
+    },
+    {
+      "Index": 133,
+      "question": "Angle \\ between \\ two \\ vectors \\ (\\hat{i}+\\hat{j}) \\ and \\ (\\hat{j}-\\hat{j}) \\ is.",
+      "options": [
+        {
+          "letter": "a",
+          "text": "30^{\\circ}"
+        },
+        {
+          "letter": "b",
+          "text": "60^{\\circ}"
+        },
+        {
+          "letter": "c",
+          "text": "45^{\\circ}"
+        },
+        {
+          "letter": "d",
+          "text": "90^{\\circ}"
+        }
+      ]
+    },
+    {
+      "Index": 134,
+      "question": "Given: \\ 0.3\\hat{i}+0.4\\hat{j}+n\\hat{k} \\ is \\ a \\ unit \\ vector. \\ The \\ value \\ of \\ n \\ is-",
+      "options": [
+        {
+          "letter": "a",
+          "text": "\\sqrt{0.25}"
+        },
+        {
+          "letter": "b",
+          "text": "\\sqrt{0.50}"
+        },
+        {
+          "letter": "c",
+          "text": "\\sqrt{0.75}"
+        },
+        {
+          "letter": "d",
+          "text": "\\sqrt{0.80}"
+        }
+      ]
+    },
+    {
+      "Index": 135,
+      "question": "A \\ particle \\ is \\ moving \\ on \\ a \\ circular \\ path \\ with \\ constant \\ speed \\ v. \\ What \\ is \\ the \\ change \\ in \\ its \\ velocity \\ after \\ it \\ has \\ described \\ an \\ angle \\ of \\ 60°?",
+      "options": [
+        {
+          "letter": "a",
+          "text": "v\\sqrt{2}"
+        },
+        {
+          "letter": "b",
+          "text": "v\\sqrt{3}"
+        },
+        {
+          "letter": "c",
+          "text": "V"
+        },
+        {
+          "letter": "d",
+          "text": "2v"
+        }
+      ]
+    },
+    {
+      "Index": 136,
+      "question": "The \\ resultant \\ of \\ two \\ forces \\ has \\ magnitude \\ 20 \\ N. \\ One \\ of \\ the \\ forces \\ is \\ of \\ magnitude \\ 20\\sqrt{3} \\ N \\ and \\ makes \\ an \\ angle \\ of \\ 30° \\ with \\ the \\ resultant. \\ Then, \\ the \\ other \\ force \\ must \\ be \\ of \\ magnitude \\ -",
+      "options": [
+        {
+          "letter": "a",
+          "text": "10 \\ N"
+        },
+        {
+          "letter": "b",
+          "text": "10\\sqrt{3} \\ N"
+        },
+        {
+          "letter": "c",
+          "text": "20 \\ N"
+        },
+        {
+          "letter": "d",
+          "text": "20\\sqrt{3} \\ N"
+        }
+      ]
+    },
+    {
+      "Index": 137,
+      "question": "The \\ resultant \\ of \\ the \\ three \\ vectors \\ \\vec{OA}, \\ \\vec{OB}, \\ and \\ \\vec{OC} \\ shown \\ in \\ the \\ figure \\ is-",
+      "options": [
+        {
+          "letter": "a",
+          "text": "R"
+        },
+        {
+          "letter": "b",
+          "text": "2r"
+        },
+        {
+          "letter": "c",
+          "text": "r(1+\\sqrt{2})"
+        },
+        {
+          "letter": "d",
+          "text": "r(\\sqrt{2}-1)"
+        }
+      ]
+    },
+    {
+      "Index": 138,
+      "question": "Vector \\ in \\ figure \\ represents \\ -",
+      "options": [
+        {
+          "letter": "a",
+          "text": "\\vec{a}+\\vec{b}"
+        },
+        {
+          "letter": "b",
+          "text": "\\overline{a}-\\overline{b}"
+        },
+        {
+          "letter": "c",
+          "text": "b-a"
+        },
+        {
+          "letter": "d",
+          "text": "-\\vec{a}-\\vec{b}"
+        }
+      ]
+    },
+    {
+      "Index": 139,
+      "question": "Aman \\ is \\ swimming \\ directly \\ across \\ a \\ river. \\ River \\ velocity \\ is \\ maximum \\ in \\ middle \\ and \\ decreases \\ as \\ one \\ moves \\ to \\ the \\ bank. \\ The \\ path \\ of \\ man \\ as \\ seen \\ by \\ observer \\ on \\ ground \\ will \\ be-",
+      "options": [
+        {
+          "letter": "a",
+          "text": "(a)"
+        },
+        {
+          "letter": "b",
+          "text": "(b)"
+        },
+        {
+          "letter": "c",
+          "text": "(c)"
+        },
+        {
+          "letter": "d",
+          "text": "(d)"
+        }
+      ]
+    },
+    {
+      "Index": 140,
+      "question": "A \\ boat \\ moving \\ upstream \\ with \\ velocity \\ 3 \\ m/s \\ w.r.t. \\ ground. \\ An \\ observer \\ standing \\ on \\ boat \\ observes \\ that \\ swimmer \\ S' \\ is \\ crossing \\ the \\ river \\ perpendicular \\ to \\ the \\ direction \\ of \\ motion \\ of \\ boat. \\ If \\ river \\ velocity \\ is \\ 4 \\ m/s \\ & \\ swimmer \\ crosses \\ the \\ river \\ width \\ 100 \\ m \\ in \\ 50 \\ sec \\ then \\ -",
+      "options": [
+        {
+          "letter": "a",
+          "text": "Velocity \\ of \\ swimmer \\ w.r.t. \\ ground \\ is \\ \\sqrt{13} \\ m/s"
+        },
+        {
+          "letter": "b",
+          "text": "Velocity \\ of \\ swimmer \\ w.r.t. \\ ground \\ is \\ 2 \\ m/s"
+        },
+        {
+          "letter": "c",
+          "text": "Drift \\ of \\ swimmer \\ along \\ river \\ is \\ zero"
+        },
+        {
+          "letter": "d",
+          "text": "Drift \\ of \\ swimmer \\ along \\ river \\ will \\ be \\ 50 \\ m"
+        }
+      ]
+    },
+    {
+      "Index": 141,
+      "question": "A \\ particle \\ initially \\ at \\ rest \\ is \\ acted \\ upon \\ by \\ force \\ \\tilde{F}=-F_{0}\\cos{\\cot}\\tilde{i}-F_{0}\\sin{\\cot}\\tilde{j}+F_{0}\\tilde{k}. \\ The \\ trajectory \\ of \\ particle \\ will \\ be \\ -",
+      "options": [
+        {
+          "letter": "a",
+          "text": "Helix \\ with \\ uniform \\ pitch"
+        },
+        {
+          "letter": "b",
+          "text": "Helix \\ with \\ non-uniform \\ pitch"
+        },
+        {
+          "letter": "c",
+          "text": "Circle \\ with \\ changing \\ radius \\ (spiral)"
+        },
+        {
+          "letter": "d",
+          "text": "Cycloid"
+        }
+      ]
+    },
+    {
+      "Index": 142,
+      "question": "If \\ \\vec{A}=2\\hat{i}+3\\hat{j}-\\hat{k} \\ and \\ \\hat{B}=-\\hat{i}+3\\hat{j}+4\\hat{k}, \\ then \\ projection \\ of \\ \\vec{A} \\ on \\ will \\ be-",
+      "options": [
+        {
+          "letter": "a",
+          "text": "\\frac{3}{\\sqrt{13}}"
+        },
+        {
+          "letter": "b",
+          "text": "\\frac{3}{\\sqrt{26}}"
+        },
+        {
+          "letter": "c",
+          "text": "\\sqrt{\\frac{3}{26}}"
+        },
+        {
+          "letter": "d",
+          "text": "\\sqrt{\\frac{3}{13}}"
+        }
+      ]
+    },
+    {
+      "Index": 143,
+      "question": "Given \\ that \\ \\vec{A} \\ + \\ \\vec{B} \\ + \\ \\vec{C} \\ = \\ 0. \\ Out \\ of \\ three \\ vectors \\ two \\ are \\ equal \\ in \\ magnitude \\ and \\ the \\ magnitude \\ of \\ third \\ vector \\ is \\ \\sqrt{2} \\ times \\ that \\ of \\ either \\ of \\ the \\ two \\ having \\ equal \\ magnitude. \\ Then \\ the \\ angles \\ between \\ vectors \\ are \\ given \\ by \\ -",
+      "options": [
+        {
+          "letter": "a",
+          "text": "30^{0}, \\ 60^{0}, \\ 90^{0}"
+        },
+        {
+          "letter": "b",
+          "text": "45^{0}, \\ 45^{0}, \\ 90^{0}"
+        },
+        {
+          "letter": "c",
+          "text": "45^{\\circ}, \\ 60^{\\circ}, \\ 90^{\\circ}"
+        },
+        {
+          "letter": "d",
+          "text": "90^{0}, \\ 135^{0}, \\ 135^{0}"
+        }
+      ]
+    },
+    {
+      "Index": 144,
+      "question": "A \\ particle \\ travels \\ with \\ constant \\ speed \\ on \\ a \\ circle \\ of \\ radius \\ 3 \\ metre \\ and \\ completes \\ one \\ revolution \\ in \\ 20 \\ seconds. \\ Starting \\ from \\ origin \\ O, \\ find \\ the \\ magnitude \\ and \\ direction \\ of \\ displacement \\ vector \\ 5 \\ seconds \\ later \\ -",
+      "options": [
+        {
+          "letter": "a",
+          "text": "4.2 \\ m \\ at \\ an \\ angle \\ of \\ 45^{0} \\ with \\ x-axis"
+        },
+        {
+          "letter": "b",
+          "text": "5.54 \\ m \\ at \\ an \\ angle \\ of \\ 67.5^{0} \\ with \\ x-axis"
+        },
+        {
+          "letter": "c",
+          "text": "6 \\ m \\ at \\ an \\ angle \\ of \\ 90^{0} \\ with \\ x-axis"
+        },
+        {
+          "letter": "d",
+          "text": "5 \\ m \\ at \\ an \\ angle \\ of \\ 60^{0} \\ with \\ x-axis"
+        }
+      ]
+    },
+    {
+      "Index": 145,
+      "question": "A \\ car \\ X \\ is \\ going \\ towards \\ west \\ at \\ a \\ speed \\ of \\ 12 \\ m/sec. \\ Another \\ car \\ Y \\ is \\ going \\ towards \\ north \\ at \\ a \\ speed \\ of \\ 5 \\ m/sec. \\ What \\ is \\ the \\ velocity \\ of \\ car \\ X \\ with \\ respect \\ to \\ the \\ car \\ Y?",
+      "options": [
+        {
+          "letter": "a",
+          "text": "7 \\ m/sec"
+        },
+        {
+          "letter": "b",
+          "text": "17 \\ m/sec"
+        },
+        {
+          "letter": "c",
+          "text": "13 \\ m/sec"
+        },
+        {
+          "letter": "d",
+          "text": "7/5 \\ m/sec"
+        }
+      ]
+    },
+    {
+      "Index": 146,
+      "question": "A \\ force \\ of \\ 6 \\ kgf \\ and \\ another \\ of \\ 8 \\ kgf \\ can \\ be \\ applied \\ to \\ produce \\ the \\ effect \\ of \\ a \\ single \\ force \\ equal \\ to \\ -",
+      "options": [
+        {
+          "letter": "a",
+          "text": "1 \\ kgf"
+        },
+        {
+          "letter": "b",
+          "text": "10 \\ kgf"
+        },
+        {
+          "letter": "c",
+          "text": "16 \\ kgf"
+        },
+        {
+          "letter": "d",
+          "text": "0 \\ kgf"
+        }
+      ]
+    },
+    {
+      "Index": 147,
+      "question": "A \\ proton \\ in \\ a \\ cyclotron \\ changes \\ its \\ velocity \\ from \\ 30 \\ km/s \\ north \\ to \\ 40 \\ km/s \\ east \\ in \\ 20 \\ sec. \\ What \\ is \\ the \\ average \\ acceleration \\ during \\ this \\ time?",
+      "options": [
+        {
+          "letter": "a",
+          "text": "2.5 \\ km/s^{2} \\ at \\ 37^{\\circ} \\ E \\ of \\ S"
+        },
+        {
+          "letter": "b",
+          "text": "2.5 \\ km/s^{2} \\ at \\ 37^{0} \\ S \\ of \\ E"
+        },
+        {
+          "letter": "c",
+          "text": "12.5 \\ km/s^{2} \\ at \\ 37^{0} \\ N \\ of \\ E"
+        },
+        {
+          "letter": "d",
+          "text": "2.5 \\ km/s^{2} \\ at \\ 37^{0} \\ E \\ of \\ N"
+        }
+      ]
+    },
+    {
+      "Index": 148,
+      "question": "The \\ length \\ of \\ a \\ second's \\ hand \\ in \\ a \\ watch \\ is \\ 1 \\ cm. \\ The \\ change \\ in \\ its \\ velocity \\ in \\ 15 \\ sec \\ is \\ -",
+      "options": [
+        {
+          "letter": "a",
+          "text": "Zero"
+        },
+        {
+          "letter": "b",
+          "text": "\\frac{\\pi}{30\\sqrt{2}} \\ cm/s"
+        },
+        {
+          "letter": "c",
+          "text": "\\frac{\\pi}{30} \\ \\times \\ \\sqrt{2} \\ cm"
+        },
+        {
+          "letter": "d",
+          "text": "\\frac{\\pi}{30} \\ cm/s"
+        }
+      ]
+    },
+    {
+      "Index": 149,
+      "question": "Two \\ position \\ vectors \\ of \\ point \\ charges \\ q_{1} \\ and \\ q_{2} \\ are \\ \\vec{r}_{1} \\ and \\ \\vec{r}_{2}, \\ respectively. \\ The \\ electrostatic \\ force \\ of \\ interaction \\ between \\ the \\ charges \\ is \\ given \\ by \\ \\[ \\ F \\ = \\ \\frac{q_{1}q_{2}}{4\\pi\\epsilon_{0}r^{2}} \\ \\], \\ where \\ r \\ is \\ the \\ distance \\ between \\ the \\ charges. \\ The \\ electrostatic \\ force \\ on \\ the \\ first \\ point \\ charge \\ q_{1} \\ due \\ to \\ the \\ second \\ point \\ charge \\ q_{2} \\ in \\ vector \\ form \\ is:",
+      "options": [
+        {
+          "letter": "a",
+          "text": "\\frac{q_{1}q_{2}}{4\\pi\\epsilon_{0}} \\ \\frac{(\\vec{r}_{1}-\\vec{r}_{2})}{|\\vec{r}_{1}-\\vec{r}_{2}|^{3}}"
+        },
+        {
+          "letter": "b",
+          "text": "\\frac{q_{1}q_{2}}{4\\pi\\epsilon_{0}} \\ \\frac{\\vec{r}_{0}}{|\\vec{r}_{1}-\\vec{r}_{1}|^{3}}"
+        },
+        {
+          "letter": "c",
+          "text": "\\frac{q_{1}q_{2}}{4\\pi\\epsilon_{0}} \\ \\frac{(\\vec{r}_{2}-\\vec{r}_{1})}{|\\vec{r}_{2}-\\vec{r}_{1}|^{3}}"
+        },
+        {
+          "letter": "d",
+          "text": "\\frac{q_{1}q_{2}}{4\\pi\\epsilon_{0}} \\ \\frac{\\vec{r}_{2}}{|\\vec{r}_{1}-\\vec{r}_{2}|^{3}}"
+        }
+      ]
+    },
+    {
+      "Index": 150,
+      "question": "If \\ a \\ particle \\ is \\ moving \\ on \\ an \\ elliptical \\ path \\ given \\ by \\ \\vec{r} \\ = \\ b \\ \\cos(\\omega \\ t) \\ \\hat{i} \\ + \\ a \\ \\sin(\\omega \\ t) \\ \\hat{j}, \\ then \\ find \\ its \\ radial \\ acceleration:",
+      "options": [
+        {
+          "letter": "a",
+          "text": "\\vec{r}"
+        },
+        {
+          "letter": "b",
+          "text": "(b) \\ \\omega^{2}\\vec{r}"
+        },
+        {
+          "letter": "c",
+          "text": "(c) \\ -\\omega^{2}\\vec{r}"
+        },
+        {
+          "letter": "d",
+          "text": "(d) \\ None"
+        }
+      ]
+    },
+    {
+      "Index": 151,
+      "question": "A \\ vector \\ \\vec{F}_{1} \\ is \\ along \\ the \\ positive \\ x-axis. \\ If \\ its \\ vector \\ product \\ with \\ another \\ vector \\ \\vec{F}_{2} \\ is \\ zero, \\ then \\ \\vec{F}_{2} \\ could \\ be:",
+      "options": [
+        {
+          "letter": "a",
+          "text": "(a) \\ 4\\vec{i}"
+        },
+        {
+          "letter": "b",
+          "text": "(b) \\ - \\ (\\vec{i} \\ + \\ \\vec{j})"
+        },
+        {
+          "letter": "c",
+          "text": "(c) \\ (\\vec{j} \\ + \\ \\vec{k})"
+        },
+        {
+          "letter": "d",
+          "text": "(d) \\ - \\ (4\\vec{j})"
+        }
+      ]
+    },
+    {
+      "Index": 152,
+      "question": "The \\ angle \\ between \\ the \\ vectors \\ (\\vec{i} \\ + \\ \\vec{j}) \\ and \\ (\\vec{j} \\ + \\ \\vec{k}) \\ is:",
+      "options": [
+        {
+          "letter": "a",
+          "text": "(a) \\ 90^{\\circ}"
+        },
+        {
+          "letter": "b",
+          "text": "(b) \\ 180^{\\circ}"
+        },
+        {
+          "letter": "c",
+          "text": "(c) \\ 0"
+        },
+        {
+          "letter": "d",
+          "text": "(d) \\ 60^{\\circ}"
+        }
+      ]
+    },
+    {
+      "Index": 153,
+      "question": "A \\ force \\ \\vec{F} \\ = \\ 6\\vec{i} \\ - \\ 8\\vec{j} \\ + \\ 10\\vec{k} \\ Newton \\ produces \\ an \\ acceleration \\ of \\ 1 \\ m/s^{2} \\ in \\ a \\ body. \\ The \\ mass \\ of \\ the \\ body \\ would \\ be:",
+      "options": [
+        {
+          "letter": "a",
+          "text": "(a) \\ 200 \\ kg"
+        },
+        {
+          "letter": "b",
+          "text": "(b) \\ 20 \\ kg"
+        },
+        {
+          "letter": "c",
+          "text": "(c) \\ 10\\sqrt{2} \\ kg"
+        },
+        {
+          "letter": "d",
+          "text": "(d) \\ 6\\sqrt{2} \\ kg"
+        }
+      ]
+    },
+    {
+      "Index": 154,
+      "question": "I \\ walked \\ 4 \\ miles, \\ turned \\ to \\ my \\ left \\ and \\ walked \\ 6 \\ miles, \\ then \\ turned \\ to \\ my \\ right \\ again \\ and \\ walked \\ 4 \\ miles. \\ Which \\ of \\ the \\ choices \\ mentions \\ the \\ distance \\ from \\ the \\ starting \\ point \\ to \\ the \\ place \\ where \\ I \\ stopped?",
+      "options": [
+        {
+          "letter": "a",
+          "text": "(a) \\ 15 \\ miles"
+        },
+        {
+          "letter": "b",
+          "text": "(b) \\ 10 \\ miles"
+        },
+        {
+          "letter": "c",
+          "text": "(c) \\ 20 \\ miles"
+        },
+        {
+          "letter": "d",
+          "text": "(d) \\ 14 \\ miles"
+        }
+      ]
+    },
+    {
+      "Index": 155,
+      "question": "A \\ particle \\ moving \\ along \\ the \\ positive \\ x-axis \\ with \\ a \\ speed \\ of \\ 5 \\ m/s \\ suddenly \\ changes \\ its \\ direction \\ along \\ the \\ positive \\ y-axis \\ with \\ the \\ same \\ speed. \\ The \\ change \\ in \\ velocity \\ \\Delta \\ \\vec{v} \\ of \\ the \\ particle \\ is:",
+      "options": [
+        {
+          "letter": "a",
+          "text": "(a) \\ -5(\\hat{i} \\ + \\ \\hat{j}) \\ m/s^{2}"
+        },
+        {
+          "letter": "b",
+          "text": "(b) \\ -5(\\hat{i} \\ - \\ \\hat{j}) \\ m/s^{2}"
+        },
+        {
+          "letter": "c",
+          "text": "(c) \\ -5(-\\hat{i} \\ + \\ \\hat{j}) \\ m/s^{2}"
+        },
+        {
+          "letter": "d",
+          "text": "(d) \\ 5(\\hat{i} \\ + \\ \\hat{j}) \\ m/s^{2}"
+        }
+      ]
+    },
+    {
+      "Index": 156,
+      "question": "156. \\ Shown \\ here \\ are \\ the \\ velocity \\ and \\ acceleration \\ vectors \\ for \\ an \\ object \\ in \\ several \\ different \\ types \\ of \\ motion. \\ In \\ which \\ case \\ is \\ the \\ object \\ slowing \\ down \\ and \\ turning \\ to \\ the \\ right?",
+      "options": [
+        {
+          "letter": "a",
+          "text": "(a) \\ \\rightarrow \\ a"
+        },
+        {
+          "letter": "b",
+          "text": "(b)"
+        }
+      ]
+    },
+    {
+      "Index": 157,
+      "question": "157. \\ There \\ are \\ two \\ vectors \\ \\vec{A}=2\\hat{i}+\\hat{j}+\\hat{k} \\ and \\ \\overline{B}=\\hat{\\hat{i}}+2\\hat{\\hat{j}}-2\\hat{k} \\ then \\ component \\ of \\ \\overline{A}_{along \\ \\overline{B} \\ is.",
+      "options": [
+        {
+          "letter": "a",
+          "text": "(a) \\ \\frac{2}{9}(\\dot{i}+2\\hat{j}-2\\dot{k})"
+        },
+        {
+          "letter": "b",
+          "text": "(b) \\ \\frac{2}{3}(2\\hat{i}+\\hat{j}+\\hat{k})"
+        },
+        {
+          "letter": "c",
+          "text": "(c) \\ \\frac{2}{3}\\hat{i}+2\\hat{j}-2\\hat{k}"
+        },
+        {
+          "letter": "d",
+          "text": "(d) \\ None \\ of \\ these"
+        }
+      ]
+    },
+    {
+      "Index": 158,
+      "question": "158. \\ \\vec{A}=3\\hat{i}+4\\hat{i} \\ magnitude \\ of \\ A",
+      "options": [
+        {
+          "letter": "a",
+          "text": "(a) \\ 5"
+        },
+        {
+          "letter": "b",
+          "text": "(b) \\ \\sqrt{5}"
+        },
+        {
+          "letter": "c",
+          "text": "(c) \\ 3"
+        },
+        {
+          "letter": "d",
+          "text": "(d) \\ 7"
+        }
+      ]
+    },
+    {
+      "Index": 159,
+      "question": "159. \\ Angle \\ of \\ A \\ with \\ y-axis \\ above \\ question \\ -",
+      "options": [
+        {
+          "letter": "a",
+          "text": "(a) \\ \\tan^{-1}(\\frac{3}{4})"
+        },
+        {
+          "letter": "b",
+          "text": "(b) \\ \\tan^{-1}(\\frac{4}{3})"
+        },
+        {
+          "letter": "c",
+          "text": "(c) \\ \\sin^{-1}(\\frac{3}{4})"
+        },
+        {
+          "letter": "d",
+          "text": "(d) \\ \\cos^{-1}(\\frac{4}{3})"
+        }
+      ]
+    },
+    {
+      "Index": 160,
+      "question": "160. \\ |f\\vec{P} \\ and \\ Q \\ denote \\ the \\ sides \\ of \\ a \\ parallelogram \\ and \\ its \\ area \\ is \\ \\frac{1}{2}PQ, \\ then \\ the \\ angle \\ between \\ P \\ and \\ \\vec{Q} \\ is \\ -",
+      "options": [
+        {
+          "letter": "a",
+          "text": "(a) \\ 30^{0}"
+        },
+        {
+          "letter": "b",
+          "text": "(b) \\ 30^{\\circ}"
+        },
+        {
+          "letter": "c",
+          "text": "(c) \\ 45^{\\circ}"
+        },
+        {
+          "letter": "d",
+          "text": "(d) \\ 60^{\\circ}"
+        }
+      ]
+    },
+    {
+      "Index": 161,
+      "question": "161. \\ If \\ the \\ resultant \\ of \\ two \\ vectors \\ is \\ perpendicular \\ to \\ \\vec{A}, \\ then \\ the \\ angle \\ between \\ \\vec{A} \\ and \\ \\vec{B} \\ is \\ -",
+      "options": [
+        {
+          "letter": "a",
+          "text": "(a) \\ \\tan^{-1}(-\\frac{A}{B})"
+        },
+        {
+          "letter": "b",
+          "text": "(b) \\ \\sin^{-1}(\\frac{A}{B})"
+        },
+        {
+          "letter": "c",
+          "text": "(c) \\ \\tan^{-1}(\\frac{A}{B})"
+        },
+        {
+          "letter": "d",
+          "text": "(d) \\ \\cos^{-1}(-\\frac{A}{B})"
+        }
+      ]
+    },
+    {
+      "Index": 162,
+      "question": "The \\ angle \\ between \\ \\hat{i}+\\hat{j} \\ and \\ \\hat{i}+\\hat{k} \\ is",
+      "options": [
+        {
+          "letter": "a",
+          "text": "0^{\\circ}"
+        },
+        {
+          "letter": "b",
+          "text": "90^{\\circ}"
+        },
+        {
+          "letter": "c",
+          "text": "45^{\\circ}"
+        },
+        {
+          "letter": "d",
+          "text": "60^{\\circ}"
+        }
+      ]
+    },
+    {
+      "Index": 163,
+      "question": "The \\ resultant \\ of \\ two \\ forces \\ P \\ and \\ Q \\ is \\ of \\ magnitude \\ P. \\ If \\ P \\ be \\ doubled, \\ the \\ resultant \\ will \\ be \\ inclined \\ to \\ Q \\ at \\ an \\ angle \\ -",
+      "options": [
+        {
+          "letter": "a",
+          "text": "0^{\\circ}"
+        },
+        {
+          "letter": "b",
+          "text": "30^{\\circ}"
+        },
+        {
+          "letter": "c",
+          "text": "60^{\\circ}"
+        },
+        {
+          "letter": "d",
+          "text": "90^{\\circ}"
+        }
+      ]
+    },
+    {
+      "Index": 164,
+      "question": "Given \\ |\\vec{A}_{1}|=2,|\\vec{A}_{2}|=3| \\ and \\ |\\vec{A}_{1}+\\vec{A}_{2}|=3 \\ then \\ ( \\ \\vec{A}_{1}+2\\vec{A}_{2}).(3\\vec{A}_{1}-4\\vec{A}_{2}) \\ is-",
+      "options": [
+        {
+          "letter": "a",
+          "text": "-64"
+        },
+        {
+          "letter": "b",
+          "text": "60"
+        },
+        {
+          "letter": "c",
+          "text": "-62"
+        },
+        {
+          "letter": "d",
+          "text": "None \\ of \\ these."
+        }
+      ]
+    },
+    {
+      "Index": 165,
+      "question": "Vector \\ makes \\ equal \\ angles \\ with \\ x, \\ y \\ and \\ z \\ axis. \\ Value \\ of \\ its \\ components \\ (in \\ terms \\ of \\ magnitude \\ \\vec{A}) \\ will \\ be \\ -",
+      "options": [
+        {
+          "letter": "a",
+          "text": "\\frac{A}{\\sqrt{3}}"
+        },
+        {
+          "letter": "b",
+          "text": "\\frac{A}{\\sqrt{2}}"
+        },
+        {
+          "letter": "c",
+          "text": "\\sqrt{3}A"
+        },
+        {
+          "letter": "d",
+          "text": "\\frac{\\sqrt{3}}{A}"
+        }
+      ]
+    },
+    {
+      "Index": 166,
+      "question": "The \\ angle \\ made \\ by \\ the \\ vector \\ A=\\hat{i}+\\hat{j} \\ with \\ x-axis \\ is-",
+      "options": [
+        {
+          "letter": "a",
+          "text": "90^{\\circ}"
+        },
+        {
+          "letter": "b",
+          "text": "45^{\\circ}"
+        },
+        {
+          "letter": "c",
+          "text": "22.5^{\\circ}"
+        },
+        {
+          "letter": "d",
+          "text": "30^{\\circ}"
+        }
+      ]
+    },
+    {
+      "Index": 167,
+      "question": "If \\ a \\ unit \\ vector \\ is \\ represented \\ by \\ 0.5\\hat{i}+0.8\\hat{j}+c\\hat{k}, \\ then \\ the \\ value \\ of \\ c \\ is-",
+      "options": [
+        {
+          "letter": "a",
+          "text": "1"
+        },
+        {
+          "letter": "b",
+          "text": "\\sqrt{0.11}"
+        },
+        {
+          "letter": "c",
+          "text": "\\sqrt{0.01}"
+        },
+        {
+          "letter": "d",
+          "text": "\\sqrt{0.39}"
+        }
+      ]
+    },
+    {
+      "Index": 168,
+      "question": "The \\ component \\ of \\ vector \\ A=2\\hat{i}+3\\hat{j} \\ along \\ the \\ vector \\ \\hat{i}+\\hat{j} \\ is-",
+      "options": [
+        {
+          "letter": "a",
+          "text": "5"
+        },
+        {
+          "letter": "b",
+          "text": "\\frac{5}{\\sqrt{2}}"
+        },
+        {
+          "letter": "c",
+          "text": "5\\sqrt{2}"
+        },
+        {
+          "letter": "d",
+          "text": "10\\sqrt{2}"
+        }
+      ]
+    },
+    {
+      "Index": 169,
+      "question": "There \\ are \\ two \\ force \\ vectors, \\ one \\ of \\ 5 \\ N \\ and \\ other \\ of \\ 12 \\ N \\ at \\ what \\ angle \\ the \\ two \\ vectors \\ be \\ added \\ to \\ get \\ resultant \\ vector \\ of \\ 17 \\ N, \\ 7N \\ and \\ 13 \\ N \\ respectively-",
+      "options": [
+        {
+          "letter": "a",
+          "text": "0^{\\circ},180^{\\circ} \\ and \\ 90^{\\circ}"
+        },
+        {
+          "letter": "b",
+          "text": "0^{\\circ},90^{\\circ} \\ and \\ 180^{\\circ}"
+        },
+        {
+          "letter": "c",
+          "text": "0^{\\circ},90^{\\circ} \\ and \\ 90^{\\circ}"
+        },
+        {
+          "letter": "d",
+          "text": "180^{\\circ},0^{\\circ} \\ and \\ 90^{\\circ}"
+        }
+      ]
+    },
+    {
+      "Index": 170,
+      "question": "If \\ \\vec{A}=4\\hat{i}-3\\hat{i} \\ and \\ \\vec{B}=6\\hat{i}+8\\hat{j} \\ then \\ magnitude \\ and \\ direction \\ of \\ \\vec{A}+\\vec{B} \\ will \\ be-",
+      "options": [
+        {
+          "letter": "a",
+          "text": "5\\tan^{-1}(3/4)"
+        },
+        {
+          "letter": "b",
+          "text": "5\\sqrt{5},\\tan^{-1}(1/2)"
+        },
+        {
+          "letter": "c",
+          "text": "10~\\tan^{-1}(5)"
+        },
+        {
+          "letter": "d",
+          "text": "25,\\tan^{-1}(3/4)"
+        }
+      ]
+    },
+    {
+      "Index": 171,
+      "question": "If \\ the \\ sum \\ of \\ two \\ unit \\ vectors \\ is \\ a \\ unit \\ vector, \\ then \\ magnitude \\ of \\ difference \\ is-",
+      "options": [
+        {
+          "letter": "a",
+          "text": "\\sqrt{2}"
+        },
+        {
+          "letter": "b",
+          "text": "\\sqrt{3}"
+        },
+        {
+          "letter": "c",
+          "text": "\\frac{1}{\\sqrt{2}}"
+        },
+        {
+          "letter": "d",
+          "text": "\\sqrt{5}"
+        }
+      ]
+    },
+    {
+      "Index": 172,
+      "question": "Which \\ pair \\ of \\ the \\ following \\ forces \\ will \\ never \\ give \\ resultant \\ force \\ of \\ 2 \\ N-",
+      "options": [
+        {
+          "letter": "a",
+          "text": "2 \\ N \\ and \\ 2 \\ N"
+        },
+        {
+          "letter": "b",
+          "text": "1 \\ N \\ and \\ 1 \\ N"
+        },
+        {
+          "letter": "c",
+          "text": "1 \\ N \\ and \\ 3 \\ N"
+        },
+        {
+          "letter": "d",
+          "text": "1 \\ N \\ and \\ 4 \\ N"
+        }
+      ]
+    },
+    {
+      "Index": 173,
+      "question": "Two \\ forces \\ 3N \\ and \\ 2 \\ N \\ are \\ at \\ an \\ angle \\ such \\ that \\ the \\ resultant \\ is \\ R. \\ The \\ first \\ force \\ is \\ now \\ increased \\ to \\ 6N \\ and \\ the \\ resultant \\ become \\ 2R. \\ The \\ value \\ of \\ @ \\ is-",
+      "options": [
+        {
+          "letter": "a",
+          "text": "30^{\\circ}"
+        },
+        {
+          "letter": "b",
+          "text": "60^{\\circ}"
+        },
+        {
+          "letter": "c",
+          "text": "90^{\\circ}"
+        },
+        {
+          "letter": "d",
+          "text": "120^{\\circ}"
+        }
+      ]
+    },
+    {
+      "Index": 174,
+      "question": "Three \\ concurrent \\ forces \\ of \\ the \\ same \\ magnitude \\ are \\ in \\ equilibrium. \\ What \\ is \\ the \\ angle \\ between \\ the \\ forces? \\ Also \\ name \\ the \\ triangle \\ formed \\ by \\ the \\ forces \\ as \\ sides-",
+      "options": [
+        {
+          "letter": "a",
+          "text": "60^{\\circ}, \\ equilateral \\ triangle"
+        },
+        {
+          "letter": "b",
+          "text": "120^{\\circ}, \\ equilateral \\ triangle"
+        },
+        {
+          "letter": "c",
+          "text": "120^{\\circ}, \\ 30^{\\circ}, \\ 30^{\\circ}, \\ an \\ isosceles \\ triangle"
+        },
+        {
+          "letter": "d",
+          "text": "120^{\\circ}, \\ an \\ obtuse \\ angled \\ triangle"
+        }
+      ]
+    },
+    {
+      "Index": 175,
+      "question": "If \\ |\\vec{A}+\\vec{B}|=|\\vec{A}|+|\\vec{B}|, \\ then \\ angle \\ between \\ A \\ and \\ B \\ will \\ be-",
+      "options": [
+        {
+          "letter": "a",
+          "text": "90^{\\circ}"
+        },
+        {
+          "letter": "b",
+          "text": "120^{\\circ}"
+        },
+        {
+          "letter": "c",
+          "text": "0^{\\circ}"
+        },
+        {
+          "letter": "d",
+          "text": "60^{\\circ}"
+        }
+      ]
+    },
+    {
+      "Index": 176,
+      "question": "The \\ angle \\ between \\ the \\ vectors \\ \\vec{A} \\ and \\ \\vec{B} \\ is \\ a. \\ The \\ value \\ of \\ the \\ triple \\ product \\ \\vec{A}.(\\vec{B}\\times\\vec{A}) \\ is-",
+      "options": [
+        {
+          "letter": "a",
+          "text": "A^{2}B"
+        },
+        {
+          "letter": "b",
+          "text": "Zero"
+        },
+        {
+          "letter": "c",
+          "text": "A^{2}B\\sin\\theta"
+        },
+        {
+          "letter": "d",
+          "text": "A^{2}B\\cos\\theta"
+        }
+      ]
+    },
+    {
+      "Index": 177,
+      "question": "If \\ \\dot{A}\\times\\dot{B}=\\dot{B}\\times\\dot{A} \\ then \\ the \\ angle \\ between \\ \\vec{A} \\ and \\ \\vec{B} \\ is-",
+      "options": [
+        {
+          "letter": "a",
+          "text": "\\frac{\\pi}{2}"
+        },
+        {
+          "letter": "b",
+          "text": "\\frac{\\pi}{3}"
+        },
+        {
+          "letter": "c",
+          "text": "\\pi"
+        },
+        {
+          "letter": "d",
+          "text": "\\frac{\\pi}{4}"
+        }
+      ]
+    },
+    {
+      "Index": 178,
+      "question": "If \\ \\vec{A}=3\\hat{i}+\\hat{j}+2\\hat{k} \\ and \\ \\vec{B}=2\\hat{i}-2\\hat{j}+4\\hat{k} \\ then \\ value \\ of \\ |\\vec{A}\\times\\vec{B}| \\ will \\ be-",
+      "options": [
+        {
+          "letter": "a",
+          "text": "8\\sqrt{2}"
+        },
+        {
+          "letter": "b",
+          "text": "8\\sqrt{3}"
+        },
+        {
+          "letter": "c",
+          "text": "8\\sqrt{5}"
+        },
+        {
+          "letter": "d",
+          "text": "5\\sqrt{8}"
+        }
+      ]
+    },
+    {
+      "Index": 179,
+      "question": "Given: \\ \\vec{A}=\\hat{i}+2\\hat{j}-3\\hat{k}. \\ When \\ a \\ vector \\ \\vec{B} \\ is \\ added \\ to \\ \\vec{A}, \\ we \\ get \\ a \\ unit \\ vector \\ along \\ X-axis. \\ Then, \\ \\vec{B} \\ is-",
+      "options": [
+        {
+          "letter": "a",
+          "text": "-2\\hat{j}+3\\hat{k}"
+        },
+        {
+          "letter": "b",
+          "text": "-\\hat{i}-2\\hat{j}"
+        },
+        {
+          "letter": "c",
+          "text": "-\\hat{i}+3\\hat{k}"
+        },
+        {
+          "letter": "d",
+          "text": "2\\hat{j}-3\\hat{k}"
+        }
+      ]
+    },
+    {
+      "Index": 180,
+      "question": "If \\ the \\ sum \\ of \\ two \\ unit \\ vectors \\ is \\ also \\ a \\ unit \\ vector, \\ then \\ the \\ magnitude \\ of \\ their \\ difference \\ is \\ -",
+      "options": [
+        {
+          "letter": "a",
+          "text": "\\sqrt{2}"
+        },
+        {
+          "letter": "b",
+          "text": "\\sqrt{3}"
+        },
+        {
+          "letter": "c",
+          "text": "\\sqrt{5}"
+        },
+        {
+          "letter": "d",
+          "text": "\\sqrt{7}"
+        }
+      ]
+    },
+    {
+      "Index": 181,
+      "question": "What \\ is \\ the \\ angle \\ made \\ by \\ 3\\overline{i}+4\\overline{j} \\ with \\ x-axis?",
+      "options": [
+        {
+          "letter": "a",
+          "text": "10^{\\circ}"
+        },
+        {
+          "letter": "b",
+          "text": "180^{\\circ}"
+        },
+        {
+          "letter": "c",
+          "text": "tan^{-1}(3)"
+        },
+        {
+          "letter": "d",
+          "text": "tan^{-1}(\\frac{4}{3})"
+        }
+      ]
+    },
+    {
+      "Index": 182,
+      "question": "|f|\\vec{A} \\ + \\ \\vec{B}| \\ = \\ |\\vec{A}| \\ = \\ |\\vec{B}|, \\ then \\ the \\ angle \\ between \\ \\vec{A} \\ and \\ \\vec{B} \\ is.",
+      "options": [
+        {
+          "letter": "a",
+          "text": "90^{0}"
+        },
+        {
+          "letter": "b",
+          "text": "120^{0}"
+        },
+        {
+          "letter": "c",
+          "text": "0^{0}"
+        },
+        {
+          "letter": "d",
+          "text": "60^{0}"
+        }
+      ]
+    },
+    {
+      "Index": 183,
+      "question": "Two \\ forces \\ of \\ magnitudes \\ 30, \\ 60 \\ and \\ P \\ newton \\ acting \\ at \\ a \\ point \\ are \\ in \\ equilibrium. \\ If \\ the \\ angle \\ between \\ the \\ first \\ two \\ is \\ 60°, \\ the \\ value \\ of \\ P \\ is \\ -",
+      "options": [
+        {
+          "letter": "a",
+          "text": "25\\sqrt{2}"
+        },
+        {
+          "letter": "b",
+          "text": "30\\sqrt{3}"
+        },
+        {
+          "letter": "c",
+          "text": "30\\sqrt{6}"
+        },
+        {
+          "letter": "d",
+          "text": "30\\sqrt{7}"
+        }
+      ]
+    },
+    {
+      "Index": 184,
+      "question": "|f|\\vec{A} \\ \\times \\ \\vec{B}| \\ = \\ \\sqrt{3}\\vec{A}.\\vec{B} \\ then \\ the \\ value \\ of \\ |\\vec{A} \\ + \\ \\vec{B}| \\ is \\ -",
+      "options": [
+        {
+          "letter": "a",
+          "text": "(A^{2} \\ + \\ B^{2} \\ + \\ \\sqrt{3} \\ AB)^{1/2}"
+        },
+        {
+          "letter": "b",
+          "text": "(A^{2} \\ + \\ B^{2} \\ + \\ AB)^{1/2}"
+        },
+        {
+          "letter": "c",
+          "text": "(A^{2} \\ + \\ B^{2} \\ + \\ \\frac{AB}{\\sqrt{3}})^{1/2}"
+        },
+        {
+          "letter": "d",
+          "text": "A \\ + \\ B"
+        }
+      ]
+    },
+    {
+      "Index": 185,
+      "question": "The \\ velocity \\ of \\ a \\ particle \\ is \\ \\vec{v} \\ = \\ 6\\vec{i} \\ + \\ 2\\vec{j} \\ - \\ 2\\vec{k}. \\ The \\ component \\ of \\ the \\ velocity \\ of \\ a \\ particle \\ parallel \\ to \\ vector \\ \\vec{a} \\ = \\ \\hat{i} \\ + \\ \\hat{j} \\ + \\ \\hat{k} \\ in \\ vector \\ form \\ is \\ -",
+      "options": [
+        {
+          "letter": "a",
+          "text": "6\\tilde{i} \\ + \\ 2\\tilde{j} \\ + \\ 2\\tilde{k}"
+        },
+        {
+          "letter": "b",
+          "text": "2\\hat{i} \\ + \\ 2\\hat{j} \\ + \\ 2\\hat{k}"
+        },
+        {
+          "letter": "c",
+          "text": "\\hat{i} \\ + \\ \\hat{j} \\ + \\ \\hat{k}"
+        },
+        {
+          "letter": "d",
+          "text": "6\\hat{i} \\ + \\ 2\\hat{j} \\ - \\ 2\\hat{k}"
+        }
+      ]
+    },
+    {
+      "Index": 186,
+      "question": "The \\ angle \\ made \\ by \\ the \\ vector \\ 4\\hat{i} \\ - \\ 3\\hat{j} \\ + \\ 5\\hat{k} \\ with \\ z-axis \\ is \\ -",
+      "options": [
+        {
+          "letter": "a",
+          "text": "30^{0}"
+        },
+        {
+          "letter": "b",
+          "text": "45^{0}"
+        },
+        {
+          "letter": "c",
+          "text": "90^{0}"
+        },
+        {
+          "letter": "d",
+          "text": "120^{0}"
+        }
+      ]
+    },
+    {
+      "Index": 187,
+      "question": "An \\ aeroplane \\ is \\ moving \\ in \\ a \\ circular \\ path \\ with \\ a \\ speed \\ 250~km/hr. \\ What \\ is \\ the \\ change \\ in \\ velocity \\ in \\ half \\ revolution?",
+      "options": [
+        {
+          "letter": "a",
+          "text": "500~km/hr"
+        },
+        {
+          "letter": "b",
+          "text": "250~km/hr"
+        },
+        {
+          "letter": "c",
+          "text": "125~km/hr"
+        },
+        {
+          "letter": "d",
+          "text": "Zero"
+        }
+      ]
+    },
+    {
+      "Index": 188,
+      "question": "Two \\ forces \\ of \\ magnitude \\ 7 \\ newton \\ and \\ 5 \\ newton \\ act \\ on \\ a \\ particle \\ at \\ an \\ angle \\ to \\ each \\ other. \\ O \\ can \\ have \\ any \\ possible \\ value; \\ the \\ minimum \\ magnitude \\ of \\ the \\ resultant \\ force \\ is \\ -",
+      "options": [
+        {
+          "letter": "a",
+          "text": "5 \\ newton"
+        },
+        {
+          "letter": "b",
+          "text": "8 \\ newton"
+        },
+        {
+          "letter": "c",
+          "text": "12 \\ newton"
+        },
+        {
+          "letter": "d",
+          "text": "2~newton"
+        }
+      ]
+    },
+    {
+      "Index": 189,
+      "question": "A \\ truck \\ traveling \\ due \\ north \\ at \\ 50 \\ km/hr \\ turns \\ west \\ and \\ travels \\ at \\ the \\ same \\ speed. \\ What \\ is \\ the \\ change \\ in \\ velocity?",
+      "options": [
+        {
+          "letter": "a",
+          "text": "50 \\ km/hr \\ north-west"
+        },
+        {
+          "letter": "b",
+          "text": "50\\sqrt{2} \\ km/hr \\ north-west"
+        },
+        {
+          "letter": "c",
+          "text": "50 \\ km/hr \\ south-west"
+        },
+        {
+          "letter": "d",
+          "text": "50\\sqrt{2} \\ km/hr \\ south-west"
+        }
+      ]
+    },
+    {
+      "Index": 190,
+      "question": "The \\ resultant \\ of \\ two \\ forces, \\ one \\ double \\ the \\ other \\ in \\ magnitude, \\ is \\ perpendicular \\ to \\ the \\ smaller \\ of \\ the \\ two \\ forces. \\ The \\ angle \\ between \\ the \\ two \\ forces \\ is-",
+      "options": [
+        {
+          "letter": "a",
+          "text": "120^{0}"
+        },
+        {
+          "letter": "b",
+          "text": "60^{0}"
+        },
+        {
+          "letter": "c",
+          "text": "90^{0}"
+        },
+        {
+          "letter": "d",
+          "text": "150^{0}"
+        }
+      ]
+    },
+    {
+      "Index": 191,
+      "question": "A \\ nut \\ is \\ screwed \\ onto \\ a \\ bolt \\ with \\ 12 \\ turns \\ per \\ cm \\ and \\ diameter \\ 1.18 \\ cm. \\ The \\ bolt \\ is \\ lying \\ in \\ horizontal \\ direction. \\ The \\ nut \\ spins \\ at \\ 216 \\ r.p.m. \\ Time \\ taken \\ by \\ the \\ nut \\ to \\ cover \\ 1.5 \\ cm \\ along \\ the \\ bolt \\ is",
+      "options": [
+        {
+          "letter": "a",
+          "text": "2s"
+        },
+        {
+          "letter": "b",
+          "text": "3 \\ s"
+        },
+        {
+          "letter": "c",
+          "text": "4s"
+        },
+        {
+          "letter": "d",
+          "text": "5 \\ s"
+        }
+      ]
+    }
+  ]
+}
