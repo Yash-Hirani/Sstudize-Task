@@ -2,7 +2,7 @@
 
 import CreateTest from "@/components/teacher/createTest";
 import { prisma } from "@/utils/prisma";
-import { Question, User } from "@prisma/client";
+import { User } from "@prisma/client";
 
 export default async function createTestServer() {
   const students: User[] = await prisma.user.findMany({
@@ -11,7 +11,7 @@ export default async function createTestServer() {
     },
   });
 
-  const questions: Question[] = await prisma.question.findMany();
+  //   const questions: Question[] = await prisma.question.findMany();
 
   return (
     <div>

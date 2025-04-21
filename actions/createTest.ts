@@ -3,7 +3,6 @@
 import { prisma } from "@/utils/prisma";
 import { Difficulty } from "@prisma/client";
 import { revalidatePath } from "next/cache";
-import { redirect } from "next/navigation";
 
 interface CreateTestInput {
   name: string;

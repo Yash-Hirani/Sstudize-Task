@@ -17,6 +17,7 @@ export default function Latex({ expression, displayMode = false }: LatexProps) {
     });
     return <span>{parse(html)}</span>;
   } catch (err) {
-    return <span className="text-red-500">Invalid LaTeX</span>;
+    console.log(err);
+    return <span className="text-red-500">Invalid LaTeX:</span>;
   }
 }
