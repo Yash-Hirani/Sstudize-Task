@@ -1,5 +1,5 @@
 datasource db {
-  provider = "cockroachdb"
+  provider = "postgresql"
   url      = env("DATABASE_URL")
   // shadowDatabaseUrl = env("SHADOW_DATABASE_URL")
 }
@@ -86,24 +86,19 @@ enum Difficulty {
 
 // Question
 model Question {
-  id         String     @id @default(cuid())
-  subject    Subject
-  difficulty Difficulty
-  index      Int
-  text       String
-  options    Option[]
-
-  // 1:1 relation with Answer
-  answer Answer? @relation("QuestionAnswer")
-
-  // Back relation for last active question
-  lastActiveIn TestAnalytics[] @relation("LastActiveQuestion")
-
-  // Tracking per test
-  attemptedBy TestAnalytics[] @relation("AttemptedQuestions")
-  skippedBy   TestAnalytics[] @relation("SkippedQuestions")
-  markedBy    TestAnalytics[] @relation("MarkedQuestions")
-  timeSpent   QuestionTime[]
+  id            String          @id @default(cuid())
+  subject       Subject
+  difficulty    Difficulty
+  index         Int
+  text          String
+  options       Option[]
+  answer        Answer?         @relation("QuestionAnswer")
+  lastActiveIn  TestAnalytics[] @relation("LastActiveQuestion")
+  attemptedBy   TestAnalytics[] @relation("AttemptedQuestions")
+  skippedBy     TestAnalytics[] @relation("SkippedQuestions")
+  markedBy      TestAnalytics[] @relation("MarkedQuestions")
+  timeSpent     QuestionTime[]
+  testQuestions TestQuestion[]
 
   @@unique([index, subject, difficulty])
 }
@@ -125,8 +120,7 @@ model Answer {
   solutionData  String
   subject       Subject
   difficulty    Difficulty
-
-  question Question @relation("QuestionAnswer", fields: [index, subject, difficulty], references: [index, subject, difficulty])
+  question      Question   @relation("QuestionAnswer", fields: [index, subject, difficulty], references: [index, subject, difficulty])
 
   @@unique([index, subject, difficulty])
 }
@@ -136,9 +130,21 @@ model Test {
   startTime     DateTime
   endTime       DateTime
   date          DateTime
+  testQuestions TestQuestion[]
   users         TestUser[]
   analytics     TestAnalytics[]
   questionTimes QuestionTime[]
+}
+
+model TestQuestion {
+  testId     String
+  questionId String
+  position   Int
+
+  test     Test     @relation(fields: [testId], references: [id])
+  question Question @relation(fields: [questionId], references: [id])
+
+  @@id([testId, questionId])
 }
 
 model TestUser {
@@ -150,21 +156,18 @@ model TestUser {
 }
 
 model TestAnalytics {
-  id     String @id @default(cuid())
-  test   Test   @relation(fields: [testId], references: [id])
-  testId String
-  user   User   @relation(fields: [userId], references: [id])
-  userId String
-
+  id                   String     @id @default(cuid())
+  test                 Test       @relation(fields: [testId], references: [id])
+  testId               String
+  user                 User       @relation(fields: [userId], references: [id])
+  userId               String
   lastActiveQuestionId String?
-  lastActiveQuestion   Question? @relation("LastActiveQuestion", fields: [lastActiveQuestionId], references: [id])
-
-  timeSpent   Float
-  tabSwitches Int
-
-  attemptedQuestions Question[] @relation("AttemptedQuestions")
-  skippedQuestions   Question[] @relation("SkippedQuestions")
-  markedQuestions    Question[] @relation("MarkedQuestions")
+  lastActiveQuestion   Question?  @relation("LastActiveQuestion", fields: [lastActiveQuestionId], references: [id])
+  timeSpent            Float
+  tabSwitches          Int
+  attemptedQuestions   Question[] @relation("AttemptedQuestions")
+  skippedQuestions     Question[] @relation("SkippedQuestions")
+  markedQuestions      Question[] @relation("MarkedQuestions")
 }
 
 model QuestionTime {
@@ -176,6 +179,7 @@ model QuestionTime {
   userId     String
   user       User     @relation(fields: [userId], references: [id])
   timeSpent  Float
+  userOption String?
 
   @@unique([testId, questionId, userId])
 }

@@ -1,69 +1,85 @@
-const fs = require("fs");
-const path = require("path");
-const { PrismaClient } = require("@prisma/client");
+// prisma/seedAnswers.js
+const { PrismaClient } = require('@prisma/client');
 const prisma = new PrismaClient();
+const fs = require('fs');
+const path = require('path');
+const csv = require('csv-parser');
 
-async function seedAnswersFromJSON(data, difficulty) {
-  const answers = data.answers;
+async function main() {
+  const csvPath = path.join("/Users/yashhirani/Documents/dbExports/exports", 'Answer.csv');
+  const answers = [];
 
-  for (const a of answers) {
-    const index = parseInt(a.index); // ensure it's an integer
-    const subject = "MATH";
-    const diff = difficulty.toUpperCase();
+  // 1) Read & parse CSV
+  await new Promise((resolve, reject) => {
+    fs.createReadStream(csvPath)
+      .pipe(csv())
+      .on('data', (row) => {
+        answers.push({
+          id: row.id,
+          index: parseInt(row.index, 10),
+          correctOption: row.correctOption,
+          solutionData: row.solutionData.replace(/\\ /g, ' '),
+          subject: row.subject,
+          difficulty: row.difficulty,
+        });
+      })
+      .on('end', resolve)
+      .on('error', reject);
+  });
 
+  // 2) Seed each answer
+  for (const ans of answers) {
+    if (isNaN(ans.index)) {
+      console.warn(`⚠️  Skipping row with invalid index: ${ans.index}`);
+      continue;
+    }
+
+    // 3) Check that question exists
+    const question = await prisma.question.findUnique({
+      where: {
+        index_subject_difficulty: {
+          index: ans.index,
+          subject: ans.subject,
+          difficulty: ans.difficulty,
+        },
+      },
+      select: { id: true },
+    });
+
+    if (!question) {
+      console.warn(
+        `⚠️  No matching Question found for index ${ans.index} [${ans.subject}, ${ans.difficulty}]. Skipping.`
+      );
+      continue;
+    }
+
+    // 4) Create the answer
     try {
-      // Create Answer and associate it with the Question
       await prisma.answer.create({
         data: {
-          index,
-          correctOption: a.correctOption,
-          solutionData: a.SolutionData,
-          subject,
-          difficulty: diff,
-          question: {
-            connect: {
-              index_subject_difficulty: {
-                index,
-                subject,
-                difficulty: diff,
-              },
-            },
-          },
+          id: ans.id,
+          index: ans.index,
+          correctOption: ans.correctOption,
+          solutionData: ans.solutionData,
+          subject: ans.subject,
+          difficulty: ans.difficulty,
+          // ✅ No need for `connect`, Prisma links via composite keys directly
         },
       });
-
-      console.log(`✅ Created answer for question ${index} [${diff}]`);
-    } catch (error) {
+      console.log(`✅ Inserted answer for question ${ans.index}`);
+    } catch (e) {
       console.error(
-        `❌ Failed to create answer for question ${index} [${diff}]:`,
-        error.message
+        `❌ Failed to insert answer for question ${ans.index}:`,
+        e.message
       );
     }
   }
+
+  await prisma.$disconnect();
 }
 
-async function main() {
-  const inputFile = process.argv[2];
-  if (!inputFile) {
-    console.error("❌ Please provide the path to the answers file.");
-    process.exit(1);
-  }
-
-  const fullPath = path.resolve(inputFile);
-  const imported = require(fullPath);
-
-  try {
-    if (imported.easyAnswersJSON)
-      await seedAnswersFromJSON(imported.easyAnswersJSON, "EASY");
-    if (imported.mediumAnswersJSON)
-      await seedAnswersFromJSON(imported.mediumAnswersJSON, "MEDIUM");
-    if (imported.hardAnswersJSON)
-      await seedAnswersFromJSON(imported.hardAnswersJSON, "HARD");
-  } catch (err) {
-    console.error("❌ Error during answer seeding:", err);
-  } finally {
-    await prisma.$disconnect();
-  }
-}
-
-main();
+main().catch((e) => {
+  console.error('Unexpected error:', e);
+  prisma.$disconnect();
+  process.exit(1);
+});
