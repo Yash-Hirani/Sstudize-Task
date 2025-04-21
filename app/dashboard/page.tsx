@@ -2,7 +2,6 @@
 
 import { auth } from "@/utils/auth";
 import { prisma } from "@/utils/prisma";
-import test from "node:test";
 
 const dashServer = async () => {
   const session = await auth();
