@@ -130,6 +130,7 @@ model Test {
   startTime     DateTime
   endTime       DateTime
   date          DateTime
+  name          String
   testQuestions TestQuestion[]
   users         TestUser[]
   analytics     TestAnalytics[]

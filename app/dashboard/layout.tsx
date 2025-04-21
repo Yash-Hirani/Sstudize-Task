@@ -3,6 +3,7 @@
 import { auth } from "@/utils/auth";
 import { prisma } from "@/utils/prisma";
 import React from "react";
+import "katex/dist/katex.min.css";
 
 export default async function DashboardLayout({
   student,
