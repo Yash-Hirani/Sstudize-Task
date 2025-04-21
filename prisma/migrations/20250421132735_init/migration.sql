@@ -7,39 +7,87 @@ CREATE TYPE "Subject" AS ENUM ('MATH', 'PHYSICS', 'CHEMISTRY');
 -- CreateEnum
 CREATE TYPE "Difficulty" AS ENUM ('EASY', 'MEDIUM', 'HARD');
 
--- AlterTable
-ALTER TABLE "User" ADD COLUMN     "phone" STRING;
-ALTER TABLE "User" ADD COLUMN     "role" "Role";
+-- CreateTable
+CREATE TABLE "User" (
+    "id" TEXT NOT NULL,
+    "name" TEXT,
+    "email" TEXT NOT NULL,
+    "emailVerified" TIMESTAMP(3),
+    "image" TEXT,
+    "phone" TEXT,
+    "role" "Role",
+    "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "updatedAt" TIMESTAMP(3) NOT NULL,
+
+    CONSTRAINT "User_pkey" PRIMARY KEY ("id")
+);
+
+-- CreateTable
+CREATE TABLE "Account" (
+    "userId" TEXT NOT NULL,
+    "type" TEXT NOT NULL,
+    "provider" TEXT NOT NULL,
+    "providerAccountId" TEXT NOT NULL,
+    "refresh_token" TEXT,
+    "access_token" TEXT,
+    "expires_at" INTEGER,
+    "token_type" TEXT,
+    "scope" TEXT,
+    "id_token" TEXT,
+    "session_state" TEXT,
+    "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "updatedAt" TIMESTAMP(3) NOT NULL,
+
+    CONSTRAINT "Account_pkey" PRIMARY KEY ("provider","providerAccountId")
+);
+
+-- CreateTable
+CREATE TABLE "Session" (
+    "sessionToken" TEXT NOT NULL,
+    "userId" TEXT NOT NULL,
+    "expires" TIMESTAMP(3) NOT NULL,
+    "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "updatedAt" TIMESTAMP(3) NOT NULL
+);
+
+-- CreateTable
+CREATE TABLE "VerificationToken" (
+    "identifier" TEXT NOT NULL,
+    "token" TEXT NOT NULL,
+    "expires" TIMESTAMP(3) NOT NULL,
+
+    CONSTRAINT "VerificationToken_pkey" PRIMARY KEY ("identifier","token")
+);
 
 -- CreateTable
 CREATE TABLE "Question" (
-    "id" STRING NOT NULL,
+    "id" TEXT NOT NULL,
     "subject" "Subject" NOT NULL,
     "difficulty" "Difficulty" NOT NULL,
-    "index" INT4 NOT NULL,
-    "text" STRING NOT NULL,
+    "index" INTEGER NOT NULL,
+    "text" TEXT NOT NULL,
 
     CONSTRAINT "Question_pkey" PRIMARY KEY ("id")
 );
 
 -- CreateTable
 CREATE TABLE "Option" (
-    "id" STRING NOT NULL,
-    "letter" STRING NOT NULL,
-    "text" STRING NOT NULL,
+    "id" TEXT NOT NULL,
+    "letter" TEXT NOT NULL,
+    "text" TEXT NOT NULL,
     "subject" "Subject" NOT NULL,
     "difficulty" "Difficulty" NOT NULL,
-    "questionId" STRING,
+    "questionId" TEXT,
 
     CONSTRAINT "Option_pkey" PRIMARY KEY ("id")
 );
 
 -- CreateTable
 CREATE TABLE "Answer" (
-    "id" STRING NOT NULL,
-    "index" INT4 NOT NULL,
-    "correctOption" STRING NOT NULL,
-    "solutionData" STRING NOT NULL,
+    "id" TEXT NOT NULL,
+    "index" INTEGER NOT NULL,
+    "correctOption" TEXT NOT NULL,
+    "solutionData" TEXT NOT NULL,
     "subject" "Subject" NOT NULL,
     "difficulty" "Difficulty" NOT NULL,
 
@@ -48,7 +96,7 @@ CREATE TABLE "Answer" (
 
 -- CreateTable
 CREATE TABLE "Test" (
-    "id" STRING NOT NULL,
+    "id" TEXT NOT NULL,
     "startTime" TIMESTAMP(3) NOT NULL,
     "endTime" TIMESTAMP(3) NOT NULL,
     "date" TIMESTAMP(3) NOT NULL,
@@ -57,54 +105,75 @@ CREATE TABLE "Test" (
 );
 
 -- CreateTable
+CREATE TABLE "TestQuestion" (
+    "testId" TEXT NOT NULL,
+    "questionId" TEXT NOT NULL,
+    "position" INTEGER NOT NULL,
+
+    CONSTRAINT "TestQuestion_pkey" PRIMARY KEY ("testId","questionId")
+);
+
+-- CreateTable
 CREATE TABLE "TestUser" (
-    "id" STRING NOT NULL,
-    "userId" STRING NOT NULL,
-    "testId" STRING NOT NULL,
+    "id" TEXT NOT NULL,
+    "userId" TEXT NOT NULL,
+    "testId" TEXT NOT NULL,
 
     CONSTRAINT "TestUser_pkey" PRIMARY KEY ("id")
 );
 
 -- CreateTable
 CREATE TABLE "TestAnalytics" (
-    "id" STRING NOT NULL,
-    "testId" STRING NOT NULL,
-    "userId" STRING NOT NULL,
-    "lastActiveQuestionId" STRING,
-    "timeSpent" FLOAT8 NOT NULL,
-    "tabSwitches" INT4 NOT NULL,
+    "id" TEXT NOT NULL,
+    "testId" TEXT NOT NULL,
+    "userId" TEXT NOT NULL,
+    "lastActiveQuestionId" TEXT,
+    "timeSpent" DOUBLE PRECISION NOT NULL,
+    "tabSwitches" INTEGER NOT NULL,
 
     CONSTRAINT "TestAnalytics_pkey" PRIMARY KEY ("id")
 );
 
 -- CreateTable
 CREATE TABLE "QuestionTime" (
-    "id" STRING NOT NULL,
-    "testId" STRING NOT NULL,
-    "questionId" STRING NOT NULL,
-    "userId" STRING NOT NULL,
-    "timeSpent" FLOAT8 NOT NULL,
+    "id" TEXT NOT NULL,
+    "testId" TEXT NOT NULL,
+    "questionId" TEXT NOT NULL,
+    "userId" TEXT NOT NULL,
+    "timeSpent" DOUBLE PRECISION NOT NULL,
 
     CONSTRAINT "QuestionTime_pkey" PRIMARY KEY ("id")
 );
 
 -- CreateTable
 CREATE TABLE "_AttemptedQuestions" (
-    "A" STRING NOT NULL,
-    "B" STRING NOT NULL
+    "A" TEXT NOT NULL,
+    "B" TEXT NOT NULL,
+
+    CONSTRAINT "_AttemptedQuestions_AB_pkey" PRIMARY KEY ("A","B")
 );
 
 -- CreateTable
 CREATE TABLE "_SkippedQuestions" (
-    "A" STRING NOT NULL,
-    "B" STRING NOT NULL
+    "A" TEXT NOT NULL,
+    "B" TEXT NOT NULL,
+
+    CONSTRAINT "_SkippedQuestions_AB_pkey" PRIMARY KEY ("A","B")
 );
 
 -- CreateTable
 CREATE TABLE "_MarkedQuestions" (
-    "A" STRING NOT NULL,
-    "B" STRING NOT NULL
+    "A" TEXT NOT NULL,
+    "B" TEXT NOT NULL,
+
+    CONSTRAINT "_MarkedQuestions_AB_pkey" PRIMARY KEY ("A","B")
 );
+
+-- CreateIndex
+CREATE UNIQUE INDEX "User_email_key" ON "User"("email");
+
+-- CreateIndex
+CREATE UNIQUE INDEX "Session_sessionToken_key" ON "Session"("sessionToken");
 
 -- CreateIndex
 CREATE UNIQUE INDEX "Question_index_subject_difficulty_key" ON "Question"("index", "subject", "difficulty");
@@ -116,28 +185,31 @@ CREATE UNIQUE INDEX "Answer_index_subject_difficulty_key" ON "Answer"("index", "
 CREATE UNIQUE INDEX "QuestionTime_testId_questionId_userId_key" ON "QuestionTime"("testId", "questionId", "userId");
 
 -- CreateIndex
-CREATE UNIQUE INDEX "_AttemptedQuestions_AB_unique" ON "_AttemptedQuestions"("A", "B");
-
--- CreateIndex
 CREATE INDEX "_AttemptedQuestions_B_index" ON "_AttemptedQuestions"("B");
-
--- CreateIndex
-CREATE UNIQUE INDEX "_SkippedQuestions_AB_unique" ON "_SkippedQuestions"("A", "B");
 
 -- CreateIndex
 CREATE INDEX "_SkippedQuestions_B_index" ON "_SkippedQuestions"("B");
 
 -- CreateIndex
-CREATE UNIQUE INDEX "_MarkedQuestions_AB_unique" ON "_MarkedQuestions"("A", "B");
-
--- CreateIndex
 CREATE INDEX "_MarkedQuestions_B_index" ON "_MarkedQuestions"("B");
+
+-- AddForeignKey
+ALTER TABLE "Account" ADD CONSTRAINT "Account_userId_fkey" FOREIGN KEY ("userId") REFERENCES "User"("id") ON DELETE CASCADE ON UPDATE CASCADE;
+
+-- AddForeignKey
+ALTER TABLE "Session" ADD CONSTRAINT "Session_userId_fkey" FOREIGN KEY ("userId") REFERENCES "User"("id") ON DELETE CASCADE ON UPDATE CASCADE;
 
 -- AddForeignKey
 ALTER TABLE "Option" ADD CONSTRAINT "Option_questionId_fkey" FOREIGN KEY ("questionId") REFERENCES "Question"("id") ON DELETE SET NULL ON UPDATE CASCADE;
 
 -- AddForeignKey
 ALTER TABLE "Answer" ADD CONSTRAINT "Answer_index_subject_difficulty_fkey" FOREIGN KEY ("index", "subject", "difficulty") REFERENCES "Question"("index", "subject", "difficulty") ON DELETE RESTRICT ON UPDATE CASCADE;
+
+-- AddForeignKey
+ALTER TABLE "TestQuestion" ADD CONSTRAINT "TestQuestion_testId_fkey" FOREIGN KEY ("testId") REFERENCES "Test"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
+
+-- AddForeignKey
+ALTER TABLE "TestQuestion" ADD CONSTRAINT "TestQuestion_questionId_fkey" FOREIGN KEY ("questionId") REFERENCES "Question"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
 
 -- AddForeignKey
 ALTER TABLE "TestUser" ADD CONSTRAINT "TestUser_userId_fkey" FOREIGN KEY ("userId") REFERENCES "User"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
