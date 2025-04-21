@@ -16,7 +16,7 @@ const StudentOnBoarding = async () => {
     },
   });
 
-  if (!session || userData?.role !== null) {
+  if (!session || userData?.role !== "STUDENT") {
     redirect("/");
   }
 
