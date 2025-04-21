@@ -22,7 +22,7 @@ const dashServer = async () => {
     <>
       <h1>Student Dashboard within Slot</h1>
       {tests.map((test) => (
-        <div key={test.id}>{test.id}</div>
+        <div key={test.id}>{test.name}</div>
       ))}
     </>
   );
