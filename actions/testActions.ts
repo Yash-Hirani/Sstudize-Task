@@ -1,5 +1,6 @@
 "use server"
 
+import { auth } from "@/utils/auth"
 import { prisma } from "@/utils/prisma"
 import { revalidatePath } from "next/cache"
 
@@ -255,4 +256,23 @@ export async function submitTest({
     console.error("Failed to submit test:", error)
     return { success: false, error: "Failed to submit test" }
   }
+}
+
+export async function saveSelectedOptions({questionId, optionId, testId}: {questionId: string, optionId: string, testId: string}) {
+    const session = await auth();
+
+    const userData = await prisma.user.findUnique({where:{email: session?.user?.email ?? ""}})
+    
+    const x = await prisma.questionTime.update({
+        where: {
+            testId_questionId_userId: {
+                questionId: questionId,
+                userId: userData?.id ?? "", 
+                testId: testId
+            }
+        }, 
+        data: {
+            userOption: optionId,
+        }
+    })
 }
