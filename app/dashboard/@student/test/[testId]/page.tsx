@@ -1,43 +1,58 @@
 "use client";
 
-// import { prisma } from "@/utils/prisma";
 import { useParams } from "next/navigation";
+import { useState, useEffect, useTransition } from "react";
+import { loadTestData } from "@/actions/loadTestData";
 
 export default function Page() {
-  const params = useParams();
-  const testId = params.testId;
-  //   const test = await prisma.test.findUnique({
-  //     where: { id: String(testId) },
-  //     include: {
-  //       testQuestions: {
-  //         include: {
-  //           question: {
-  //             include: { options: true },
-  //           },
-  //         },
-  //       },
-  //     },
-  //   });
+  const { testId } = useParams() as { testId?: string };
 
-  //   if (!test) {
-  //     return <div className="p-4">Test not found.</div>;
-  //   }
-  console.log(testId);
+  const [initialDataReady, setInitialDataReady] = useState(false);
+  const [questionsReady, setQuestionsReady] = useState(false);
+  const [userDataReady, setUserDataReady] = useState(false);
+  const [analyticsReady, setAnalyticsReady] = useState(false);
+
+  const [isPending, startTransition] = useTransition();
+
+  useEffect(() => {
+    if (!testId) return;
+
+    const init = async () => {
+      try {
+        const {
+          initialDataReady,
+          questionsReady,
+          userDataReady,
+          analyticsReady,
+        } = await loadTestData(testId);
+
+        startTransition(() => {
+          setInitialDataReady(initialDataReady);
+          setQuestionsReady(questionsReady);
+          setUserDataReady(userDataReady);
+          setAnalyticsReady(analyticsReady);
+        });
+      } catch (err) {
+        console.error("Failed to load test data:", err);
+      }
+    };
+
+    init();
+  }, [testId]);
+
   return (
     <div className="p-4">
-      {testId}
-      {String(testId)} was intended here
-      {/* <h1 className="text-xl font-semibold">{test.name}</h1>
-      {test.testQuestions.map(({ question }) => (
-        <div key={question.id} className="mb-6">
-          <h2 className="font-medium">{question.text}</h2>
-          <ul className="list-disc ml-6 mt-2">
-            {question.options.map((opt) => (
-              <li key={opt.id}>{opt.text}</li>
-            ))}
-          </ul>
-        </div>
-      ))} */}
+      {isPending && <p className="text-gray-500">Setting up your test...</p>}
+
+      {!initialDataReady && !isPending && <p>Loading test data…</p>}
+      {!questionsReady && !isPending && <p>Loading questions data…</p>}
+      {!userDataReady && !isPending && <p>Loading user data…</p>}
+      {!analyticsReady && !isPending && <p>Loading analytics data…</p>}
+
+      {initialDataReady && <>Initial Data Ready</>}
+      {questionsReady && <p> questions rweady</p>}
+      {userDataReady && <p>user ready</p>}
+      {analyticsReady && <p>analytics ready</p>}
     </div>
   );
 }
