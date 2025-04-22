@@ -1,11 +1,19 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import type { User } from "@prisma/client";
 import QuestionNavigation from "./question-navigation";
 import QuestionDisplay from "./question-display";
-import { TestWithQuestions } from "@/actions/loadTestData";
 import TestTimer from "./test-timer";
+import SubmitModal from "./submit-modal";
+import { Button } from "@/components/ui/button";
+import { useRouter } from "next/navigation";
+import type { TestWithQuestions } from "@/actions/loadTestData";
+import {
+  submitTest,
+  updateMultipleQuestionTimes,
+  updateTestAnalytics,
+} from "@/actions/testActions";
 
 interface TestContainerProps {
   testData: TestWithQuestions | null;
@@ -16,6 +24,7 @@ export default function TestContainer({
   testData,
   userData,
 }: TestContainerProps) {
+  const router = useRouter();
   const [visitedQuestions, setVisitedQuestions] = useState<string[]>([]);
   const [markedQuestions, setMarkedQuestions] = useState<string[]>([]);
   const [skippedQuestions, setSkippedQuestions] = useState<string[]>([]);
@@ -25,6 +34,16 @@ export default function TestContainer({
   const [activeQuestionId, setActiveQuestionId] = useState<string | null>(
     testData?.testQuestions[0]?.questionId || null
   );
+  const [isSubmitModalOpen, setIsSubmitModalOpen] = useState(false);
+  const [tabSwitches, setTabSwitches] = useState(0);
+  const [totalTimeSpent, setTotalTimeSpent] = useState(0);
+  const [questionTimes, setQuestionTimes] = useState<Record<string, number>>(
+    {}
+  );
+  const [lastSyncTime, setLastSyncTime] = useState(Date.now());
+  const startTimeRef = useRef(Date.now());
+  const questionStartTimeRef = useRef(Date.now());
+  const lastActiveQuestionRef = useRef<string | null>(null);
 
   // Mark question as visited when it becomes active
   useEffect(() => {
@@ -33,11 +52,129 @@ export default function TestContainer({
     }
   }, [activeQuestionId, visitedQuestions]);
 
+  // Track time spent on questions
+  useEffect(() => {
+    if (!activeQuestionId) return;
+
+    // If we're switching questions, record time spent on the previous question
+    // if (
+    //   lastActiveQuestionRef.current &&
+    //   lastActiveQuestionRef.current !== activeQuestionId
+    // ) {
+    // //   const timeSpent = (Date.now() - questionStartTimeRef.current) / 1000; // in seconds
+    //   //   setQuestionTimes((prev) => ({
+    //   //     ...prev,
+    //   //     [lastActiveQuestionRef.current]: (prev[lastActiveQuestionRef.current] || 0) + timeSpent,
+    //   //   }))
+    // }
+
+    // Reset timer for new question
+    questionStartTimeRef.current = Date.now();
+    lastActiveQuestionRef.current = activeQuestionId;
+  }, [activeQuestionId]);
+
+  // Track tab visibility changes
+  useEffect(() => {
+    const handleVisibilityChange = () => {
+      if (document.visibilityState === "hidden") {
+        setTabSwitches((prev) => prev + 1);
+      }
+    };
+
+    document.addEventListener("visibilitychange", handleVisibilityChange);
+    return () => {
+      document.removeEventListener("visibilitychange", handleVisibilityChange);
+    };
+  }, []);
+
+  // Update total time spent
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setTotalTimeSpent((Date.now() - startTimeRef.current) / 1000);
+    }, 1000);
+
+    return () => clearInterval(interval);
+  }, []);
+
+  // Periodic sync to database (every 5 seconds)
+  useEffect(() => {
+    if (!testData || !userData) return;
+
+    const syncInterval = setInterval(async () => {
+      // Update current question time before syncing
+      if (
+        activeQuestionId &&
+        lastActiveQuestionRef.current === activeQuestionId
+      ) {
+        const currentTimeSpent =
+          (Date.now() - questionStartTimeRef.current) / 1000;
+        setQuestionTimes((prev) => ({
+          ...prev,
+          [activeQuestionId]: (prev[activeQuestionId] || 0) + currentTimeSpent,
+        }));
+        // Reset the timer to avoid double-counting
+        questionStartTimeRef.current = Date.now();
+      }
+
+      // Prepare question times for sync
+      const questionTimesArray = Object.entries(questionTimes).map(
+        ([questionId, timeSpent]) => {
+          const userOption =
+            answeredQuestions.find((a) => a.questionId === questionId)
+              ?.optionId || null;
+          return {
+            testId: testData.id,
+            questionId,
+            userId: userData.id,
+            timeSpent,
+            userOption,
+          };
+        }
+      );
+
+      // Only sync if we have data to sync
+      if (questionTimesArray.length > 0) {
+        try {
+          // Update question times
+          await updateMultipleQuestionTimes({
+            questionTimes: questionTimesArray,
+          });
+
+          // Update test analytics
+          await updateTestAnalytics({
+            testId: testData.id,
+            userId: userData.id,
+            lastActiveQuestionId: activeQuestionId,
+            timeSpent: totalTimeSpent,
+            tabSwitches,
+            attemptedQuestionIds: answeredQuestions.map((a) => a.questionId),
+            skippedQuestionIds: skippedQuestions,
+            markedQuestionIds: markedQuestions,
+          });
+
+          setLastSyncTime(Date.now());
+        } catch (error) {
+          console.error("Failed to sync test data:", error);
+        }
+      }
+    }, 5000); // Sync every 5 seconds
+
+    return () => clearInterval(syncInterval);
+  }, [
+    testData,
+    userData,
+    activeQuestionId,
+    questionTimes,
+    answeredQuestions,
+    skippedQuestions,
+    markedQuestions,
+    totalTimeSpent,
+    tabSwitches,
+  ]);
+
   const handleQuestionSelect = (questionId: string) => {
     setActiveQuestionId(questionId);
   };
-
-  console.log(JSON.stringify(userData));
 
   const handleMarkQuestion = (questionId: string) => {
     if (markedQuestions.includes(questionId)) {
@@ -113,6 +250,65 @@ export default function TestContainer({
     }
   };
 
+  const handleOpenSubmitModal = () => {
+    setIsSubmitModalOpen(true);
+  };
+
+  const handleCloseSubmitModal = () => {
+    setIsSubmitModalOpen(false);
+  };
+
+  const handleSubmitTest = async () => {
+    if (!testData || !userData) return;
+
+    // Update current question time before submitting
+    if (
+      activeQuestionId &&
+      lastActiveQuestionRef.current === activeQuestionId
+    ) {
+      const currentTimeSpent =
+        (Date.now() - questionStartTimeRef.current) / 1000;
+      setQuestionTimes((prev) => ({
+        ...prev,
+        [activeQuestionId]: (prev[activeQuestionId] || 0) + currentTimeSpent,
+      }));
+    }
+
+    // Prepare question times for submission
+    const questionTimesArray = Object.entries(questionTimes).map(
+      ([questionId, timeSpent]) => {
+        const userOption =
+          answeredQuestions.find((a) => a.questionId === questionId)
+            ?.optionId || null;
+        return {
+          questionId,
+          timeSpent,
+          userOption,
+        };
+      }
+    );
+
+    try {
+      // Submit test
+      await submitTest({
+        testId: testData.id,
+        userId: userData.id,
+        lastActiveQuestionId: activeQuestionId,
+        timeSpent: totalTimeSpent,
+        tabSwitches,
+        attemptedQuestionIds: answeredQuestions.map((a) => a.questionId),
+        skippedQuestionIds: skippedQuestions,
+        markedQuestionIds: markedQuestions,
+        questionTimes: questionTimesArray,
+      });
+
+      // Redirect to results page or dashboard
+      router.push(`/test/${testData.id}/results`);
+    } catch (error) {
+      console.error("Failed to submit test:", error);
+    }
+  };
+
   if (!testData) return null;
 
   const activeQuestion = testData.testQuestions.find(
@@ -124,7 +320,12 @@ export default function TestContainer({
       <div className="md:w-3/4 p-4 border-r border-gray-200">
         <div className="flex justify-between items-center mb-4">
           <h1 className="text-xl font-bold">{testData.name}</h1>
-          <TestTimer endTime={testData.endTime} />
+          <div className="flex items-center gap-4">
+            <TestTimer endTime={testData.endTime} />
+            <Button onClick={handleOpenSubmitModal} variant="default">
+              Submit Test
+            </Button>
+          </div>
         </div>
 
         {activeQuestion && (
@@ -177,7 +378,27 @@ export default function TestContainer({
             <span>Not Visited</span>
           </div>
         </div>
+
+        <div className="mt-6 pt-4 border-t">
+          <Button onClick={handleOpenSubmitModal} className="w-full">
+            Submit Test
+          </Button>
+          <p className="text-xs text-gray-500 mt-2 text-center">
+            Last saved {Math.floor((Date.now() - lastSyncTime) / 1000)} seconds
+            ago
+          </p>
+        </div>
       </div>
+
+      <SubmitModal
+        isOpen={isSubmitModalOpen}
+        onClose={handleCloseSubmitModal}
+        onConfirm={handleSubmitTest}
+        totalQuestions={testData.testQuestions.length}
+        answeredCount={answeredQuestions.length}
+        markedCount={markedQuestions.length}
+        skippedCount={skippedQuestions.length}
+      />
     </div>
   );
 }
