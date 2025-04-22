@@ -8,9 +8,11 @@ import "katex/dist/katex.min.css";
 export default async function DashboardLayout({
   student,
   teacher,
-}: {
+}: // params,
+{
   student: React.ReactNode;
   teacher: React.ReactNode;
+  // params: Record<string, string>;
 }) {
   const session = await auth();
   const userData = await prisma.user.findUnique({
@@ -19,6 +21,8 @@ export default async function DashboardLayout({
     },
   });
   const role = userData?.role;
+
+  // console.log(params);
 
   return (
     <div>
