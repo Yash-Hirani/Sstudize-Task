@@ -8,6 +8,29 @@ interface AntiCheatProps {
 
 const AntiCheat: React.FC<AntiCheatProps> = ({ children }) => {
   const [tabSwitchCount, setTabSwitchCount] = useState(0);
+  useEffect(() => {
+    // DevTools detection via window resize (simplified version)
+    let devToolsOpened = false;
+
+    const detectDevTools = () => {
+      const widthThreshold = window.outerWidth - window.innerWidth > 160;
+      const heightThreshold = window.outerHeight - window.innerHeight > 160;
+      const isDevtoolsOpen = widthThreshold || heightThreshold;
+
+      if (isDevtoolsOpen && !devToolsOpened) {
+        setTabSwitchCount((c) => c + 1); // Simulate a tab switch count
+        devToolsOpened = true;
+      } else if (!isDevtoolsOpen && devToolsOpened) {
+        devToolsOpened = false;
+      }
+    };
+
+    window.addEventListener("resize", detectDevTools);
+
+    return () => {
+      window.removeEventListener("resize", detectDevTools);
+    };
+  }, []);
 
   console.log(tabSwitchCount + " Tabswitches made.");
   useEffect(() => {
