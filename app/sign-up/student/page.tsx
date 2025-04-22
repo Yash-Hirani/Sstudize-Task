@@ -20,13 +20,15 @@ const StudentOnBoarding = async () => {
     redirect("/");
   }
 
+  // ⏳ Wait for 2 seconds before redirecting
+  await new Promise((resolve) => setTimeout(resolve, 2000));
+  redirect("/dashboard");
+
   return (
-    <>
-      <div>
-        Congrats {userData.name}! You are now a student at Sstudize.
-        Redirecting...
-      </div>
-    </>
+    <div>
+      Congrats {userData.name}! You are now a student at Sstudize.
+      Redirecting...
+    </div>
   );
 };
 

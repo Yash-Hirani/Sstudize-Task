@@ -20,6 +20,9 @@ const TeacherOnBoarding = async () => {
     redirect("/");
   }
 
+  await new Promise((resolve) => setTimeout(resolve, 2000));
+  redirect("/dashboard");
+
   return (
     <>
       <div>

@@ -10,6 +10,7 @@ import { Button } from "@/components/ui/button";
 import { useRouter } from "next/navigation";
 import type { TestWithQuestions } from "@/actions/loadTestData";
 import {
+  saveSelectedOptions,
   submitTest,
   updateMultipleQuestionTimes,
   updateTestAnalytics,
@@ -302,8 +303,18 @@ export default function TestContainer({
         questionTimes: questionTimesArray,
       });
 
+      await Promise.all(
+        answeredQuestions.map((question) =>
+          saveSelectedOptions({
+            questionId: question.questionId,
+            optionId: question.optionId,
+            testId: testData.id,
+          })
+        )
+      );
+
       // Redirect to results page or dashboard
-      router.push(`/test/${testData.id}/results`);
+      router.push(`/dashboard`);
     } catch (error) {
       console.error("Failed to submit test:", error);
     }
