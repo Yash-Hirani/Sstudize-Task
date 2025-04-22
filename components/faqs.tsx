@@ -16,7 +16,7 @@ export default function Faqs() {
     },
     {
       question: "Can I review my past exam results?",
-      answer: "work in progress",
+      answer: "Work in progress.",
     },
     {
       question: "How do teachers create exams?",
@@ -30,7 +30,8 @@ export default function Faqs() {
     },
     {
       question: "Can I use the platform on mobile devices?",
-      answer: "hope",
+      answer:
+        "Yes! Our platform is fully responsive and works across all modern mobile devices.",
     },
     {
       question: "How secure is the exam environment?",
@@ -40,25 +41,30 @@ export default function Faqs() {
   ];
 
   return (
-    <section id="faqs" className="py-20 bg-slate-50">
-      <div className="container mx-auto px-4">
+    <section
+      id="faqs"
+      className="py-20 px-4 bg-[radial-gradient(ellipse_at_top,_#44A08D,_#093637)] text-white"
+    >
+      <div className="container mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Frequently Asked Questions
-          </h2>
-          <p className="text-lg text-slate-600 max-w-3xl mx-auto">
+          <h2 className="text-4xl md:text-5xl font-bold mb-4">FAQs</h2>
+          <p className="text-lg md:text-xl text-white/80 max-w-3xl mx-auto">
             Find answers to common questions about our exam portal.
           </p>
         </div>
 
         <div className="max-w-3xl mx-auto">
-          <Accordion type="single" collapsible className="w-full">
+          <Accordion type="single" collapsible className="w-full space-y-4">
             {faqItems.map((item, index) => (
-              <AccordionItem key={index} value={`item-${index}`}>
-                <AccordionTrigger className="text-left font-medium">
+              <AccordionItem
+                key={index}
+                value={`item-${index}`}
+                className="bg-white/10 backdrop-blur-sm rounded-xl"
+              >
+                <AccordionTrigger className="text-left font-medium px-4 py-3 text-white hover:text-teal-300 transition-colors">
                   {item.question}
                 </AccordionTrigger>
-                <AccordionContent className="text-slate-600">
+                <AccordionContent className="text-white/90 px-4 pb-4">
                   {item.answer}
                 </AccordionContent>
               </AccordionItem>
