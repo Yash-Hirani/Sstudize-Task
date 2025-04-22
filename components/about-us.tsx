@@ -6,7 +6,9 @@ export default function AboutUs() {
     <section id="about" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">About Us</h2>
+          <h2 className="text-3xl text-black md:text-4xl font-bold mb-4">
+            About Us
+          </h2>
           <p className="text-lg text-slate-600 max-w-3xl mx-auto">
             Were dedicated to revolutionizing the way exams are conducted and
             making education more accessible and efficient.
@@ -24,7 +26,7 @@ export default function AboutUs() {
             />
           </div>
           <div className="space-y-6">
-            <h3 className="text-2xl font-bold">Our Mission</h3>
+            <h3 className="text-2xl text-black font-bold">Our Mission</h3>
             <p className="text-slate-600">
               At Exam Portal, we believe in the power of education to transform
               lives. Our mission is to provide a seamless, user-friendly

@@ -10,7 +10,7 @@ export default function ContactUs() {
         {/* Text Content */}
         <div className="space-y-10" id="contact-info">
           <div>
-            <h2 className="text-4xl font-bold mb-4">Contact Us</h2>
+            <h2 className="text-4xl font-bold mb-4 text-black">Contact Us</h2>
             <p className="text-lg text-slate-600 max-w-xl">
               Have questions or need assistance? Reach out to our team and we’ll
               get back to you as soon as possible.
@@ -21,7 +21,7 @@ export default function ContactUs() {
             <div className="flex items-start space-x-4">
               <Mail className="h-6 w-6 text-emerald-500 mt-1" />
               <div>
-                <h4 className="font-semibold">Email</h4>
+                <h4 className="font-semibold text-black">Email</h4>
                 <p className="text-slate-600">support@examportal.com</p>
               </div>
             </div>
@@ -29,7 +29,7 @@ export default function ContactUs() {
             <div className="flex items-start space-x-4">
               <Phone className="h-6 w-6 text-emerald-500 mt-1" />
               <div>
-                <h4 className="font-semibold">Phone</h4>
+                <h4 className="font-semibold text-black">Phone</h4>
                 <p className="text-slate-600">+1 (555) 123-4567</p>
               </div>
             </div>
@@ -37,7 +37,7 @@ export default function ContactUs() {
             <div className="flex items-start space-x-4">
               <MapPin className="h-6 w-6 text-emerald-500 mt-1" />
               <div>
-                <h4 className="font-semibold">Address</h4>
+                <h4 className="font-semibold text-black">Address</h4>
                 <p className="text-slate-600">
                   123 Education Street
                   <br />
@@ -50,7 +50,7 @@ export default function ContactUs() {
           </div>
 
           <div className="pt-8 border-t border-slate-200">
-            <h4 className="font-semibold mb-4">Office Hours</h4>
+            <h4 className="font-semibold text-black mb-4">Office Hours</h4>
             <p className="text-slate-600">
               Monday - Friday: 9:00 AM - 6:00 PM
               <br />
