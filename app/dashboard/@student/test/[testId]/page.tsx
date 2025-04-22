@@ -2,9 +2,9 @@
 
 import { useParams } from "next/navigation";
 import { useState, useEffect, useTransition } from "react";
-import { loadTestData, TestWithQuestions } from "@/actions/loadTestData";
-import { User } from "@prisma/client";
-import Latex from "@/components/Latex";
+import { loadTestData, type TestWithQuestions } from "@/actions/loadTestData";
+import type { User } from "@prisma/client";
+import TestContainer from "@/components/test-experience/test-container";
 
 export default function Page() {
   const { testId } = useParams() as { testId?: string };
@@ -51,7 +51,7 @@ export default function Page() {
 
   return (
     <>
-      {testOnGoing ? (
+      {!testOnGoing ? (
         <div className="p-4 text-black">
           {isPending && (
             <p className="text-gray-500">Setting up your test...</p>
@@ -65,10 +65,10 @@ export default function Page() {
           </div>
 
           <div className="text-green-500">
-            {initialDataReady && <>Initial Data Ready</>}
-            {questionsReady && <p> questions rweady</p>}
-            {userDataReady && <p>user ready</p>}
-            {analyticsReady && <p>analytics ready</p>}
+            {initialDataReady && <p>Initial Data Ready</p>}
+            {questionsReady && <p>Questions ready</p>}
+            {userDataReady && <p>User ready</p>}
+            {analyticsReady && <p>Analytics ready</p>}
           </div>
 
           {initialDataReady &&
@@ -76,26 +76,24 @@ export default function Page() {
             userDataReady &&
             analyticsReady &&
             !isPending && (
-              <button onClick={() => setTestOnGoing(true)}>
+              <button
+                onClick={() => setTestOnGoing(true)}
+                className="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition-colors mt-4"
+              >
                 Get Started with Test!
               </button>
             )}
         </div>
       ) : (
         <div className="text-black">
-          Hello {userData?.name}!<br />
-          {testData?.name}
-          {testData?.testQuestions.map((question) => (
-            <div key={question.questionId}>
-              {question.question.index}.{" "}
-              <Latex expression={question.question.text} />
-              {question.question.options.map((option) => (
-                <div key={option.id}>
-                  {option.letter}. <Latex expression={option.text} />
-                </div>
-              ))}
-            </div>
-          ))}
+          <div className="mb-6">
+            <h1 className="text-2xl font-bold">Hello {userData?.name}!</h1>
+            <h2 className="text-xl">{testData?.name}</h2>
+          </div>
+
+          {testData && userData && (
+            <TestContainer testData={testData} userData={userData} />
+          )}
         </div>
       )}
     </>
