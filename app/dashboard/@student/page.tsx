@@ -2,6 +2,7 @@
 
 import { auth } from "@/utils/auth";
 import { prisma } from "@/utils/prisma";
+import Link from "next/link";
 
 const dashServer = async () => {
   const session = await auth();
@@ -22,7 +23,9 @@ const dashServer = async () => {
     <>
       <h1>Student Dashboard within Slot</h1>
       {tests.map((test) => (
-        <div key={test.id}>{test.name}</div>
+        <div key={test.id}>
+          <Link href={`/dashboard/test/${test.id}`}>{test.name}</Link>
+        </div>
       ))}
     </>
   );
