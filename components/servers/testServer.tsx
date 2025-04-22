@@ -6,13 +6,13 @@ import { Dispatch, SetStateAction } from "react";
 
 export default async function TestServer({
   testId,
-  questionsReady,
+  //   questionsReady,
   setQuestionsReady,
-  initialDataReady,
+  //   initialDataReady,
   setInitialDataReady,
-  userDataReady,
+  //   userDataReady,
   setUserDataReady,
-  analyticsReady,
+  //   analyticsReady,
   setAnalyticsReady,
 }: {
   testId: string;
