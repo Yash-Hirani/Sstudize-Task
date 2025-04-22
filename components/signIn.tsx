@@ -12,7 +12,7 @@ export default function SignIn({
   return (
     <button
       type="submit"
-      className="bg-amber-500 rounded-2xl p-5"
+      className="bg-emerald-500 rounded-2xl p-3"
       onClick={() => signIn("google", { callbackUrl: redirect })}
     >
       {buttonText}
