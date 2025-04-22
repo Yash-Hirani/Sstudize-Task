@@ -41,18 +41,22 @@ export default function Page() {
   }, [testId]);
 
   return (
-    <div className="p-4">
+    <div className="p-4 text-black">
       {isPending && <p className="text-gray-500">Setting up your test...</p>}
 
-      {!initialDataReady && !isPending && <p>Loading test data…</p>}
-      {!questionsReady && !isPending && <p>Loading questions data…</p>}
-      {!userDataReady && !isPending && <p>Loading user data…</p>}
-      {!analyticsReady && !isPending && <p>Loading analytics data…</p>}
+      <div className="text-red-600">
+        {!initialDataReady && !isPending && <p>Loading test data…</p>}
+        {!questionsReady && !isPending && <p>Loading questions data…</p>}
+        {!userDataReady && !isPending && <p>Loading user data…</p>}
+        {!analyticsReady && !isPending && <p>Loading analytics data…</p>}
+      </div>
 
-      {initialDataReady && <>Initial Data Ready</>}
-      {questionsReady && <p> questions rweady</p>}
-      {userDataReady && <p>user ready</p>}
-      {analyticsReady && <p>analytics ready</p>}
+      <div className="text-green-500">
+        {initialDataReady && <>Initial Data Ready</>}
+        {questionsReady && <p> questions rweady</p>}
+        {userDataReady && <p>user ready</p>}
+        {analyticsReady && <p>analytics ready</p>}
+      </div>
     </div>
   );
 }
