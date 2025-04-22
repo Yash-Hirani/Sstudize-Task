@@ -82,7 +82,7 @@ export default function Page() {
             )}
         </div>
       ) : (
-        <div>
+        <div className="text-black">
           Hello {userData?.name}!<br />
           {testData?.name}
           {testData?.testQuestions.map((question) => (
