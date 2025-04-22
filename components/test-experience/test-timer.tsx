@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { formatDistanceToNow } from "date-fns";
+import { toZonedTime } from "date-fns-tz";
 import { ClockIcon } from "lucide-react";
 
 interface TestTimerProps {
@@ -16,15 +17,17 @@ export default function TestTimer({ endTime }: TestTimerProps) {
     setMounted(true);
 
     const updateTimer = () => {
-      const end = endTime;
-      const now = new Date();
+      const timeZone = "Asia/Kolkata"; // IST
 
-      if (now >= end) {
+      const zonedNow = toZonedTime(new Date(), timeZone);
+      const zonedEnd = toZonedTime(new Date(endTime), timeZone);
+
+      if (zonedNow >= zonedEnd) {
         setTimeRemaining("Time's up!");
         return;
       }
 
-      setTimeRemaining(formatDistanceToNow(end, { addSuffix: false }));
+      setTimeRemaining(formatDistanceToNow(zonedEnd, { addSuffix: false }));
     };
 
     updateTimer();
@@ -33,7 +36,6 @@ export default function TestTimer({ endTime }: TestTimerProps) {
     return () => clearInterval(interval);
   }, [endTime]);
 
-  // Prevent hydration mismatch
   if (!mounted) {
     return (
       <div className="flex items-center text-lg font-semibold">
