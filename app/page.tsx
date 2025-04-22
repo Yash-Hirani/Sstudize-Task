@@ -1,15 +1,21 @@
+"use client";
+
 import AuthModal from "@/components/auth-modal";
 import AboutUs from "@/components/about-us";
 import Faqs from "@/components/faqs";
-
-import { BookOpen, CheckCircle, Users } from "lucide-react";
 import ContactUs from "@/components/contact-us";
 
+import { BookOpen, CheckCircle, Users } from "lucide-react";
+import { useGsapScroll } from "./hooks/useGsapScroll";
+
 export default function Home() {
+  useGsapScroll(".section");
+
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-b from-slate-900 to-slate-800 text-white">
+
+      <section className="section py-2 relative bg-gradient-to-b from-slate-900 to-slate-800 text-white">
         <div className="container mx-auto px-4 py-20 md:py-32 flex flex-col items-center text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
             Your Path to Academic Excellence
@@ -45,16 +51,22 @@ export default function Home() {
       </section>
 
       {/* About Us Section */}
-      <AboutUs />
+      <section className="section py-2 bg-slate-900 text-white ">
+        <AboutUs />
+      </section>
 
       {/* FAQs Section */}
-      <Faqs />
+      <section className="section py-10 bg-slate-800 text-white ">
+        <Faqs />
+      </section>
 
       {/* Contact Us Section */}
-      <ContactUs />
+      <section className="section bg-slate-900 text-white py-2">
+        <ContactUs />
+      </section>
 
       {/* Footer */}
-      <footer className="bg-slate-900 text-white py-10">
+      <footer className="bg-slate-900 text-white py-2">
         <div className="container mx-auto px-4 text-center">
           <p className="mb-4">
             © {new Date().getFullYear()} Exam Portal. All rights reserved.

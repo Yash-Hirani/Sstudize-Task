@@ -8,7 +8,7 @@ export default function AboutUs() {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">About Us</h2>
           <p className="text-lg text-slate-600 max-w-3xl mx-auto">
-            We are dedicated to revolutionizing the way exams are conducted and
+            Were dedicated to revolutionizing the way exams are conducted and
             making education more accessible and efficient.
           </p>
         </div>
