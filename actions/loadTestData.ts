@@ -2,8 +2,29 @@
 
 import { auth } from "@/utils/auth";
 import { prisma } from "@/utils/prisma";
+import { Prisma, TestQuestion } from "@prisma/client";
+
+// type testQuestionsOverloaded = P
+
+const testInclude = Prisma.validator<Prisma.TestInclude>()({
+    testQuestions: {
+      include: {
+        question: {
+          include: {
+            options: true,
+          },
+        },
+      },
+    },
+  });
+  
+export type TestWithQuestions = Prisma.TestGetPayload<{
+    include: typeof testInclude;
+}>;
 
 export async function loadTestData(testId: string) {
+
+    
   // 1. Fetch the test and its questions/options
   const test = await prisma.test.findUnique({
     where: { id: testId },
