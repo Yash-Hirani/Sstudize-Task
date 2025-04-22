@@ -30,8 +30,7 @@ export default function Faqs() {
     },
     {
       question: "Can I use the platform on mobile devices?",
-      answer:
-        "Yes! Our platform is fully responsive and works across all modern mobile devices.",
+      answer: "coming soon",
     },
     {
       question: "How secure is the exam environment?",
