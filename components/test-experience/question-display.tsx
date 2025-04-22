@@ -7,6 +7,7 @@ import {
   ArrowLeftIcon,
   ArrowRightIcon,
 } from "lucide-react";
+import { useEffect } from "react";
 
 interface QuestionDisplayProps {
   question: {
@@ -42,6 +43,14 @@ export default function QuestionDisplay({
   onNext,
   onPrev,
 }: QuestionDisplayProps) {
+  useEffect(() => {
+    const originalStyle = window.getComputedStyle(document.body).overflow;
+    document.body.style.overflow = "hidden";
+
+    return () => {
+      document.body.style.overflow = originalStyle;
+    };
+  }, []);
   return (
     <div className="bg-white rounded-lg shadow p-6">
       <div className="mb-6">
